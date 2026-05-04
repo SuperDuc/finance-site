@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Free personal finance calculators — budget planner, debt payoff calculator, and investment growth tool." />
+  <title>Free Calculators — FinanceFlow</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    .calc-page-hero {
+      background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%);
+      padding: 3rem 1.5rem 2.5rem;
+      text-align: center;
+    }
+    .calc-page-hero h1 { font-size: clamp(1.7rem, 4vw, 2.6rem); font-weight: 900; color: var(--gray-900); margin-bottom: 0.5rem; }
+    .calc-page-hero p { color: var(--gray-600); font-size: 1.05rem; }
+
+    .range-label { display: flex; justify-content: space-between; font-size: 0.8rem; color: var(--gray-600); margin-top: 2px; }
+    input[type=range] { width: 100%; accent-color: var(--green); cursor: pointer; }
+
+    .chart-bar-wrap { margin-top: 1.5rem; }
+    .chart-label { font-size: 0.82rem; font-weight: 600; color: var(--gray-700); margin-bottom: 0.25rem; }
+    .chart-bar-bg { height: 18px; background: var(--gray-100); border-radius: 99px; overflow: hidden; }
+    .chart-bar-fill { height: 100%; border-radius: 99px; transition: width 0.5s ease; }
+    .bar-needs   { background: #3b82f6; }
+    .bar-wants   { background: #f59e0b; }
+    .bar-savings { background: var(--green); }
+    .bar-debt    { background: #ef4444; }
+    .chart-legend { display: flex; flex-wrap: wrap; gap: 0.75rem; margin-top: 0.75rem; }
+    .legend-item { display: flex; align-items: center; gap: 0.35rem; font-size: 0.8rem; }
+    .legend-dot  { width: 10px; height: 10px; border-radius: 50%; }
+
+    .debt-row { display: grid; grid-template-columns: 2fr 1fr 1fr auto; gap: 0.75rem; align-items: end; margin-bottom: 0.75rem; }
+    .debt-row label { font-size: 0.82rem; font-weight: 600; color: var(--gray-700); }
+    .btn-remove { background: #fef2f2; color: #ef4444; border: 1.5px solid #fecaca; border-radius: 7px; padding: 0.55rem 0.75rem; cursor: pointer; font-weight: 700; transition: background 0.2s; }
+    .btn-remove:hover { background: #fee2e2; }
+    .btn-add { background: var(--green-light); color: var(--green); border: 1.5px solid #86efac; border-radius: 7px; padding: 0.55rem 1rem; cursor: pointer; font-weight: 600; font-size: 0.9rem; transition: background 0.2s; }
+    .btn-add:hover { background: #bbf7d0; }
+
+    .method-toggle { display: flex; border: 1.5px solid var(--gray-200); border-radius: 8px; overflow: hidden; margin-bottom: 1.25rem; }
+    .method-btn { flex: 1; padding: 0.6rem; text-align: center; cursor: pointer; border: none; background: var(--gray-50); color: var(--gray-600); font-weight: 600; font-size: 0.88rem; transition: all 0.2s; }
+    .method-btn.active { background: var(--green); color: var(--white); }
+
+    .payoff-list { margin-top: 1rem; }
+    .payoff-item { display: flex; justify-content: space-between; align-items: center; padding: 0.65rem 0; border-bottom: 1px solid var(--gray-100); font-size: 0.88rem; }
+    .payoff-item:last-child { border-bottom: none; }
+    .payoff-name { font-weight: 600; color: var(--gray-900); }
+    .payoff-detail { color: var(--gray-600); }
+
+    @media(max-width:600px) {
+      .debt-row { grid-template-columns: 1fr 1fr; }
+      .debt-row .btn-remove { grid-column: span 2; }
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a class="nav-logo" href="index.html">Finance<span>Flow</span></a>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="calculator.html">Calculators</a></li>
+    <li><a href="recommendations.html">Top Picks</a></li>
+    <li><a href="blog.html">Guides</a></li>
+    <li><a href="recommendations.html" class="nav-cta">Top Picks →</a></li>
+  </ul>
+  <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<div class="calc-page-hero">
+  <h1>Free Financial Calculators</h1>
+  <p>Budget smarter, crush debt faster, and grow your wealth — all in one place.</p>
+</div>
+
+<section class="section">
+  <div class="container">
+    <div class="calc-wrapper">
+
+      <!-- TABS -->
+      <div class="calc-tabs">
+        <button class="calc-tab active" data-tab="budget">🧮 Budget Planner</button>
+        <button class="calc-tab" data-tab="debt" id="debtTab">💳 Debt Payoff</button>
+        <button class="calc-tab" data-tab="invest" id="investTab">📈 Investment Growth</button>
+      </div>
+
+      <div class="calc-body">
+
+        <!-- ── BUDGET PANEL ── -->
+        <div class="calc-panel active" id="panel-budget">
+          <h3 style="margin-bottom:1.25rem;color:var(--gray-900)">Monthly Budget Planner</h3>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="income">Monthly Take-Home Income ($)</label>
+              <input type="number" id="income" value="4000" min="0" />
+            </div>
+            <div class="form-group">
+              <label for="housing">Housing (rent/mortgage) ($)</label>
+              <input type="number" id="housing" value="1200" min="0" />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="food">Food & Groceries ($)</label>
+              <input type="number" id="food" value="400" min="0" />
+            </div>
+            <div class="form-group">
+              <label for="transport">Transportation ($)</label>
+              <input type="number" id="transport" value="300" min="0" />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="utilities">Utilities & Bills ($)</label>
+              <input type="number" id="utilities" value="150" min="0" />
+            </div>
+            <div class="form-group">
+              <label for="subscriptions">Subscriptions ($)</label>
+              <input type="number" id="subscriptions" value="80" min="0" />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="entertainment">Entertainment & Dining ($)</label>
+              <input type="number" id="entertainment" value="200" min="0" />
+            </div>
+            <div class="form-group">
+              <label for="other">Other Expenses ($)</label>
+              <input type="number" id="other" value="100" min="0" />
+            </div>
+          </div>
+
+          <button class="btn btn-primary" onclick="calcBudget()" style="width:100%;margin-top:0.5rem">Calculate My Budget</button>
+
+          <div class="calc-result" id="budget-result">
+            <div class="result-grid" id="budget-result-grid"></div>
+            <div class="chart-bar-wrap" id="budget-chart"></div>
+            <div class="disclaimer" id="budget-tip"></div>
+          </div>
+        </div>
+
+        <!-- ── DEBT PANEL ── -->
+        <div class="calc-panel" id="panel-debt">
+          <h3 style="margin-bottom:1rem;color:var(--gray-900)">Debt Payoff Calculator</h3>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="extra-payment">Extra Monthly Payment ($)</label>
+              <input type="number" id="extra-payment" value="200" min="0" />
+            </div>
+            <div class="form-group">
+              <label>Payoff Method</label>
+              <div class="method-toggle">
+                <button class="method-btn active" data-method="avalanche">❄️ Avalanche (Saves Most $)</button>
+                <button class="method-btn" data-method="snowball">⛄ Snowball (Stays Motivated)</button>
+              </div>
+            </div>
+          </div>
+
+          <div id="debt-list"></div>
+          <button class="btn-add" onclick="addDebt()">+ Add Another Debt</button>
+
+          <button class="btn btn-primary" onclick="calcDebt()" style="width:100%;margin-top:1.25rem">Calculate Payoff Plan</button>
+
+          <div class="calc-result" id="debt-result">
+            <div class="result-grid" id="debt-result-grid"></div>
+            <div class="payoff-list" id="payoff-order"></div>
+            <div class="disclaimer">
+              Results are estimates. Actual payoff times may vary based on minimum payments, interest accrual timing, and any additional fees.
+            </div>
+          </div>
+        </div>
+
+        <!-- ── INVEST PANEL ── -->
+        <div class="calc-panel" id="panel-invest">
+          <h3 style="margin-bottom:1.25rem;color:var(--gray-900)">Investment Growth Calculator</h3>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="start-amount">Starting Amount ($)</label>
+              <input type="number" id="start-amount" value="1000" min="0" />
+            </div>
+            <div class="form-group">
+              <label for="monthly-contrib">Monthly Contribution ($)</label>
+              <input type="number" id="monthly-contrib" value="200" min="0" />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="annual-return">Expected Annual Return (%)</label>
+              <input type="number" id="annual-return" value="7" min="0" max="50" step="0.1" />
+              <div class="range-label"><span>Conservative (4%)</span><span>S&P500 avg (7%)</span><span>Aggressive (12%)</span></div>
+            </div>
+            <div class="form-group">
+              <label for="years">Investment Period (years)</label>
+              <input type="number" id="years" value="20" min="1" max="50" />
+            </div>
+          </div>
+
+          <button class="btn btn-primary" onclick="calcInvest()" style="width:100%;margin-top:0.5rem">Calculate Growth</button>
+
+          <div class="calc-result" id="invest-result">
+            <div class="result-grid" id="invest-result-grid"></div>
+            <div style="margin-top:1rem" id="growth-bars"></div>
+            <div class="disclaimer">
+              Past performance does not guarantee future results. This is for educational purposes only. Consult a financial advisor before investing.
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- CTA below calculator -->
+    <div style="text-align:center;margin-top:2.5rem">
+      <p style="color:var(--gray-600);margin-bottom:1rem">Ready to act on your results? Check out our top-rated tools to start saving and investing today.</p>
+      <a href="recommendations.html" class="btn btn-primary">See Top Picks →</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <a class="nav-logo" href="index.html">Finance<span style="color:#d1fae5">Flow</span></a>
+      <p>Free tools and honest advice to help you take control of your money.</p>
+    </div>
+    <div>
+      <h4>Tools</h4>
+      <ul>
+        <li><a href="calculator.html">Budget Calculator</a></li>
+        <li><a href="calculator.html">Debt Payoff</a></li>
+        <li><a href="calculator.html">Investment Growth</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Resources</h4>
+      <ul>
+        <li><a href="recommendations.html">Top Picks</a></li>
+        <li><a href="blog.html">Guides</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Legal</h4>
+      <ul>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Disclaimer</a></li>
+        <li><a href="#">Affiliate Disclosure</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 FinanceFlow. All rights reserved.</span>
+    <span>Affiliate Disclosure: We may earn commissions from links on this site.</span>
+  </div>
+</footer>
+
+<script>
+/* ── NAV ── */
+document.getElementById('navToggle').addEventListener('click', () => {
+  document.getElementById('navLinks').classList.toggle('open');
+});
+
+/* ── TABS ── */
+document.querySelectorAll('.calc-tab').forEach(tab => {
+  tab.addEventListener('click', () => {
+    document.querySelectorAll('.calc-tab').forEach(t => t.classList.remove('active'));
+    document.querySelectorAll('.calc-panel').forEach(p => p.classList.remove('active'));
+    tab.classList.add('active');
+    document.getElementById('panel-' + tab.dataset.tab).classList.add('active');
+  });
+});
+
+// Deep-link via hash (#debt, #invest)
+if (window.location.hash) {
+  const target = window.location.hash.replace('#', '');
+  const tab = document.querySelector(`.calc-tab[data-tab="${target}"]`);
+  if (tab) tab.click();
+}
+
+/* ── METHOD TOGGLE ── */
+let debtMethod = 'avalanche';
+document.querySelectorAll('.method-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.method-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    debtMethod = btn.dataset.method;
+  });
+});
+
+/* ── DEBT LIST ── */
+let debtCount = 0;
+function addDebt(name = '', balance = '', rate = '', minimum = '') {
+  debtCount++;
+  const id = debtCount;
+  const row = document.createElement('div');
+  row.className = 'debt-row';
+  row.id = `debt-row-${id}`;
+  row.innerHTML = `
+    <div class="form-group">
+      <label>Debt Name</label>
+      <input type="text" id="dname-${id}" value="${name}" placeholder="e.g. Visa Card" />
+    </div>
+    <div class="form-group">
+      <label>Balance ($)</label>
+      <input type="number" id="dbal-${id}" value="${balance}" min="0" placeholder="5000" />
+    </div>
+    <div class="form-group">
+      <label>APR (%)</label>
+      <input type="number" id="drate-${id}" value="${rate}" min="0" max="100" step="0.1" placeholder="19.9" />
+    </div>
+    <button class="btn-remove" onclick="removeDebt(${id})">✕</button>
+  `;
+  document.getElementById('debt-list').appendChild(row);
+}
+function removeDebt(id) {
+  const row = document.getElementById(`debt-row-${id}`);
+  if (row) row.remove();
+}
+
+// Start with two sample debts
+addDebt('Visa Card', 5000, 19.99, 100);
+addDebt('Car Loan', 8000, 6.5, 180);
+
+/* ── BUDGET CALCULATOR ── */
+function fmt(n) { return '$' + n.toLocaleString('en-US', { minimumFractionDigits: 0, maximumFractionDigits: 0 }); }
+function pct(part, total) { return total > 0 ? Math.round((part / total) * 100) : 0; }
+
+function calcBudget() {
+  const income        = parseFloat(document.getElementById('income').value) || 0;
+  const housing       = parseFloat(document.getElementById('housing').value) || 0;
+  const food          = parseFloat(document.getElementById('food').value) || 0;
+  const transport     = parseFloat(document.getElementById('transport').value) || 0;
+  const utilities     = parseFloat(document.getElementById('utilities').value) || 0;
+  const subscriptions = parseFloat(document.getElementById('subscriptions').value) || 0;
+  const entertainment = parseFloat(document.getElementById('entertainment').value) || 0;
+  const other         = parseFloat(document.getElementById('other').value) || 0;
+
+  const needs    = housing + food + transport + utilities;
+  const wants    = entertainment + subscriptions + other;
+  const expenses = needs + wants;
+  const surplus  = income - expenses;
+  const savingsRate = pct(Math.max(surplus, 0), income);
+
+  const grid = document.getElementById('budget-result-grid');
+  grid.innerHTML = `
+    <div class="result-item"><div class="result-value">${fmt(income)}</div><div class="result-label">Monthly Income</div></div>
+    <div class="result-item"><div class="result-value">${fmt(expenses)}</div><div class="result-label">Total Expenses</div></div>
+    <div class="result-item"><div class="result-value" style="color:${surplus >= 0 ? 'var(--green)' : '#ef4444'}">${fmt(surplus)}</div><div class="result-label">${surplus >= 0 ? 'Monthly Surplus' : 'Monthly Deficit'}</div></div>
+    <div class="result-item"><div class="result-value">${savingsRate}%</div><div class="result-label">Savings Rate</div></div>
+  `;
+
+  const bars = [
+    { label: 'Needs (housing, food, transport, utilities)', value: needs, cls: 'bar-needs', color: '#3b82f6' },
+    { label: 'Wants (entertainment, subscriptions, other)', value: wants, cls: 'bar-wants', color: '#f59e0b' },
+    { label: 'Surplus (available to save/invest)', value: Math.max(surplus, 0), cls: 'bar-savings', color: '#16a34a' },
+  ];
+
+  const chart = document.getElementById('budget-chart');
+  chart.innerHTML = bars.map(b => `
+    <div class="chart-bar-wrap" style="margin-bottom:0.6rem">
+      <div class="chart-label">${b.label} — ${fmt(b.value)} (${pct(b.value, income)}%)</div>
+      <div class="chart-bar-bg"><div class="chart-bar-fill ${b.cls}" style="width:${pct(b.value, income)}%"></div></div>
+    </div>
+  `).join('') + `<div class="chart-legend">${bars.map(b => `<div class="legend-item"><div class="legend-dot" style="background:${b.color}"></div><span>${b.label.split('(')[0].trim()}</span></div>`).join('')}</div>`;
+
+  const tipEl = document.getElementById('budget-tip');
+  if (surplus < 0) {
+    tipEl.innerHTML = '⚠️ <strong>You\'re spending more than you earn.</strong> Try reducing your "wants" category or finding ways to increase income.';
+  } else if (savingsRate < 10) {
+    tipEl.innerHTML = '💡 <strong>Tip:</strong> Experts recommend saving at least 20% of income. Try cutting subscriptions or dining out less to boost your savings rate.';
+  } else if (savingsRate < 20) {
+    tipEl.innerHTML = '👍 <strong>Good start!</strong> You\'re saving ' + savingsRate + '%. Aim for 20%+ by trimming your "wants" spending.';
+  } else {
+    tipEl.innerHTML = '🎉 <strong>Excellent!</strong> You\'re saving ' + savingsRate + '% of your income. Consider investing your surplus — <a href="recommendations.html">see our top picks</a>.';
+  }
+
+  document.getElementById('budget-result').classList.add('show');
+}
+
+/* ── DEBT CALCULATOR ── */
+function calcDebt() {
+  const extra = parseFloat(document.getElementById('extra-payment').value) || 0;
+
+  const rows = document.querySelectorAll('[id^="debt-row-"]');
+  const debts = [];
+  rows.forEach(row => {
+    const id   = row.id.replace('debt-row-', '');
+    const name = (document.getElementById(`dname-${id}`)?.value || 'Debt').trim();
+    const bal  = parseFloat(document.getElementById(`dbal-${id}`)?.value) || 0;
+    const rate = parseFloat(document.getElementById(`drate-${id}`)?.value) || 0;
+    if (bal > 0) debts.push({ name, bal, rate, min: Math.max(Math.round(bal * 0.02), 25) });
+  });
+
+  if (debts.length === 0) { alert('Please add at least one debt.'); return; }
+
+  // Sort by method
+  const sorted = [...debts].sort((a, b) =>
+    debtMethod === 'avalanche' ? b.rate - a.rate : a.bal - b.bal
+  );
+
+  const totalDebt   = debts.reduce((s, d) => s + d.bal, 0);
+  const totalMin    = debts.reduce((s, d) => s + d.min, 0);
+  const monthlyBudget = totalMin + extra;
+
+  // Simulate payoff
+  let balances = sorted.map(d => ({ ...d }));
+  let months   = 0;
+  let totalInt = 0;
+  const maxMonths = 600;
+
+  while (balances.some(d => d.bal > 0) && months < maxMonths) {
+    months++;
+    let budget = monthlyBudget;
+    // Accrue interest & pay minimums
+    balances.forEach(d => {
+      if (d.bal <= 0) return;
+      const interest = d.bal * (d.rate / 100 / 12);
+      totalInt += interest;
+      d.bal += interest;
+      const pay = Math.min(d.min, d.bal);
+      d.bal -= pay;
+      budget -= pay;
+    });
+    // Apply extra to focus debt
+    for (const d of balances) {
+      if (d.bal <= 0 || budget <= 0) continue;
+      const pay = Math.min(budget, d.bal);
+      d.bal -= pay;
+      budget -= pay;
+    }
+    balances.forEach(d => { if (d.bal < 0) d.bal = 0; });
+  }
+
+  const years = Math.floor(months / 12);
+  const mo    = months % 12;
+
+  const grid = document.getElementById('debt-result-grid');
+  grid.innerHTML = `
+    <div class="result-item"><div class="result-value">${fmt(totalDebt)}</div><div class="result-label">Total Debt</div></div>
+    <div class="result-item"><div class="result-value">${years > 0 ? years + 'y ' : ''}${mo}m</div><div class="result-label">Time to Debt-Free</div></div>
+    <div class="result-item"><div class="result-value">${fmt(Math.round(totalInt))}</div><div class="result-label">Total Interest Paid</div></div>
+    <div class="result-item"><div class="result-value">${fmt(monthlyBudget)}</div><div class="result-label">Monthly Payment</div></div>
+  `;
+
+  const orderEl = document.getElementById('payoff-order');
+  orderEl.innerHTML = `<h4 style="margin-bottom:0.5rem;color:var(--gray-900)">Payoff Order (${debtMethod === 'avalanche' ? '❄️ Avalanche' : '⛄ Snowball'} Method):</h4>` +
+    sorted.map((d, i) => `
+      <div class="payoff-item">
+        <span class="payoff-name">${i + 1}. ${d.name}</span>
+        <span class="payoff-detail">${fmt(d.bal)} @ ${d.rate}% APR</span>
+      </div>
+    `).join('');
+
+  document.getElementById('debt-result').classList.add('show');
+}
+
+/* ── INVESTMENT CALCULATOR ── */
+function calcInvest() {
+  const start   = parseFloat(document.getElementById('start-amount').value) || 0;
+  const monthly = parseFloat(document.getElementById('monthly-contrib').value) || 0;
+  const rate    = (parseFloat(document.getElementById('annual-return').value) || 7) / 100;
+  const yrs     = parseInt(document.getElementById('years').value) || 20;
+
+  const monthlyRate = rate / 12;
+  const n = yrs * 12;
+
+  // Future value of lump sum + future value of annuity
+  const fvLump    = start * Math.pow(1 + monthlyRate, n);
+  const fvMonthly = monthly * ((Math.pow(1 + monthlyRate, n) - 1) / monthlyRate);
+  const total     = fvLump + fvMonthly;
+  const contributed = start + monthly * n;
+  const growth    = total - contributed;
+
+  const grid = document.getElementById('invest-result-grid');
+  grid.innerHTML = `
+    <div class="result-item"><div class="result-value">${fmt(Math.round(total))}</div><div class="result-label">Total Portfolio Value</div></div>
+    <div class="result-item"><div class="result-value">${fmt(Math.round(contributed))}</div><div class="result-label">Amount Contributed</div></div>
+    <div class="result-item"><div class="result-value" style="color:var(--green)">${fmt(Math.round(growth))}</div><div class="result-label">Investment Gains</div></div>
+    <div class="result-item"><div class="result-value">${Math.round((growth / contributed) * 100)}%</div><div class="result-label">Return on Investment</div></div>
+  `;
+
+  // Show 5/10/15/20yr milestones
+  const milestones = [5, 10, 15, yrs].filter((v, i, a) => a.indexOf(v) === i && v <= yrs);
+  const barsEl = document.getElementById('growth-bars');
+  barsEl.innerHTML = '<h4 style="margin-bottom:0.75rem;color:var(--gray-900)">Growth Milestones:</h4>' +
+    milestones.map(y => {
+      const mn = y * 12;
+      const val = start * Math.pow(1 + monthlyRate, mn) + monthly * ((Math.pow(1 + monthlyRate, mn) - 1) / monthlyRate);
+      const pctWidth = Math.round((val / total) * 100);
+      return `
+        <div style="margin-bottom:0.6rem">
+          <div class="chart-label">Year ${y} — ${fmt(Math.round(val))}</div>
+          <div class="chart-bar-bg"><div class="chart-bar-fill bar-savings" style="width:${pctWidth}%"></div></div>
+        </div>
+      `;
+    }).join('');
+
+  document.getElementById('invest-result').classList.add('show');
+}
+
+// Auto-calculate on load for budget tab
+window.addEventListener('load', calcBudget);
+</script>
+
+</body>
+</html>

@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="FinanceFlow's top-rated financial products — best savings accounts, investing apps, budgeting tools, and credit cards reviewed for 2026." />
+  <title>Top Picks 2026 — FinanceFlow</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    .page-hero {
+      background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%);
+      padding: 3rem 1.5rem 2.5rem;
+      text-align: center;
+    }
+    .page-hero h1 { font-size: clamp(1.7rem, 4vw, 2.6rem); font-weight: 900; color: var(--gray-900); margin-bottom: 0.5rem; }
+    .page-hero p  { color: var(--gray-600); font-size: 1.05rem; max-width: 560px; margin: 0 auto; }
+
+    .filter-tabs { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 2rem; }
+    .filter-btn {
+      padding: 0.45rem 1.1rem;
+      border-radius: 999px;
+      border: 1.5px solid var(--gray-200);
+      background: var(--white);
+      color: var(--gray-600);
+      font-weight: 600;
+      font-size: 0.88rem;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .filter-btn.active, .filter-btn:hover { background: var(--green); color: var(--white); border-color: var(--green); }
+
+    .full-pick-card {
+      background: var(--white);
+      border: 1px solid var(--gray-200);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      overflow: hidden;
+      display: grid;
+      grid-template-columns: auto 1fr auto;
+      align-items: center;
+      gap: 0;
+      transition: transform 0.2s, box-shadow 0.2s;
+      margin-bottom: 1.25rem;
+    }
+    .full-pick-card:hover { transform: translateY(-2px); box-shadow: 0 8px 32px rgba(0,0,0,0.1); }
+
+    .fpc-left {
+      padding: 1.5rem;
+      background: var(--green-light);
+      text-align: center;
+      min-width: 90px;
+    }
+    .fpc-emoji { font-size: 2.5rem; }
+    .fpc-rank  { font-size: 0.75rem; font-weight: 700; color: var(--green); margin-top: 0.25rem; }
+
+    .fpc-body { padding: 1.25rem 1.5rem; }
+    .fpc-tags { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 0.5rem; }
+    .tag {
+      font-size: 0.72rem;
+      font-weight: 700;
+      padding: 0.15rem 0.55rem;
+      border-radius: 999px;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+    .tag-green { background: var(--green-light); color: var(--green); }
+    .tag-blue  { background: #dbeafe; color: #1d4ed8; }
+    .tag-amber { background: #fef3c7; color: #92400e; }
+
+    .fpc-body h3 { font-size: 1.1rem; font-weight: 800; color: var(--gray-900); margin-bottom: 0.25rem; }
+    .fpc-body .fpc-sub { font-size: 0.88rem; color: var(--gray-600); margin-bottom: 0.75rem; }
+
+    .fpc-highlights { display: flex; gap: 1.25rem; flex-wrap: wrap; margin-bottom: 0.75rem; }
+    .fpc-hl { font-size: 0.82rem; }
+    .fpc-hl strong { color: var(--gray-900); }
+
+    .fpc-bonus {
+      display: inline-block;
+      font-size: 0.82rem;
+      font-weight: 600;
+      color: var(--green);
+      background: var(--green-light);
+      padding: 0.25rem 0.75rem;
+      border-radius: 6px;
+    }
+
+    .fpc-right {
+      padding: 1.5rem;
+      min-width: 160px;
+      text-align: center;
+    }
+    .fpc-rating { font-size: 1.5rem; font-weight: 900; color: var(--gray-900); }
+    .fpc-stars  { color: #f59e0b; font-size: 0.9rem; margin: 0.2rem 0 0.75rem; }
+
+    .rating-bar-row { display: flex; flex-direction: column; gap: 0.3rem; margin-bottom: 1rem; }
+    .rating-bar { display: flex; align-items: center; gap: 0.4rem; font-size: 0.75rem; color: var(--gray-600); }
+    .rb-fill-wrap { flex: 1; height: 5px; background: var(--gray-200); border-radius: 99px; overflow: hidden; }
+    .rb-fill { height: 100%; background: var(--green); border-radius: 99px; }
+
+    .pros-cons { display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; margin-top: 0.75rem; }
+    .pros h5, .cons h5 { font-size: 0.78rem; font-weight: 700; margin-bottom: 0.3rem; }
+    .pros h5 { color: var(--green); }
+    .cons h5 { color: #ef4444; }
+    .pros ul, .cons ul { list-style: none; }
+    .pros ul li::before { content: '✓ '; color: var(--green); font-weight: 700; }
+    .cons ul li::before { content: '✗ '; color: #ef4444; font-weight: 700; }
+    .pros ul li, .cons ul li { font-size: 0.8rem; color: var(--gray-600); margin-bottom: 0.2rem; }
+
+    @media(max-width:768px) {
+      .full-pick-card { grid-template-columns: 1fr; }
+      .fpc-left { display: flex; align-items: center; gap: 1rem; padding: 1rem 1.25rem; }
+      .fpc-right { border-top: 1px solid var(--gray-200); }
+      .pros-cons { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a class="nav-logo" href="index.html">Finance<span>Flow</span></a>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="calculator.html">Calculators</a></li>
+    <li><a href="recommendations.html">Top Picks</a></li>
+    <li><a href="blog.html">Guides</a></li>
+    <li><a href="calculator.html" class="nav-cta">Free Tools →</a></li>
+  </ul>
+  <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<div class="page-hero">
+  <h1>Best Financial Products — 2026</h1>
+  <p>We research and compare the best savings accounts, investing apps, budgeting tools, and credit cards so you don't have to.</p>
+</div>
+
+<section class="section">
+  <div class="container">
+
+    <div class="disclaimer" style="margin-bottom:2rem">
+      <strong>Affiliate Disclosure:</strong> FinanceFlow earns a commission if you apply for products through our links. This is how we keep the site free. Our ratings are based on independent research and are not influenced by compensation.
+    </div>
+
+    <div class="filter-tabs">
+      <button class="filter-btn active">All Products</button>
+      <button class="filter-btn">💰 Savings</button>
+      <button class="filter-btn">📈 Investing</button>
+      <button class="filter-btn">🪙 Crypto</button>
+      <button class="filter-btn">📊 Budgeting</button>
+      <button class="filter-btn">💳 Credit Cards</button>
+    </div>
+
+    <!-- ── SAVINGS ── -->
+    <h2 class="section-title" style="margin-bottom:1.25rem">💰 High-Yield Savings Accounts</h2>
+
+    <div class="full-pick-card">
+      <div class="fpc-left">
+        <div class="fpc-emoji">🏦</div>
+        <div class="fpc-rank">#1 Pick</div>
+      </div>
+      <div class="fpc-body">
+        <div class="fpc-tags">
+          <span class="tag tag-green">Editor's Choice</span>
+          <span class="tag tag-blue">No Fees</span>
+          <span class="tag tag-amber">Best APY</span>
+        </div>
+        <h3>SoFi Checking & Savings</h3>
+        <p class="fpc-sub">Up to 4.60% APY when you set up direct deposit. FDIC insured. Zero account fees, no minimums. One of the most popular online banks in the US.</p>
+        <div class="fpc-highlights">
+          <div class="fpc-hl"><strong>APY:</strong> up to 4.60%</div>
+          <div class="fpc-hl"><strong>Min. Balance:</strong> $0</div>
+          <div class="fpc-hl"><strong>Monthly Fee:</strong> $0</div>
+          <div class="fpc-hl"><strong>FDIC:</strong> Yes</div>
+        </div>
+        <span class="fpc-bonus">🎁 Up to $300 sign-up bonus with qualifying direct deposit</span>
+        <div class="pros-cons">
+          <div class="pros"><h5>PROS</h5><ul><li>Top-tier APY</li><li>No fees ever</li><li>$300 bonus available</li><li>Great mobile app</li></ul></div>
+          <div class="cons"><h5>CONS</h5><ul><li>Direct deposit required for max APY</li><li>No physical branches</li></ul></div>
+        </div>
+      </div>
+      <div class="fpc-right">
+        <div class="fpc-rating">9.4</div>
+        <div class="fpc-stars">★★★★★</div>
+        <div class="rating-bar-row">
+          <div class="rating-bar"><span style="width:55px">APY</span><div class="rb-fill-wrap"><div class="rb-fill" style="width:95%"></div></div></div>
+          <div class="rating-bar"><span style="width:55px">Fees</span><div class="rb-fill-wrap"><div class="rb-fill" style="width:100%"></div></div></div>
+          <div class="rating-bar"><span style="width:55px">App</span><div class="rb-fill-wrap"><div class="rb-fill" style="width:88%"></div></div></div>
+        </div>
+        <a href="#" class="btn-affiliate">Open Account →</a>
+      </div>
+    </div>
+
+    <div class="full-pick-card">
+      <div class="fpc-left">
+        <div class="fpc-emoji">🏛️</div>
+        <div class="fpc-rank">#2 Pick</div>
+      </div>
+      <div class="fpc-body">
+        <div class="fpc-tags">
+          <span class="tag tag-blue">No Fees</span>
+          <span class="tag tag-green">Highly Rated</span>
+        </div>
+        <h3>Marcus by Goldman Sachs</h3>
+        <p class="fpc-sub">Consistently one of the best APYs with zero fees. Backed by Goldman Sachs. No minimum deposit to open. Simple, no-frills savings.</p>
+        <div class="fpc-highlights">
+          <div class="fpc-hl"><strong>APY:</strong> up to 4.40%</div>
+          <div class="fpc-hl"><strong>Min. Balance:</strong> $0</div>
+          <div class="fpc-hl"><strong>Monthly Fee:</strong> $0</div>
+          <div class="fpc-hl"><strong>FDIC:</strong> Yes</div>
+        </div>
+        <span class="fpc-bonus">🎁 No bonus — pure APY focus</span>
+        <div class="pros-cons">
+          <div class="pros"><h5>PROS</h5><ul><li>Consistently high APY</li><li>Goldman Sachs backing</li><li>No minimums</li></ul></div>
+          <div class="cons"><h5>CONS</h5><ul><li>No checking account</li><li>No ATM access</li></ul></div>
+        </div>
+      </div>
+      <div class="fpc-right">
+        <div class="fpc-rating">8.9</div>
+        <div class="fpc-stars">★★★★½</div>
+        <div class="rating-bar-row">
+          <div class="rating-bar"><span style="width:55px">APY</span><div class="rb-fill-wrap"><div class="rb-fill" style="width:90%"></div></div></div>
+          <div class="rating-bar"><span style="width:55px">Fees</span><div class="rb-fill-wrap"><div class="rb-fill" style="width:100%"></div></div></div>
+          <div class="rating-bar"><span style="width:55px">App</span><div class="rb-fill-wrap"><div class="rb-fill" style="width:78%"></div></div></div>
+        </div>
+        <a href="#" class="btn-affiliate">Open Account →</a>
+      </div>
+    </div>
+
+    <!-- ── INVESTING ── -->
+    <h2 class="section-title" style="margin:2.5rem 0 1.25rem">📈 Investing Apps</h2>
+
+    <div class="full-pick-card">
+      <div class="fpc-left">
+        <div class="fpc-emoji">🌱</div>
+        <div class="fpc-rank">#1 Beginner</div>
+      </div>
+      <div class="fpc-body">
+        <div class="fpc-tags">
+          <span class="tag tag-green">Best for Beginners</span>
+          <span class="tag tag-amber">Auto-Invest</span>
+        </div>
+        <h3>Acorns</h3>
+        <p class="fpc-sub">Rounds up your everyday purchases and invests the spare change automatically. A genuinely painless way to start a portfolio with zero investing knowledge.</p>
+        <div class="fpc-highlights">
+          <div class="fpc-hl"><strong>Cost:</strong> $3/mo</div>
+          <div class="fpc-hl"><strong>Min. Investment:</strong> $5</div>
+          <div class="fpc-hl"><strong>Portfolio Types:</strong> 5</div>
+          <div class="fpc-hl"><strong>IRA:</strong> Yes</div>
+        </div>
+        <span class="fpc-bonus">🎁 $20 bonus on your first investment</span>
+        <div class="pros-cons">
+          <div class="pros"><h5>PROS</h5><ul><li>Fully automatic</li><li>No knowledge needed</li><li>IRA available</li><li>$5 to start</li></ul></div>
+          <div class="cons"><h5>CONS</h5><ul><li>$3/mo fee (high for small balances)</li><li>Limited control over picks</li></ul></div>
+        </div>
+      </div>
+      <div class="fpc-right">
+        <div class="fpc-rating">8.7</div>
+        <div class="fpc-stars">★★★★½</div>
+        <div class="rating-bar-row">
+          <div class="rating-bar"><span style="width:55px">Ease</span><div class="rb-fill-wrap"><div class="rb-fill" style="width:98%"></div></div></div>
+          <div class="rating-bar"><span style="width:55px">Fees</span><div class="rb-fill-wrap"><div class="rb-fill" style="width:65%"></div></div></div>
+          <div class="rating-bar"><span style="width:55px">Features</span><div class="rb-fill-wrap"><div class="rb-fill" style="width:75%"></div></div></div>
+        </div>
+        <a href="#" class="btn-affiliate">Start Investing →</a>
+      </div>
+    </div>
+
+    <div class="full-pick-card">
+      <div class="fpc-left">
+        <div class="fpc-emoji">📊</div>
+        <div class="fpc-rank">#1 Advanced</div>
+      </div>
+      <div class="fpc-body">
+        <div class="fpc-tags">
+          <span class="tag tag-green">Best Overall</span>
+          <span class="tag tag-blue">Commission-Free</span>
+        </div>
+        <h3>Fidelity</h3>
+        <p class="fpc-sub">Zero-commission trades, $0 account minimum, excellent research tools, and fractional shares. The best all-around brokerage for most investors.</p>
+        <div class="fpc-highlights">
+          <div class="fpc-hl"><strong>Cost:</strong> $0 trades</div>
+          <div class="fpc-hl"><strong>Min. Account:</strong> $0</div>
+          <div class="fpc-hl"><strong>Fractional Shares:</strong> Yes</div>
+          <div class="fpc-hl"><strong>IRA:</strong> Yes</div>
+        </div>
+        <span class="fpc-bonus">🎁 $100 bonus with qualifying deposit</span>
+        <div class="pros-cons">
+          <div class="pros"><h5>PROS</h5><ul><li>$0 commissions</li><li>Best research tools</li><li>Fractional shares</li><li>Excellent customer service</li></ul></div>
+          <div class="cons"><h5>CONS</h5><ul><li>Interface can feel complex</li><li>No crypto trading</li></ul></div>
+        </div>
+      </div>
+      <div class="fpc-right">
+        <div class="fpc-rating">9.6</div>
+        <div class="fpc-stars">★★★★★</div>
+        <div class="rating-bar-row">
+          <div class="rating-bar"><span style="width:55px">Ease</span><div class="rb-fill-wrap"><div class="rb-fill" style="width:80%"></div></div></div>
+          <div class="rating-bar"><span style="width:55px">Fees</span><div class="rb-fill-wrap"><div class="rb-fill" style="width:100%"></div></div></div>
+          <div class="rating-bar"><span style="width:55px">Features</span><div class="rb-fill-wrap"><div class="rb-fill" style="width:97%"></div></div></div>
+        </div>
+        <a href="#" class="btn-affiliate">Open Account →</a>
+      </div>
+    </div>
+
+    <div class="full-pick-card">
+      <div class="fpc-left">
+        <div class="fpc-emoji">🟢</div>
+        <div class="fpc-rank">#1 Stocks + Crypto</div>
+      </div>
+      <div class="fpc-body">
+        <div class="fpc-tags">
+          <span class="tag tag-green">Free Stock Bonus</span>
+          <span class="tag tag-blue">Commission-Free</span>
+          <span class="tag tag-amber">Stocks + Crypto</span>
+        </div>
+        <h3>Robinhood</h3>
+        <p class="fpc-sub">Commission-free stocks, ETFs, options, and crypto in one app. One of the most popular investing apps in the US with an incredibly simple interface. Sign up with our link and you'll both get a free gift stock.</p>
+        <div class="fpc-highlights">
+          <div class="fpc-hl"><strong>Cost:</strong> $0 trades</div>
+          <div class="fpc-hl"><strong>Min. Account:</strong> $0</div>
+          <div class="fpc-hl"><strong>Crypto:</strong> Yes</div>
+          <div class="fpc-hl"><strong>IRA:</strong> Yes (3% match)</div>
+        </div>
+        <span class="fpc-bonus">🎁 You both get a free gift stock when you sign up</span>
+        <div class="pros-cons">
+          <div class="pros"><h5>PROS</h5><ul><li>Free gift stock for you &amp; referral</li><li>Stocks, ETFs, options &amp; crypto</li><li>Easiest UI of any broker</li><li>3% IRA match</li></ul></div>
+          <div class="cons"><h5>CONS</h5><ul><li>Limited research tools</li><li>No mutual funds</li></ul></div>
+        </div>
+      </div>
+      <div class="fpc-right">
+        <div class="fpc-rating">8.8</div>
+        <div class="fpc-stars">★★★★½</div>
+        <div class="rating-bar-row">
+          <div class="rating-bar"><span style="width:55px">Ease</span><div class="rb-fill-wrap"><div class="rb-fill" style="width:100%"></div></div></div>
+          <div class="rating-bar"><span style="width:55px">Fees</span><div class="rb-fill-wrap"><div class="rb-fill" style="width:100%"></div></div></div>
+          <div class="rating-bar"><span style="width:55px">Features</span><div class="rb-fill-wrap"><div class="rb-fill" style="width:72%"></div></div></div>
+        </div>
+        <a href="http://join.robinhood.com/brianh-c9de06e" class="btn-affiliate" target="_blank" rel="noopener noreferrer">Get Free Stock →</a>
+      </div>
+    </div>
+
+    <!-- ── CRYPTO ── -->
+    <h2 class="section-title" style="margin:2.5rem 0 1.25rem">🪙 Crypto Exchanges &amp; Cards</h2>
+
+    <div class="full-pick-card">
+      <div class="fpc-left">
+        <div class="fpc-emoji">♊</div>
+        <div class="fpc-rank">#1 Exchange</div>
+      </div>
+      <div class="fpc-body">
+        <div class="fpc-tags">
+          <span class="tag tag-green">$50 Free Crypto</span>
+          <span class="tag tag-blue">Regulated US Exchange</span>
+        </div>
+        <h3>Gemini Exchange</h3>
+        <p class="fpc-sub">One of the most trusted and regulated crypto exchanges in the US. Founded by the Winklevoss twins. Trade Bitcoin, Ethereum, and 70+ cryptocurrencies with industry-leading security.</p>
+        <div class="fpc-highlights">
+          <div class="fpc-hl"><strong>Bonus:</strong> $50 free crypto</div>
+          <div class="fpc-hl"><strong>Min. Trade:</strong> $100</div>
+          <div class="fpc-hl"><strong>Coins:</strong> 70+</div>
+          <div class="fpc-hl"><strong>Regulated:</strong> Yes (NYDFS)</div>
+        </div>
+        <span class="fpc-bonus">🎁 Get $50 FREE crypto when you trade $100 — no expiry</span>
+        <div class="pros-cons">
+          <div class="pros"><h5>PROS</h5><ul><li>$50 free crypto bonus</li><li>Most regulated US exchange</li><li>SOC 2 Type 2 certified</li><li>Earn yield on holdings</li></ul></div>
+          <div class="cons"><h5>CONS</h5><ul><li>Fees higher than Coinbase Pro</li><li>UI less beginner-friendly</li></ul></div>
+        </div>
+      </div>
+      <div class="fpc-right">
+        <div class="fpc-rating">9.1</div>
+        <div class="fpc-stars">★★★★★</div>
+        <div class="rating-bar-row">
+          <div class="rating-bar"><span style="width:55px">Security</span><div class="rb-fill-wrap"><div class="rb-fill" style="width:100%"></div></div></div>
+          <div class="rating-bar"><span style="width:55px">Bonus</span><div class="rb-fill-wrap"><div class="rb-fill" style="width:100%"></div></div></div>
+          <div class="rating-bar"><span style="width:55px">Fees</span><div class="rb-fill-wrap"><div class="rb-fill" style="width:68%"></div></div></div>
+        </div>
+        <a href="https://exchange.gemini.com/register?referral=v995pwas8&type=referral" class="btn-affiliate" target="_blank" rel="noopener noreferrer">Get $50 Free Crypto →</a>
+      </div>
+    </div>
+
+    <div class="full-pick-card">
+      <div class="fpc-left">
+        <div class="fpc-emoji">💎</div>
+        <div class="fpc-rank">#1 Crypto Card</div>
+      </div>
+      <div class="fpc-body">
+        <div class="fpc-tags">
+          <span class="tag tag-green">4% Crypto Cashback</span>
+          <span class="tag tag-amber">No Annual Fee</span>
+        </div>
+        <h3>Gemini Credit Card</h3>
+        <p class="fpc-sub">The only credit card that earns up to 4% back in the crypto of your choice — Bitcoin, Ethereum, or any of 60+ supported coins. Rewards hit your Gemini account in real-time, not at month's end.</p>
+        <div class="fpc-highlights">
+          <div class="fpc-hl"><strong>Dining:</strong> 4% back in crypto</div>
+          <div class="fpc-hl"><strong>Groceries:</strong> 3% back in crypto</div>
+          <div class="fpc-hl"><strong>Everything else:</strong> 1% back in crypto</div>
+          <div class="fpc-hl"><strong>Annual Fee:</strong> $0</div>
+        </div>
+        <span class="fpc-bonus">🎁 Earn up to 4% back in the crypto of your choice — instantly</span>
+        <div class="pros-cons">
+          <div class="pros"><h5>PROS</h5><ul><li>Up to 4% back in crypto</li><li>No annual fee</li><li>Real-time rewards</li><li>Choose your crypto</li></ul></div>
+          <div class="cons"><h5>CONS</h5><ul><li>Requires Gemini account</li><li>Crypto rewards are volatile</li></ul></div>
+        </div>
+      </div>
+      <div class="fpc-right">
+        <div class="fpc-rating">9.3</div>
+        <div class="fpc-stars">★★★★★</div>
+        <div class="rating-bar-row">
+          <div class="rating-bar"><span style="width:55px">Rewards</span><div class="rb-fill-wrap"><div class="rb-fill" style="width:100%"></div></div></div>
+          <div class="rating-bar"><span style="width:55px">Fees</span><div class="rb-fill-wrap"><div class="rb-fill" style="width:100%"></div></div></div>
+          <div class="rating-bar"><span style="width:55px">Ease</span><div class="rb-fill-wrap"><div class="rb-fill" style="width:85%"></div></div></div>
+        </div>
+        <a href="https://creditcard.exchange.gemini.com/credit-card/apply?referral_code=wywqe3gle" class="btn-affiliate" target="_blank" rel="noopener noreferrer">Apply — No Annual Fee →</a>
+      </div>
+    </div>
+
+    <div class="full-pick-card">
+      <div class="fpc-left">
+        <div class="fpc-emoji">⚡</div>
+        <div class="fpc-rank">#1 Bitcoin App</div>
+      </div>
+      <div class="fpc-body">
+        <div class="fpc-tags">
+          <span class="tag tag-green">$0 Fees on First $500</span>
+          <span class="tag tag-blue">Bitcoin Only</span>
+        </div>
+        <h3>Strike — Bitcoin App</h3>
+        <p class="fpc-sub">The cleanest Bitcoin buying app available. Strike uses the Lightning Network for instant, near-zero-fee Bitcoin transactions. Your first $500 in Bitcoin purchases is completely fee-free.</p>
+        <div class="fpc-highlights">
+          <div class="fpc-hl"><strong>Bonus:</strong> $0 fees on first $500 BTC</div>
+          <div class="fpc-hl"><strong>Network:</strong> Lightning (instant)</div>
+          <div class="fpc-hl"><strong>Focus:</strong> Bitcoin</div>
+          <div class="fpc-hl"><strong>Fees after:</strong> Very low</div>
+        </div>
+        <span class="fpc-bonus">🎁 First $500 of Bitcoin purchased is completely fee-free</span>
+        <div class="pros-cons">
+          <div class="pros"><h5>PROS</h5><ul><li>Zero fees on first $500 BTC</li><li>Lightning Network speed</li><li>Very low ongoing fees</li><li>Clean, simple app</li></ul></div>
+          <div class="cons"><h5>CONS</h5><ul><li>Bitcoin only (no altcoins)</li><li>Less name recognition</li></ul></div>
+        </div>
+      </div>
+      <div class="fpc-right">
+        <div class="fpc-rating">8.9</div>
+        <div class="fpc-stars">★★★★½</div>
+        <div class="rating-bar-row">
+          <div class="rating-bar"><span style="width:55px">Fees</span><div class="rb-fill-wrap"><div class="rb-fill" style="width:98%"></div></div></div>
+          <div class="rating-bar"><span style="width:55px">Speed</span><div class="rb-fill-wrap"><div class="rb-fill" style="width:100%"></div></div></div>
+          <div class="rating-bar"><span style="width:55px">Ease</span><div class="rb-fill-wrap"><div class="rb-fill" style="width:92%"></div></div></div>
+        </div>
+        <a href="http://invite.strike.me/120JJD" class="btn-affiliate" target="_blank" rel="noopener noreferrer">Get $0 Fees on $500 BTC →</a>
+      </div>
+    </div>
+
+    <div class="full-pick-card">
+      <div class="fpc-left">
+        <div class="fpc-emoji">🔵</div>
+        <div class="fpc-rank">#2 Exchange</div>
+      </div>
+      <div class="fpc-body">
+        <div class="fpc-tags">
+          <span class="tag tag-green">Beginner Friendly</span>
+          <span class="tag tag-blue">Largest US Exchange</span>
+          <span class="tag tag-amber">600+ Coins</span>
+        </div>
+        <h3>Coinbase</h3>
+        <p class="fpc-sub">The most widely recognized crypto exchange in the US and the easiest to get started on. Supports 600+ cryptocurrencies. Publicly traded on NASDAQ — one of the most trustworthy platforms available.</p>
+        <div class="fpc-highlights">
+          <div class="fpc-hl"><strong>Coins:</strong> 600+</div>
+          <div class="fpc-hl"><strong>Min. Purchase:</strong> $2</div>
+          <div class="fpc-hl"><strong>Staking:</strong> Yes</div>
+          <div class="fpc-hl"><strong>Publicly Traded:</strong> Yes (COIN)</div>
+        </div>
+        <span class="fpc-bonus">🎁 Sign up free — buy crypto in minutes</span>
+        <div class="pros-cons">
+          <div class="pros"><h5>PROS</h5><ul><li>Most trusted name in crypto</li><li>600+ coins available</li><li>Earn staking rewards</li><li>Extremely beginner-friendly</li></ul></div>
+          <div class="cons"><h5>CONS</h5><ul><li>Fees higher on basic app</li><li>Use Coinbase Advanced for lower fees</li></ul></div>
+        </div>
+      </div>
+      <div class="fpc-right">
+        <div class="fpc-rating">9.0</div>
+        <div class="fpc-stars">★★★★★</div>
+        <div class="rating-bar-row">
+          <div class="rating-bar"><span style="width:55px">Trust</span><div class="rb-fill-wrap"><div class="rb-fill" style="width:100%"></div></div></div>
+          <div class="rating-bar"><span style="width:55px">Ease</span><div class="rb-fill-wrap"><div class="rb-fill" style="width:98%"></div></div></div>
+          <div class="rating-bar"><span style="width:55px">Coins</span><div class="rb-fill-wrap"><div class="rb-fill" style="width:95%"></div></div></div>
+        </div>
+        <a href="https://coinbase.com/join/FYHUYXW?src=ios-link" class="btn-affiliate" target="_blank" rel="noopener noreferrer">Join Coinbase Free →</a>
+      </div>
+    </div>
+
+    <!-- ── BUDGETING ── -->
+    <h2 class="section-title" style="margin:2.5rem 0 1.25rem">📊 Budgeting Tools</h2>
+
+    <div class="full-pick-card">
+      <div class="fpc-left">
+        <div class="fpc-emoji">💼</div>
+        <div class="fpc-rank">#1 Pick</div>
+      </div>
+      <div class="fpc-body">
+        <div class="fpc-tags">
+          <span class="tag tag-green">Best Budgeting App</span>
+          <span class="tag tag-amber">34-Day Free Trial</span>
+        </div>
+        <h3>YNAB (You Need a Budget)</h3>
+        <p class="fpc-sub">The most powerful budgeting method available. Based on zero-based budgeting — every dollar has a job. Users save an average of $600 in their first 2 months.</p>
+        <div class="fpc-highlights">
+          <div class="fpc-hl"><strong>Cost:</strong> $14.99/mo or $99/yr</div>
+          <div class="fpc-hl"><strong>Free Trial:</strong> 34 days</div>
+          <div class="fpc-hl"><strong>Platform:</strong> Web + Mobile</div>
+        </div>
+        <span class="fpc-bonus">🎁 34-day free trial — no credit card required</span>
+        <div class="pros-cons">
+          <div class="pros"><h5>PROS</h5><ul><li>Average $600 saved in 2 months</li><li>Excellent education resources</li><li>Strong community</li></ul></div>
+          <div class="cons"><h5>CONS</h5><ul><li>Paid after trial</li><li>Learning curve</li></ul></div>
+        </div>
+      </div>
+      <div class="fpc-right">
+        <div class="fpc-rating">9.2</div>
+        <div class="fpc-stars">★★★★★</div>
+        <div class="rating-bar-row">
+          <div class="rating-bar"><span style="width:55px">Power</span><div class="rb-fill-wrap"><div class="rb-fill" style="width:98%"></div></div></div>
+          <div class="rating-bar"><span style="width:55px">Ease</span><div class="rb-fill-wrap"><div class="rb-fill" style="width:75%"></div></div></div>
+          <div class="rating-bar"><span style="width:55px">Value</span><div class="rb-fill-wrap"><div class="rb-fill" style="width:90%"></div></div></div>
+        </div>
+        <a href="#" class="btn-affiliate">Try Free 34 Days →</a>
+      </div>
+    </div>
+
+    <div class="disclaimer" style="margin-top:2rem">
+      Rates, bonuses, and product features are subject to change. Always verify current terms on the provider's official website before applying. FinanceFlow is not a financial advisor. Product reviews are for informational purposes only.
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <a class="nav-logo" href="index.html">Finance<span style="color:#d1fae5">Flow</span></a>
+      <p>Free tools and honest advice to help you take control of your money.</p>
+    </div>
+    <div>
+      <h4>Tools</h4>
+      <ul>
+        <li><a href="calculator.html">Budget Calculator</a></li>
+        <li><a href="calculator.html">Debt Payoff</a></li>
+        <li><a href="calculator.html">Investment Growth</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Resources</h4>
+      <ul>
+        <li><a href="recommendations.html">Top Picks</a></li>
+        <li><a href="blog.html">Guides</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Legal</h4>
+      <ul>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Disclaimer</a></li>
+        <li><a href="#">Affiliate Disclosure</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 FinanceFlow. All rights reserved.</span>
+    <span>Affiliate Disclosure: We may earn commissions from links on this site.</span>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('navToggle').addEventListener('click', () => {
+    document.getElementById('navLinks').classList.toggle('open');
+  });
+
+  // Filter tabs (visual only — extend with JS filtering as content grows)
+  document.querySelectorAll('.filter-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+    });
+  });
+</script>
+</body>
+</html>

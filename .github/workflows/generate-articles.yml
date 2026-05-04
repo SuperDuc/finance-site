@@ -1,0 +1,35 @@
+name: Generate Articles
+
+on:
+  schedule:
+    - cron: '0 8 * * *'   # 8 AM UTC daily
+    - cron: '0 14 * * *'  # 2 PM UTC daily
+    - cron: '0 20 * * *'  # 8 PM UTC daily
+  workflow_dispatch:       # lets you trigger manually from GitHub
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Generate articles
+        run: python generate_articles.py
+
+      - name: Commit and push new articles
+        run: |
+          git config user.name  "FinanceFlow Bot"
+          git config user.email "bot@financeflow.local"
+          git add -A
+          git diff --cached --quiet || git commit -m "Auto: publish new articles [$(date -u '+%Y-%m-%d %H:%M UTC')]"
+          git push

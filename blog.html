@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Personal finance guides for beginners — budgeting, debt payoff, investing, and building wealth from scratch." />
+  <title>Financial Guides — FinanceFlow</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    .page-hero {
+      background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%);
+      padding: 3rem 1.5rem 2.5rem;
+      text-align: center;
+    }
+    .page-hero h1 { font-size: clamp(1.7rem, 4vw, 2.6rem); font-weight: 900; color: var(--gray-900); margin-bottom: 0.5rem; }
+    .page-hero p  { color: var(--gray-600); font-size: 1.05rem; }
+
+    .blog-layout { display: grid; grid-template-columns: 1fr 300px; gap: 2.5rem; align-items: start; }
+    @media(max-width: 900px) { .blog-layout { grid-template-columns: 1fr; } }
+
+    .article-card {
+      background: var(--white);
+      border: 1px solid var(--gray-200);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      overflow: hidden;
+      margin-bottom: 1.5rem;
+      display: grid;
+      grid-template-columns: 160px 1fr;
+      transition: transform 0.2s;
+    }
+    .article-card:hover { transform: translateY(-2px); }
+    .article-thumb {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 3rem;
+      min-height: 140px;
+    }
+    .article-body { padding: 1.25rem; }
+    .article-meta { display: flex; gap: 0.75rem; align-items: center; margin-bottom: 0.4rem; flex-wrap: wrap; }
+    .article-tag {
+      font-size: 0.72rem;
+      font-weight: 700;
+      color: var(--green);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    .article-date { font-size: 0.78rem; color: var(--gray-600); }
+    .article-read-time { font-size: 0.78rem; color: var(--gray-600); }
+    .article-body h2 { font-size: 1.1rem; font-weight: 700; color: var(--gray-900); margin-bottom: 0.4rem; line-height: 1.35; }
+    .article-body p  { font-size: 0.88rem; color: var(--gray-600); margin-bottom: 0.75rem; }
+    .article-link { font-size: 0.88rem; font-weight: 600; color: var(--green); }
+
+    @media(max-width: 600px) {
+      .article-card { grid-template-columns: 1fr; }
+      .article-thumb { min-height: 80px; }
+    }
+
+    /* Sidebar */
+    .sidebar-widget {
+      background: var(--white);
+      border: 1px solid var(--gray-200);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 1.25rem;
+      margin-bottom: 1.5rem;
+    }
+    .sidebar-widget h3 { font-size: 1rem; font-weight: 700; color: var(--gray-900); margin-bottom: 1rem; }
+
+    .sidebar-pick { display: flex; gap: 0.75rem; align-items: center; margin-bottom: 0.75rem; }
+    .sp-icon { font-size: 1.5rem; flex-shrink: 0; }
+    .sp-name { font-size: 0.88rem; font-weight: 700; color: var(--gray-900); }
+    .sp-sub  { font-size: 0.78rem; color: var(--gray-600); }
+    .sp-link { font-size: 0.8rem; font-weight: 600; color: var(--green); }
+
+    .calc-mini-cta {
+      background: linear-gradient(135deg, #16a34a, #15803d);
+      color: white;
+      padding: 1.25rem;
+      border-radius: var(--radius);
+      text-align: center;
+      margin-bottom: 1.5rem;
+    }
+    .calc-mini-cta h3 { color: white; font-size: 1rem; margin-bottom: 0.4rem; }
+    .calc-mini-cta p  { font-size: 0.82rem; opacity: 0.9; margin-bottom: 0.75rem; }
+    .calc-mini-cta a  { background: white; color: var(--green); padding: 0.5rem 1.1rem; border-radius: 7px; font-weight: 700; font-size: 0.88rem; display: inline-block; }
+    .calc-mini-cta a:hover { background: var(--green-light); text-decoration: none; }
+
+    /* Full article modal-style expanded (static for now) */
+    .article-full {
+      background: var(--white);
+      border: 1px solid var(--gray-200);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 2rem;
+      margin-bottom: 2rem;
+    }
+    .article-full h1 { font-size: 1.6rem; font-weight: 900; color: var(--gray-900); margin-bottom: 0.5rem; }
+    .article-full h2 { font-size: 1.15rem; font-weight: 700; color: var(--gray-900); margin: 1.5rem 0 0.5rem; }
+    .article-full p  { color: var(--gray-600); margin-bottom: 0.9rem; line-height: 1.75; }
+    .article-full ul { margin: 0.5rem 0 1rem 1.25rem; }
+    .article-full ul li { color: var(--gray-600); margin-bottom: 0.3rem; font-size: 0.95rem; line-height: 1.6; }
+    .article-full .highlight-box {
+      background: var(--green-light);
+      border-left: 4px solid var(--green);
+      padding: 1rem 1.25rem;
+      border-radius: 0 8px 8px 0;
+      margin: 1.25rem 0;
+    }
+    .article-full .highlight-box p { margin: 0; color: var(--gray-700); font-weight: 500; }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a class="nav-logo" href="index.html">Finance<span>Flow</span></a>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="calculator.html">Calculators</a></li>
+    <li><a href="recommendations.html">Top Picks</a></li>
+    <li><a href="blog.html">Guides</a></li>
+    <li><a href="calculator.html" class="nav-cta">Free Tools →</a></li>
+  </ul>
+  <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<div class="page-hero">
+  <h1>Personal Finance Guides</h1>
+  <p>Practical advice, plain language. No jargon, no fluff.</p>
+</div>
+
+<section class="section">
+  <div class="container">
+    <div class="blog-layout">
+
+      <!-- MAIN CONTENT -->
+      <main>
+
+        <!-- FEATURED FULL ARTICLE -->
+        <div class="article-full">
+          <div class="article-meta" style="margin-bottom:0.75rem">
+            <span class="article-tag">Budgeting</span>
+            <span class="article-date">May 2026</span>
+            <span class="article-read-time">· 5 min read</span>
+          </div>
+          <h1>The 50/30/20 Rule: The Easiest Budget You'll Ever Follow</h1>
+          <p>If you've ever tried to budget and given up because it felt like too much work, you're not alone. Most budgeting systems fail because they're too complicated. The 50/30/20 rule fixes that.</p>
+
+          <h2>What Is the 50/30/20 Rule?</h2>
+          <p>It's simple: divide your after-tax income into three buckets.</p>
+          <ul>
+            <li><strong>50% → Needs:</strong> rent, groceries, utilities, insurance, minimum debt payments</li>
+            <li><strong>30% → Wants:</strong> dining out, subscriptions, entertainment, hobbies</li>
+            <li><strong>20% → Savings & Debt:</strong> emergency fund, retirement, extra debt payments</li>
+          </ul>
+
+          <div class="highlight-box">
+            <p>💡 On a $4,000/mo take-home salary: $2,000 to needs, $1,200 to wants, $800 to savings. That's it.</p>
+          </div>
+
+          <h2>Step 1: Calculate Your After-Tax Income</h2>
+          <p>Use your actual take-home pay — what hits your bank account each month. If you're self-employed, subtract estimated taxes (typically 25–30%) from your gross income first.</p>
+
+          <h2>Step 2: Add Up Your Needs</h2>
+          <p>Needs are expenses you can't easily cut. Housing, groceries, transportation, utilities, and minimum debt payments. Be honest — a streaming subscription is a want, not a need.</p>
+
+          <h2>Step 3: Assign Your Wants</h2>
+          <p>This is where most people overspend. Restaurants, Amazon impulse buys, gym memberships you don't use. Track these for one month — you might be surprised.</p>
+
+          <h2>Step 4: Automate Your 20%</h2>
+          <p>The most important step. Set up an automatic transfer to your savings account on payday. Pay yourself first. What's left is yours to spend guilt-free.</p>
+
+          <div class="highlight-box">
+            <p>🎯 <strong>Use our <a href="calculator.html">free budget calculator</a></strong> to plug in your numbers and see your exact 50/30/20 split instantly.</p>
+          </div>
+
+          <h2>What If My Numbers Don't Work Out?</h2>
+          <p>If your needs exceed 50%, focus on cutting the biggest line items first — housing and transportation are usually the culprits. If you can't cut expenses, focus on increasing income: freelancing, overtime, or a side hustle.</p>
+
+          <p>The 50/30/20 rule isn't perfect — it's a starting point. Any budget you actually stick to beats a perfect budget you abandon.</p>
+        </div>
+
+        <!-- ARTICLE LIST -->
+        <h2 class="section-title" style="margin-bottom:1.25rem">More Guides</h2>
+<!-- ARTICLES_START -->
+        <div class="article-card">
+          <div class="article-thumb" style="background:#fefce8">💳</div>
+          <div class="article-body">
+            <div class="article-meta">
+              <span class="article-tag">Debt</span>
+              <span class="article-date">May 2026</span>
+              <span class="article-read-time">· 6 min read</span>
+            </div>
+            <h2>Avalanche vs Snowball: Which Debt Payoff Method Saves You More?</h2>
+            <p>The avalanche method saves the most interest. The snowball method keeps you motivated. Here's exactly which one to choose based on your situation — and the math that proves it.</p>
+            <a href="calculator.html#debt" class="article-link">Try the Debt Payoff Calculator →</a>
+          </div>
+        </div>
+
+        <div class="article-card">
+          <div class="article-thumb" style="background:#eff6ff">📈</div>
+          <div class="article-body">
+            <div class="article-meta">
+              <span class="article-tag">Investing</span>
+              <span class="article-date">April 2026</span>
+              <span class="article-read-time">· 7 min read</span>
+            </div>
+            <h2>How to Start Investing With Just $50 a Month</h2>
+            <p>$50/month invested at 7% annually becomes $52,000 in 30 years. You don't need a lot of money to start — you need to start. Here's the exact step-by-step plan.</p>
+            <a href="recommendations.html" class="article-link">See Best Investing Apps →</a>
+          </div>
+        </div>
+
+        <div class="article-card">
+          <div class="article-thumb" style="background:#fdf4ff">🏦</div>
+          <div class="article-body">
+            <div class="article-meta">
+              <span class="article-tag">Saving</span>
+              <span class="article-date">April 2026</span>
+              <span class="article-read-time">· 4 min read</span>
+            </div>
+            <h2>Why Your Savings Account Is Losing You Money (And How to Fix It)</h2>
+            <p>The average big-bank savings account pays 0.01% APY. Inflation runs at 3%+. You're losing money every day. Here's how to move to a high-yield account in 10 minutes.</p>
+            <a href="recommendations.html" class="article-link">See Best Savings Accounts →</a>
+          </div>
+        </div>
+
+        <div class="article-card">
+          <div class="article-thumb" style="background:#f0fdf4">🛡️</div>
+          <div class="article-body">
+            <div class="article-meta">
+              <span class="article-tag">Saving</span>
+              <span class="article-date">March 2026</span>
+              <span class="article-read-time">· 5 min read</span>
+            </div>
+            <h2>How to Build a 3-Month Emergency Fund — Even on a Tight Budget</h2>
+            <p>67% of Americans can't cover a $1,000 emergency. Here's the step-by-step plan to build your safety net, even if you can only save $50 a month to start.</p>
+            <a href="calculator.html" class="article-link">Use Budget Calculator →</a>
+          </div>
+        </div>
+
+        <div class="article-card">
+          <div class="article-thumb" style="background:#fff7ed">🎯</div>
+          <div class="article-body">
+            <div class="article-meta">
+              <span class="article-tag">Investing</span>
+              <span class="article-date">March 2026</span>
+              <span class="article-read-time">· 8 min read</span>
+            </div>
+            <h2>Roth IRA vs Traditional IRA: Which One Is Right for You?</h2>
+            <p>Pay taxes now or later — that's the core question. If you're under 40 and expect to earn more in the future, the answer is almost certainly Roth. Here's why.</p>
+            <a href="recommendations.html" class="article-link">See Best IRA Accounts →</a>
+          </div>
+        </div>
+<!-- ARTICLES_END -->
+
+      </main>
+
+      <!-- SIDEBAR -->
+      <aside>
+
+        <div class="calc-mini-cta">
+          <h3>🧮 Free Budget Calculator</h3>
+          <p>See exactly where your money goes and how much you can save.</p>
+          <a href="calculator.html">Try It Free →</a>
+        </div>
+
+        <div class="sidebar-widget">
+          <h3>🏆 Top Picks This Month</h3>
+
+          <div class="sidebar-pick">
+            <div class="sp-icon">🏦</div>
+            <div>
+              <div class="sp-name">SoFi Savings</div>
+              <div class="sp-sub">Up to 4.60% APY · $300 bonus</div>
+              <a href="recommendations.html" class="sp-link">Learn More →</a>
+            </div>
+          </div>
+
+          <div class="sidebar-pick">
+            <div class="sp-icon">🌱</div>
+            <div>
+              <div class="sp-name">Acorns</div>
+              <div class="sp-sub">Auto-invest spare change · $20 bonus</div>
+              <a href="recommendations.html" class="sp-link">Learn More →</a>
+            </div>
+          </div>
+
+          <div class="sidebar-pick">
+            <div class="sp-icon">💼</div>
+            <div>
+              <div class="sp-name">YNAB</div>
+              <div class="sp-sub">Best budget app · 34-day free trial</div>
+              <a href="recommendations.html" class="sp-link">Learn More →</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="sidebar-widget">
+          <h3>⚡ Quick Stats</h3>
+          <div style="display:flex;flex-direction:column;gap:0.6rem">
+            <div style="font-size:0.85rem;color:var(--gray-600)">🇺🇸 Average US household debt: <strong style="color:var(--gray-900)">$101,915</strong></div>
+            <div style="font-size:0.85rem;color:var(--gray-600)">💸 % of Americans with no savings: <strong style="color:var(--gray-900)">22%</strong></div>
+            <div style="font-size:0.85rem;color:var(--gray-600)">📈 S&P 500 average annual return: <strong style="color:var(--gray-900)">~7%</strong></div>
+            <div style="font-size:0.85rem;color:var(--gray-600)">🏦 Big bank avg savings APY: <strong style="color:#ef4444">0.01%</strong></div>
+          </div>
+        </div>
+
+      </aside>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <a class="nav-logo" href="index.html">Finance<span style="color:#d1fae5">Flow</span></a>
+      <p>Free tools and honest advice to help you take control of your money.</p>
+    </div>
+    <div>
+      <h4>Tools</h4>
+      <ul>
+        <li><a href="calculator.html">Budget Calculator</a></li>
+        <li><a href="calculator.html">Debt Payoff</a></li>
+        <li><a href="calculator.html">Investment Growth</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Resources</h4>
+      <ul>
+        <li><a href="recommendations.html">Top Picks</a></li>
+        <li><a href="blog.html">Guides</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Legal</h4>
+      <ul>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Disclaimer</a></li>
+        <li><a href="#">Affiliate Disclosure</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 FinanceFlow. All rights reserved.</span>
+    <span>Affiliate Disclosure: We may earn commissions from links on this site.</span>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('navToggle').addEventListener('click', () => {
+    document.getElementById('navLinks').classList.toggle('open');
+  });
+</script>
+</body>
+</html>
