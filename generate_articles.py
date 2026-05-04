@@ -5,12 +5,16 @@ Runs 3x/day via GitHub Actions — generates unique finance articles,
 updates blog.html, and rebuilds sitemap.xml automatically.
 """
 
-import json, os, random, re
+import json, os, random, re, html
 from datetime import date, datetime
 from pathlib import Path
+from urllib.request import urlopen, Request
+from urllib.error import URLError
+import xml.etree.ElementTree as ET
 
 # ── CONFIG ─────────────────────────────────────────────────────────────────────
-ARTICLES_PER_RUN = 3
+TEMPLATE_PER_RUN = 2
+NEWS_PER_RUN     = 1
 SITE_ROOT        = Path(__file__).parent
 ARTICLES_DIR     = SITE_ROOT / 'articles'
 TRACKING_FILE    = SITE_ROOT / 'articles_published.json'
@@ -40,6 +44,113 @@ def md(text):
 
 def pick(lst):
     return random.choice(lst)
+
+# ── RSS NEWS FETCHER ───────────────────────────────────────────────────────────
+RSS_FEEDS = [
+    'https://finance.yahoo.com/rss/topstories',
+    'https://www.cnbc.com/id/100003114/device/rss/rss.html',
+    'https://feeds.marketwatch.com/marketwatch/topstories/',
+]
+
+CRYPTO_RSS_FEEDS = [
+    'https://cointelegraph.com/rss',
+    'https://coindesk.com/arc/outboundfeeds/rss/',
+]
+
+NEWS_AFF_ROTATION = [
+    ['gemini', 'coinbase'],
+    ['strike', 'robinhood'],
+    ['gemini_card', 'coinbase'],
+    ['robinhood', 'gemini'],
+]
+
+def fetch_rss(url, max_items=5):
+    """Fetch and parse an RSS feed. Returns list of {title, link, desc} dicts."""
+    try:
+        req = Request(url, headers={'User-Agent': 'Mozilla/5.0 FinanceFlowBot/1.0'})
+        with urlopen(req, timeout=10) as resp:
+            raw = resp.read()
+        root = ET.fromstring(raw)
+        ns   = {'atom': 'http://www.w3.org/2005/Atom'}
+        items = root.findall('.//item') or root.findall('.//atom:entry', ns)
+        results = []
+        for item in items[:max_items]:
+            title = item.findtext('title') or item.findtext('atom:title', namespaces=ns) or ''
+            link  = item.findtext('link')  or item.findtext('atom:link',  namespaces=ns) or ''
+            desc  = item.findtext('description') or item.findtext('summary') or item.findtext('atom:summary', namespaces=ns) or ''
+            # Strip HTML tags from desc
+            desc  = re.sub(r'<[^>]+>', '', html.unescape(desc)).strip()
+            desc  = desc[:200] + '...' if len(desc) > 200 else desc
+            title = html.unescape(title.strip())
+            if title and link:
+                results.append({'title': title, 'link': link, 'desc': desc})
+        return results
+    except Exception as e:
+        print(f'  RSS fetch failed ({url}): {e}')
+        return []
+
+def get_news_stories():
+    """Collect stories from multiple feeds with fallback."""
+    stories = {'finance': [], 'crypto': []}
+    for feed in RSS_FEEDS:
+        items = fetch_rss(feed, max_items=4)
+        stories['finance'].extend(items)
+        if len(stories['finance']) >= 6:
+            break
+    for feed in CRYPTO_RSS_FEEDS:
+        items = fetch_rss(feed, max_items=4)
+        stories['crypto'].extend(items)
+        if len(stories['crypto']) >= 4:
+            break
+    return stories
+
+def build_news_article(stories):
+    """Build a news roundup article dict from fetched RSS stories."""
+    finance_stories = stories['finance'][:4]
+    crypto_stories  = stories['crypto'][:3]
+    all_stories = finance_stories + crypto_stories
+
+    if not all_stories:
+        return None  # no internet access — skip news this run
+
+    slug_base = 'finance-news-roundup'
+    slug      = f'{slug_base}-{TODAY}-{TS}'
+    title     = pick([
+        f'Finance News Roundup: What Happened This Week ({TODAY})',
+        f'Markets & Money: Top Stories for {datetime.now().strftime("%B %d, %Y")}',
+        f'Weekly Finance Digest: Latest News & Market Updates',
+        f'This Week in Finance: Markets, Crypto & Money News',
+    ])
+
+    # Build sections HTML directly (bypasses template system)
+    sections = []
+    if finance_stories:
+        body = '\n\n'.join(
+            f'**{s["title"]}**\n{s["desc"]} <a href="{s["link"]}" target="_blank" rel="noopener noreferrer">Read more →</a>'
+            for s in finance_stories
+        )
+        sections.append({'h': 'Top Finance & Market Stories', 'body': body})
+    if crypto_stories:
+        body = '\n\n'.join(
+            f'**{s["title"]}**\n{s["desc"]} <a href="{s["link"]}" target="_blank" rel="noopener noreferrer">Read more →</a>'
+            for s in crypto_stories
+        )
+        sections.append({'h': 'Crypto & Digital Assets', 'body': body})
+
+    affiliates = random.choice(NEWS_AFF_ROTATION)
+
+    return {
+        'slug':      slug,
+        'slug_base': slug_base,
+        'title':     title,
+        'tag':       'News',
+        'emoji':     '📰',
+        'bg':        '#f0f9ff',
+        'desc':      f'The latest finance and crypto news for {datetime.now().strftime("%B %d, %Y")} — markets, investing updates, and what it means for your money.',
+        'date':      TODAY,
+        'sections':  sections,
+        'affiliates': affiliates,
+    }
 
 # ── TOPIC TEMPLATES ─────────────────────────────────────────────────────────────
 TOPICS = [
@@ -646,6 +757,10 @@ def pick_topics(tracking, count):
         available = TOPICS  # reset if we've used them all
     return random.sample(available, min(count, len(available)))
 
+def recent_news_count(tracking):
+    """How many news roundups published today already."""
+    return sum(1 for a in tracking if a.get('slug_base') == 'finance-news-roundup' and a.get('date') == TODAY)
+
 
 # ── ARTICLE GENERATION ─────────────────────────────────────────────────────────
 def generate_article(topic):
@@ -873,23 +988,41 @@ def update_sitemap(tracking):
 # ── MAIN ───────────────────────────────────────────────────────────────────────
 def main():
     ARTICLES_DIR.mkdir(exist_ok=True)
-    tracking = load_tracking()
-    topics   = pick_topics(tracking, ARTICLES_PER_RUN)
+    tracking     = load_tracking()
     new_articles = []
 
+    # 1. Template articles
+    topics = pick_topics(tracking, TEMPLATE_PER_RUN)
     for topic in topics:
         article = generate_article(topic)
-        html    = build_article_html(article)
+        art_html = build_article_html(article)
         path    = ARTICLES_DIR / f"{article['slug']}.html"
-        path.write_text(html, encoding='utf-8')
+        path.write_text(art_html, encoding='utf-8')
         tracking.append(article)
         new_articles.append(article)
-        print(f"  Generated: {article['title']}")
+        print(f'  Template: {article["title"]}')
+
+    # 2. Live news roundup (one per run, skip if already ran today)
+    if recent_news_count(tracking) < 1:
+        print('  Fetching live news...')
+        stories = get_news_stories()
+        news_article = build_news_article(stories)
+        if news_article:
+            art_html = build_article_html(news_article)
+            path = ARTICLES_DIR / f"{news_article['slug']}.html"
+            path.write_text(art_html, encoding='utf-8')
+            tracking.append(news_article)
+            new_articles.append(news_article)
+            print(f'  News: {news_article["title"]}')
+        else:
+            print('  Skipped news roundup (no stories fetched)')
+    else:
+        print('  Skipped news roundup (already published today)')
 
     update_blog_html(new_articles)
     update_sitemap(tracking)
     save_tracking(tracking)
-    print(f"\nDone. {len(new_articles)} article(s) published.")
+    print(f'\nDone. {len(new_articles)} article(s) published.')
 
 if __name__ == '__main__':
     main()
