@@ -16,7 +16,7 @@ ARTICLES_DIR     = SITE_ROOT / 'articles'
 TRACKING_FILE    = SITE_ROOT / 'articles_published.json'
 BLOG_FILE        = SITE_ROOT / 'blog.html'
 SITEMAP_FILE     = SITE_ROOT / 'sitemap.xml'
-SITE_URL         = 'https://famous-cat-2763b6.netlify.app'
+SITE_URL         = 'https://financeflowguide.netlify.app'
 
 TODAY = date.today().isoformat()
 TS    = datetime.now().strftime('%H%M%S')

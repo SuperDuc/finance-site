@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://famous-cat-2763b6.netlify.app/sitemap.xml
+Sitemap: https://financeflowguide.netlify.app/sitemap.xml
