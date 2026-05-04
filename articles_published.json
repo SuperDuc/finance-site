@@ -80,5 +80,85 @@
     "affiliates": [
       "robinhood"
     ]
+  },
+  {
+    "slug": "bitcoin-lightning-network-explained-2026-05-04-101930",
+    "slug_base": "bitcoin-lightning-network-explained",
+    "title": "Lightning Network Explained: Why Bitcoin Payments Are Now Instant",
+    "tag": "Crypto",
+    "emoji": "\u26a1",
+    "bg": "#fefce8",
+    "desc": "The Bitcoin Lightning Network explained simply \u2014 what it is, how it makes Bitcoin instant and free, and why Strike is built on it.",
+    "date": "2026-05-04",
+    "sections": [
+      {
+        "h": "Bitcoin's Speed Problem",
+        "body": "Bitcoin is great as a store of value but has a limitation: the main blockchain processes only ~7 transactions per second. Visa handles 24,000 per second.\n\nBitcoin transactions can take 10+ minutes and cost $5\u2013$50 in fees during busy periods \u2014 terrible for everyday payments. The Lightning Network solves this."
+      },
+      {
+        "h": "How Lightning Works",
+        "body": "Lightning creates 'payment channels' between users \u2014 like running a tab at a bar, settling multiple transactions at once.\n\nInside a Lightning channel: transactions are **instant and nearly free**. Only opening and closing a channel touches the main blockchain.\n\nResult: thousands of transactions per second, fees under $0.01, settlement in milliseconds."
+      },
+      {
+        "h": "Strike: Lightning Made Simple",
+        "body": "Strike abstracts away all Lightning Network complexity into a clean, simple app. You don't need to understand payment channels \u2014 it just works.\n\nFor buying Bitcoin, Strike is one of the lowest-fee options available. The first $500 is completely free, and fees after that remain very competitive."
+      }
+    ],
+    "affiliates": [
+      "strike",
+      "coinbase"
+    ]
+  },
+  {
+    "slug": "gemini-credit-card-review-2026-2026-05-04-101930",
+    "slug_base": "gemini-credit-card-review-2026",
+    "title": "Earn Crypto on Every Purchase: Gemini Credit Card Full Review",
+    "tag": "Crypto",
+    "emoji": "\ud83d\udc8e",
+    "bg": "#fdf4ff",
+    "desc": "Full review of the Gemini Credit Card \u2014 4% dining rewards, how real-time crypto cashback works, who it's best for, and whether it's worth applying.",
+    "date": "2026-05-04",
+    "sections": [
+      {
+        "h": "What Is the Gemini Credit Card?",
+        "body": "A Mastercard that converts everyday spending into cryptocurrency. You choose which coin receives your rewards \u2014 Bitcoin, Ethereum, or any of 60+ assets.\n\nKey facts: No annual fee. No foreign transaction fees. Rewards hit your account in seconds, not at month-end."
+      },
+      {
+        "h": "How the Rewards Actually Work",
+        "body": "Every time you swipe, your cashback converts to crypto at the current market rate and deposits into your Gemini account within seconds. No waiting, no minimums, no manual redemption.\n\nThis means your dining cashback starts earning price appreciation immediately. If you earn 4% back in Bitcoin and Bitcoin goes up, your rewards are worth more."
+      },
+      {
+        "h": "Is 4% Crypto Cashback Good?",
+        "body": "To put 4% in context: the Capital One Savor offers 4% dining cashback \u2014 for a $95 annual fee. Gemini matches that rate with zero annual fee, with the caveat that rewards are in crypto.\n\nIf you're comfortable holding some crypto, this is one of the best dining reward rates available anywhere."
+      }
+    ],
+    "affiliates": [
+      "gemini_card",
+      "gemini"
+    ]
+  },
+  {
+    "slug": "finance-news-roundup-2026-05-04-101930",
+    "slug_base": "finance-news-roundup",
+    "title": "Markets & Money: Top Stories for May 04, 2026",
+    "tag": "News",
+    "emoji": "\ud83d\udcf0",
+    "bg": "#f0f9ff",
+    "desc": "The latest finance and crypto news for May 04, 2026 \u2014 markets, investing updates, and what it means for your money.",
+    "date": "2026-05-04",
+    "sections": [
+      {
+        "h": "Top Finance & Market Stories",
+        "body": "**Tesco says equal pay claim overlooks \u2018economic reality\u2019 in tribunal fight \u2013 report**\n <a href=\"https://finance.yahoo.com/economy/policy/articles/tesco-says-equal-pay-claim-100508137.html\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>\n\n**Tech stocks today: Semiconductor company earnings in focus amid AI boom, Musk vs. Altman fight continues**\n <a href=\"https://finance.yahoo.com/sectors/technology/live/tech-stocks-today-semiconductor-earnings-ai-boom-musk-altman-fight-100000447.html\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>\n\n**Earnings live updates: Palantir to kick off busy week as S&P 500 earnings growth trend impresses**\n <a href=\"https://finance.yahoo.com/markets/live/earnings-live-updates-sp-500-earnings-growth-trend-impresses-100000216.html\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>\n\n**Best high-yield savings interest rates today, May 4, 2026 (Earn up to 4.1% APY)**\n <a href=\"https://finance.yahoo.com/personal-finance/banking/article/best-high-yield-savings-interest-rates-today-monday-may-4-2026-100000249.html\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>"
+      },
+      {
+        "h": "Crypto & Digital Assets",
+        "body": "**US law firm attempts to block transfer of frozen ETH from Kelp exploit**\nGerstein Harrow has filed similar cases in the past, arguing its clients have a claim to funds stolen by the DPRK and frozen by crypto firms. <a href=\"https://cointelegraph.com/news/law-firm-tries-to-claim-kelp-exploit-eth-because-clients-owed-by-dprk?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>\n\n**Bitcoin climbs past $80K for the first time since January**\nBitcoin soared as the MSCI AC Asia Index rose to a new high on Monday, an early indicator that investors viewed the weekend developments in a reasonably positive light. <a href=\"https://cointelegraph.com/news/bitcoin-climbs-past-80k-for-the-first-time-since-january?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>\n\n**CFTC sees mixed responses to prediction market rulemaking**\nThe CFTC received more than 1,500 responses to its prediction market rulemaking proposal, with respondents divided on how it should police the platforms. <a href=\"https://cointelegraph.com/news/cftc-mixed-responses-prediction-market-rules?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>"
+      }
+    ],
+    "affiliates": [
+      "robinhood",
+      "gemini"
+    ]
   }
 ]
