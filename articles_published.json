@@ -533,5 +533,60 @@
       "strike",
       "coinbase"
     ]
+  },
+  {
+    "slug": "how-to-invest-50-dollars-month-2026-05-05-210854",
+    "slug_base": "how-to-invest-50-dollars-month",
+    "title": "You Don't Need a Lot of Money to Start Investing \u2014 Here's the Proof",
+    "tag": "Investing",
+    "emoji": "\ud83d\udcc8",
+    "bg": "#eff6ff",
+    "desc": "How $50/month grows through compound interest, which accounts to use, and the exact steps to start investing today.",
+    "date": "2026-05-05",
+    "sections": [
+      {
+        "h": "The Math on $50 a Month",
+        "body": "The biggest investing myth: you need a lot of money to get started.\n\n$50/month invested consistently for 30 years at 7% = **$60,905**. You only put in $18,000. That's compound interest at work \u2014 almost 75% of your final balance is money you never worked for."
+      },
+      {
+        "h": "Where to Put Your $50",
+        "body": "For most beginners: Roth IRA \u2192 index ETFs \u2192 automate.\n\n\u2022 **Roth IRA:** Tax-free growth. Every dollar of gains comes out tax-free in retirement.\n\u2022 **VOO or VTI:** Instant diversification across 500\u20133,500 companies. Expense ratio under 0.05%.\n\u2022 **Automate:** Set recurring purchases on payday.\n\nThis beats most professional money managers over 30 years."
+      },
+      {
+        "h": "The One Thing That Matters",
+        "body": "The single most important investing decision you'll make is to start.\n\nNot which stocks to pick. Not when to buy. Just whether you start at all.\n\nOpen Robinhood today, set up a recurring $50 into VOO, and you've already beaten the 90% of people who say they'll invest 'when things calm down' \u2014 and never do."
+      }
+    ],
+    "affiliates": [
+      "robinhood",
+      "coinbase"
+    ]
+  },
+  {
+    "slug": "index-funds-explained-2026-05-05-210854",
+    "slug_base": "index-funds-explained",
+    "title": "What Are Index Funds and Why Do They Beat Stock Pickers?",
+    "tag": "Investing",
+    "emoji": "\ud83d\udcca",
+    "bg": "#eff6ff",
+    "desc": "Index funds explained from scratch \u2014 what they are, why they outperform most active investors, and how to buy your first one today.",
+    "date": "2026-05-05",
+    "sections": [
+      {
+        "h": "What Is an Index Fund?",
+        "body": "An index fund holds stocks that mirror a market index \u2014 most commonly the S&P 500 (500 largest US companies).\n\nInstead of picking individual stocks, you buy tiny pieces of all 500 companies at once. When the market goes up, your fund goes up.\n\nThe S&P 500 has returned an average of ~10.5% annually since 1957."
+      },
+      {
+        "h": "Why They Beat Most Active Investors",
+        "body": "The S&P 500 SPIVA report: 91% of large-cap active funds underperformed the S&P 500 over 20 years.\n\nReasons: fees eat returns, markets are highly efficient, and past performance doesn't predict future results. Index funds don't try to beat the market \u2014 they are the market."
+      },
+      {
+        "h": "The Best Index Funds to Start With",
+        "body": "For most beginners, one of these three is all you need:\n\n\u2022 **VOO** \u2014 Vanguard S&P 500 ETF, 0.03% expense ratio\n\u2022 **VTI** \u2014 Vanguard Total Stock Market ETF, 0.03%\n\u2022 **VT** \u2014 Vanguard Total World Stock ETF, 0.07% (global)\n\nAll available commission-free on Robinhood and Fidelity."
+      }
+    ],
+    "affiliates": [
+      "robinhood"
+    ]
   }
 ]
