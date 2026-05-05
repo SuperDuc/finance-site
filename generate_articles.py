@@ -19,6 +19,7 @@ SITE_ROOT        = Path(__file__).parent
 ARTICLES_DIR     = SITE_ROOT / 'articles'
 TRACKING_FILE    = SITE_ROOT / 'articles_published.json'
 BLOG_FILE        = SITE_ROOT / 'blog.html'
+INDEX_FILE       = SITE_ROOT / 'index.html'
 SITEMAP_FILE     = SITE_ROOT / 'sitemap.xml'
 SITE_URL         = 'https://financeflowguide.netlify.app'
 
@@ -967,6 +968,44 @@ def update_blog_html(new_articles):
     print(f"Updated blog.html with {len(new_articles)} new article(s)")
 
 
+# ── INDEX.HTML LATEST GUIDES UPDATER ──────────────────────────────────────────
+INDEX_START = '<!-- INDEX_LATEST_START -->'
+INDEX_END   = '<!-- INDEX_LATEST_END -->'
+
+def update_index_html(tracking):
+    """Replace the 3-card Latest Guides block on index.html with the 3 most recent articles."""
+    if not tracking:
+        return
+    content = INDEX_FILE.read_text(encoding='utf-8')
+    start_idx = content.find(INDEX_START)
+    end_idx   = content.find(INDEX_END)
+    if start_idx == -1 or end_idx == -1:
+        print("WARNING: Could not find INDEX_LATEST_START/END markers in index.html")
+        return
+
+    recent = tracking[-3:][::-1]  # last 3 published, newest first
+    cards = ''
+    for a in recent:
+        cards += f'''      <div class="blog-card">
+        <div class="blog-thumb" style="background:{a["bg"]}">{a["emoji"]}</div>
+        <div class="blog-body">
+          <div class="blog-tag">{a["tag"]}</div>
+          <h3>{a["title"]}</h3>
+          <p>{a["desc"]}</p>
+          <a href="articles/{a["slug"]}.html" class="read-more">Read Guide →</a>
+        </div>
+      </div>\n'''
+
+    new_content = (
+        content[:start_idx + len(INDEX_START)]
+        + '\n'
+        + cards
+        + content[end_idx:]
+    )
+    INDEX_FILE.write_text(new_content, encoding='utf-8')
+    print("Updated index.html Latest Guides section")
+
+
 # ── SITEMAP ────────────────────────────────────────────────────────────────────
 def update_sitemap(tracking):
     static_pages = ['', 'calculator', 'recommendations', 'blog']
@@ -1020,6 +1059,7 @@ def main():
         print('  Skipped news roundup (already published today)')
 
     update_blog_html(new_articles)
+    update_index_html(tracking)
     update_sitemap(tracking)
     save_tracking(tracking)
     print(f'\nDone. {len(new_articles)} article(s) published.')
