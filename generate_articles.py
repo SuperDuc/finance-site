@@ -968,7 +968,49 @@ def update_blog_html(new_articles):
     print(f"Updated blog.html with {len(new_articles)} new article(s)")
 
 
-# ── INDEX.HTML LATEST GUIDES UPDATER ──────────────────────────────────────────
+# ── BLOG.HTML FEATURED ARTICLE UPDATER ────────────────────────────────────────
+FEATURED_START = '<!-- FEATURED_START -->'
+FEATURED_END   = '<!-- FEATURED_END -->'
+
+def update_featured_article(tracking):
+    """Replace the featured full article on blog.html with the most recent article."""
+    if not tracking:
+        return
+    latest = tracking[-1]
+    content = BLOG_FILE.read_text(encoding='utf-8')
+    start_idx = content.find(FEATURED_START)
+    end_idx   = content.find(FEATURED_END)
+    if start_idx == -1 or end_idx == -1:
+        print("WARNING: Could not find FEATURED_START/END markers in blog.html")
+        return
+
+    sections_html = ''
+    for s in latest.get('sections', []):
+        body = md(s['body'])
+        sections_html += f'          <h2>{s["h"]}</h2>\n          <p>{body}</p>\n'
+
+    featured_html = f'''<!-- FEATURED_START -->
+        <div class="article-full">
+          <div class="article-meta" style="margin-bottom:0.75rem">
+            <span class="article-tag">{latest["tag"]}</span>
+            <span class="article-date">{latest["date"]}</span>
+            <span class="article-read-time">· 5 min read</span>
+          </div>
+          <h1>{latest["title"]}</h1>
+          <p>{latest["desc"]}</p>
+{sections_html}        </div>
+<!-- FEATURED_END -->'''
+
+    new_content = (
+        content[:start_idx]
+        + featured_html
+        + content[end_idx + len(FEATURED_END):]
+    )
+    BLOG_FILE.write_text(new_content, encoding='utf-8')
+    print(f"Updated blog.html featured article: {latest['title']}")
+
+
+# ── INDEX.HTML LATEST GUIDES UPDATER ───────────────────────────────────────────
 INDEX_START = '<!-- INDEX_LATEST_START -->'
 INDEX_END   = '<!-- INDEX_LATEST_END -->'
 
@@ -1059,6 +1101,7 @@ def main():
         print('  Skipped news roundup (already published today)')
 
     update_blog_html(new_articles)
+    update_featured_article(tracking)
     update_index_html(tracking)
     update_sitemap(tracking)
     save_tracking(tracking)
