@@ -862,5 +862,60 @@
       "gemini_card",
       "coinbase"
     ]
+  },
+  {
+    "slug": "dollar-cost-averaging-guide-2026-05-07-160839",
+    "slug_base": "dollar-cost-averaging-guide",
+    "title": "How Dollar Cost Averaging Removes Emotion From Investing",
+    "tag": "Investing",
+    "emoji": "\ud83d\udcc5",
+    "bg": "#eff6ff",
+    "desc": "Dollar cost averaging explained \u2014 what it is, why it works, and how to automate it for stocks, ETFs, and crypto.",
+    "date": "2026-05-07",
+    "sections": [
+      {
+        "h": "What Is Dollar Cost Averaging?",
+        "body": "Dollar cost averaging (DCA) means investing a fixed dollar amount on a regular schedule \u2014 weekly, biweekly, or monthly \u2014 regardless of what the market is doing.\n\nWhen prices are low, your fixed amount buys more shares. When prices are high, it buys fewer. Over time, this smooths out your average purchase cost."
+      },
+      {
+        "h": "Why It Works",
+        "body": "DCA works for two reasons:\n\n**1. Removes emotion.** The biggest investing mistake is panic-selling during crashes. DCA forces you to keep buying even when everything looks scary \u2014 exactly when the best deals are available.\n\n**2. Removes the need to time the market.** Even professional fund managers can't reliably time the market. DCA sidesteps the problem entirely."
+      },
+      {
+        "h": "DCA for Crypto",
+        "body": "Crypto DCA example: $100/week into Bitcoin starting January 2022 (near the peak). By 2025, that investor had a significant profit despite starting at what felt like the worst possible time.\n\nConsistency beats timing. Use Coinbase to set up automatic weekly crypto buys and stop agonizing over price."
+      }
+    ],
+    "affiliates": [
+      "robinhood",
+      "coinbase"
+    ]
+  },
+  {
+    "slug": "how-to-save-money-tight-budget-2026-05-07-160839",
+    "slug_base": "how-to-save-money-tight-budget",
+    "title": "How to Save Money on a Tight Budget: What Actually Works in 2026",
+    "tag": "Budgeting",
+    "emoji": "\u2702\ufe0f",
+    "bg": "#f0fdf4",
+    "desc": "Practical, realistic tips for saving money on a tight budget in 2026 \u2014 no extreme couponing or sacrifice required.",
+    "date": "2026-05-07",
+    "sections": [
+      {
+        "h": "The Mindset Shift",
+        "body": "Most people think of saving as what's left after spending. The shift that changes everything: **savings is a bill you pay first**.\n\nSet up an automatic transfer to savings on payday \u2014 before you can spend it. Even $25. The amount matters less than the habit.\n\nUnused gym memberships cost Americans $1.8 billion annually. Most people have more room to save than they think."
+      },
+      {
+        "h": "The Biggest Wins",
+        "body": "Focus on the big three: housing, transportation, and food. These represent 60\u201370% of most budgets. A 10% reduction in each saves more than cutting every other expense combined.\n\n\u2022 **Housing:** Add a roommate ($400\u2013$800/month saved)\n\u2022 **Transportation:** Refinance your auto loan if rates have dropped\n\u2022 **Food:** Meal prep twice a week \u2014 cuts dining out by ~50%"
+      },
+      {
+        "h": "Where to Put What You Save",
+        "body": "Where your money sits matters almost as much as how much you save:\n\n\u2022 Move savings to a high-yield account (4\u20135% APY vs 0.01% at big banks)\n\u2022 Use Roth IRA first for retirement (tax-free growth)\n\u2022 Minimize taxes through tax-advantaged accounts before taxable investing\n\nTaxes are the biggest drag on long-term wealth. Using Roth IRAs and 401(k)s is the highest-leverage financial move most people can make."
+      }
+    ],
+    "affiliates": [
+      "robinhood"
+    ]
   }
 ]
