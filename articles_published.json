@@ -917,5 +917,65 @@
     "affiliates": [
       "robinhood"
     ]
+  },
+  {
+    "slug": "gemini-vs-coinbase-2026-2026-05-07-211008",
+    "slug_base": "gemini-vs-coinbase-2026",
+    "title": "Coinbase vs Gemini: The Honest Comparison",
+    "tag": "Crypto",
+    "emoji": "\u2696\ufe0f",
+    "bg": "#f0fdf4",
+    "desc": "Head-to-head comparison of Gemini and Coinbase \u2014 fees, security, coin selection, and sign-up bonuses \u2014 to help you choose the right exchange.",
+    "date": "2026-05-07",
+    "sections": [
+      {
+        "h": "The Quick Answer",
+        "body": "Both exchanges are legitimate and safe. Coinbase is better for wider coin selection; Gemini is better for security and the most generous welcome bonus in crypto."
+      },
+      {
+        "h": "Fees",
+        "body": "Coinbase charges 1.49%\u20132.99% on standard purchases. Gemini charges similar spreads. Both offer lower-fee 'Pro' modes for experienced users.\n\nFor everyday buying, fees are comparable. Gemini's $50 welcome bonus effectively cancels months of fees."
+      },
+      {
+        "h": "Security",
+        "body": "Gemini holds the edge. It's the only SOC 2 Type 2 certified crypto exchange and holds a NYDFS BitLicense \u2014 one of the strictest financial licenses in the US.\n\nCoinbase is publicly traded on NASDAQ (ticker: COIN) and holds licenses in all 50 states. Both are among the safest options available."
+      },
+      {
+        "h": "Verdict",
+        "body": "If you're only opening one: pick Gemini for the $50 referral bonus and top-tier security. Pick Coinbase if you want to explore smaller altcoins beyond the top 70."
+      }
+    ],
+    "affiliates": [
+      "gemini",
+      "coinbase"
+    ]
+  },
+  {
+    "slug": "dollar-cost-averaging-guide-2026-05-07-211008",
+    "slug_base": "dollar-cost-averaging-guide",
+    "title": "What Is Dollar Cost Averaging? The Beginner's Guide",
+    "tag": "Investing",
+    "emoji": "\ud83d\udcc5",
+    "bg": "#eff6ff",
+    "desc": "Dollar cost averaging explained \u2014 what it is, why it works, and how to automate it for stocks, ETFs, and crypto.",
+    "date": "2026-05-07",
+    "sections": [
+      {
+        "h": "What Is Dollar Cost Averaging?",
+        "body": "DCA is the strategy used by almost every 401(k) in the country \u2014 employees contribute a fixed percentage of each paycheck automatically, regardless of market conditions.\n\nThe principle: don't try to predict the market. Just buy consistently and let time do the work."
+      },
+      {
+        "h": "Why It Works",
+        "body": "The biggest enemy of investment returns is the investor's own behavior \u2014 buying in excitement, selling in fear. DCA prevents this by automating the buying process.\n\nHistorically, someone who invested $200/month in the S&P 500 for 30 years would have significantly more money than someone who tried to time perfect entry points."
+      },
+      {
+        "h": "DCA for Crypto",
+        "body": "Crypto DCA example: $100/week into Bitcoin starting January 2022 (near the peak). By 2025, that investor had a significant profit despite starting at what felt like the worst possible time.\n\nConsistency beats timing. Use Coinbase to set up automatic weekly crypto buys and stop agonizing over price."
+      }
+    ],
+    "affiliates": [
+      "robinhood",
+      "coinbase"
+    ]
   }
 ]
