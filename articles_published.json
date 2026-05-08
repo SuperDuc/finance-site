@@ -1114,5 +1114,60 @@
     "affiliates": [
       "robinhood"
     ]
+  },
+  {
+    "slug": "emergency-fund-guide-2026-05-08-210927",
+    "slug_base": "emergency-fund-guide",
+    "title": "Building an Emergency Fund: How Much, Where, and How Fast",
+    "tag": "Saving",
+    "emoji": "\ud83d\udee1\ufe0f",
+    "bg": "#f0fdf4",
+    "desc": "How much to save in your emergency fund, where to keep it, and the fastest way to build one \u2014 even on a tight budget.",
+    "date": "2026-05-08",
+    "sections": [
+      {
+        "h": "How Much Do You Actually Need?",
+        "body": "The classic advice is 3\u20136 months of expenses. But the right amount depends on your situation:\n\n\u2022 **Stable job, dual income:** 3 months is enough\n\u2022 **Single income or variable income:** 6 months minimum\n\u2022 **Self-employed or freelance:** 9\u201312 months recommended\n\nThe goal: be able to pay your bills for that many months if all income stopped tomorrow."
+      },
+      {
+        "h": "Where to Keep It",
+        "body": "Never keep your emergency fund in stocks or crypto. The whole point is that it's there when you need it \u2014 markets can be down 40% exactly when you lose your job.\n\nKeep it in a HYSA: FDIC insured, earns 4\u20135% APY (vs 0.01% at big banks), and you can access it in 24 hours."
+      },
+      {
+        "h": "How to Build It Fast",
+        "body": "Practical ways to build it faster:\n\u2022 **Automate it:** Set up a weekly transfer to your HYSA \u2014 whatever you can afford\n\u2022 **Windfall rule:** Put 50% of any unexpected money (tax refund, bonus) directly into the fund\n\u2022 **Cut one expense:** Cancel one subscription and redirect that exact amount to savings"
+      }
+    ],
+    "affiliates": [
+      "robinhood"
+    ]
+  },
+  {
+    "slug": "bitcoin-lightning-network-explained-2026-05-08-210927",
+    "slug_base": "bitcoin-lightning-network-explained",
+    "title": "What Is the Bitcoin Lightning Network? A Simple Explanation",
+    "tag": "Crypto",
+    "emoji": "\u26a1",
+    "bg": "#fefce8",
+    "desc": "The Bitcoin Lightning Network explained simply \u2014 what it is, how it makes Bitcoin instant and free, and why Strike is built on it.",
+    "date": "2026-05-08",
+    "sections": [
+      {
+        "h": "Bitcoin's Speed Problem",
+        "body": "Bitcoin's blockchain is intentionally slow and secure. Every transaction is permanently recorded on a distributed ledger verified by thousands of nodes worldwide. This security comes with a cost: speed and fees.\n\nFor buying coffee or sending $5, waiting 10 minutes and paying $20 doesn't work. Lightning is Bitcoin's answer."
+      },
+      {
+        "h": "How Lightning Works",
+        "body": "Lightning creates 'payment channels' between users \u2014 like running a tab at a bar, settling multiple transactions at once.\n\nInside a Lightning channel: transactions are **instant and nearly free**. Only opening and closing a channel touches the main blockchain.\n\nResult: thousands of transactions per second, fees under $0.01, settlement in milliseconds."
+      },
+      {
+        "h": "Strike: Lightning Made Simple",
+        "body": "Strike is one of the most popular Lightning Network apps in the US. It lets you buy Bitcoin instantly with near-zero fees, and send Bitcoin to anyone for fractions of a cent.\n\nStrike's standout offer for new users: your **first $500 of Bitcoin is completely fee-free**. No catch."
+      }
+    ],
+    "affiliates": [
+      "strike",
+      "coinbase"
+    ]
   }
 ]
