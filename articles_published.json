@@ -1500,5 +1500,60 @@
       "robinhood",
       "coinbase"
     ]
+  },
+  {
+    "slug": "bitcoin-lightning-network-explained-2026-05-10-205705",
+    "slug_base": "bitcoin-lightning-network-explained",
+    "title": "What Is the Bitcoin Lightning Network? A Simple Explanation",
+    "tag": "Crypto",
+    "emoji": "\u26a1",
+    "bg": "#fefce8",
+    "desc": "The Bitcoin Lightning Network explained simply \u2014 what it is, how it makes Bitcoin instant and free, and why Strike is built on it.",
+    "date": "2026-05-10",
+    "sections": [
+      {
+        "h": "Bitcoin's Speed Problem",
+        "body": "Bitcoin is great as a store of value but has a limitation: the main blockchain processes only ~7 transactions per second. Visa handles 24,000 per second.\n\nBitcoin transactions can take 10+ minutes and cost $5\u2013$50 in fees during busy periods \u2014 terrible for everyday payments. The Lightning Network solves this."
+      },
+      {
+        "h": "How Lightning Works",
+        "body": "Lightning creates 'payment channels' between users \u2014 like running a tab at a bar, settling multiple transactions at once.\n\nInside a Lightning channel: transactions are **instant and nearly free**. Only opening and closing a channel touches the main blockchain.\n\nResult: thousands of transactions per second, fees under $0.01, settlement in milliseconds."
+      },
+      {
+        "h": "Strike: Lightning Made Simple",
+        "body": "Strike abstracts away all Lightning Network complexity into a clean, simple app. You don't need to understand payment channels \u2014 it just works.\n\nFor buying Bitcoin, Strike is one of the lowest-fee options available. The first $500 is completely free, and fees after that remain very competitive."
+      }
+    ],
+    "affiliates": [
+      "strike",
+      "coinbase"
+    ]
+  },
+  {
+    "slug": "index-funds-explained-2026-05-10-205705",
+    "slug_base": "index-funds-explained",
+    "title": "What Are Index Funds and Why Do They Beat Stock Pickers?",
+    "tag": "Investing",
+    "emoji": "\ud83d\udcca",
+    "bg": "#eff6ff",
+    "desc": "Index funds explained from scratch \u2014 what they are, why they outperform most active investors, and how to buy your first one today.",
+    "date": "2026-05-10",
+    "sections": [
+      {
+        "h": "What Is an Index Fund?",
+        "body": "An index fund is the simplest investment vehicle that works. You're buying the whole market, not betting on individual companies.\n\nMost popular example: **VOO** (Vanguard S&P 500 ETF). It holds the same stocks as the S&P 500 and charges just 0.03% per year \u2014 $3 on a $10,000 investment."
+      },
+      {
+        "h": "Why They Beat Most Active Investors",
+        "body": "The S&P 500 SPIVA report: 91% of large-cap active funds underperformed the S&P 500 over 20 years.\n\nReasons: fees eat returns, markets are highly efficient, and past performance doesn't predict future results. Index funds don't try to beat the market \u2014 they are the market."
+      },
+      {
+        "h": "The Best Index Funds to Start With",
+        "body": "Start simple:\n\u2022 **US exposure:** VOO or VTI\n\u2022 **Global exposure:** VT, or 60% VTI + 40% VXUS\n\u2022 **One fund forever:** VT\n\nDon't overthink it. Pick one, automate monthly purchases, and check prices less often. That's the entire strategy."
+      }
+    ],
+    "affiliates": [
+      "robinhood"
+    ]
   }
 ]
