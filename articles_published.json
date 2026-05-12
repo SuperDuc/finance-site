@@ -1884,5 +1884,60 @@
       "gemini_card",
       "gemini"
     ]
+  },
+  {
+    "slug": "gemini-credit-card-review-2026-2026-05-12-212437",
+    "slug_base": "gemini-credit-card-review-2026",
+    "title": "The Gemini Credit Card: Everything You Need to Know",
+    "tag": "Crypto",
+    "emoji": "\ud83d\udc8e",
+    "bg": "#fdf4ff",
+    "desc": "Full review of the Gemini Credit Card \u2014 4% dining rewards, how real-time crypto cashback works, who it's best for, and whether it's worth applying.",
+    "date": "2026-05-12",
+    "sections": [
+      {
+        "h": "What Is the Gemini Credit Card?",
+        "body": "A Mastercard that converts everyday spending into cryptocurrency. You choose which coin receives your rewards \u2014 Bitcoin, Ethereum, or any of 60+ assets.\n\nKey facts: No annual fee. No foreign transaction fees. Rewards hit your account in seconds, not at month-end."
+      },
+      {
+        "h": "How the Rewards Actually Work",
+        "body": "Swipe card \u2192 cashback calculated \u2192 crypto purchased at market rate \u2192 deposited to Gemini wallet. The whole process is instant.\n\nYou pick your reward coin in the app settings (changeable anytime). You're accumulating crypto with every purchase, whether prices are up or down on that day."
+      },
+      {
+        "h": "Is 4% Crypto Cashback Good?",
+        "body": "To put 4% in context: the Capital One Savor offers 4% dining cashback \u2014 for a $95 annual fee. Gemini matches that rate with zero annual fee, with the caveat that rewards are in crypto.\n\nIf you're comfortable holding some crypto, this is one of the best dining reward rates available anywhere."
+      }
+    ],
+    "affiliates": [
+      "gemini_card",
+      "gemini"
+    ]
+  },
+  {
+    "slug": "emergency-fund-guide-2026-05-12-212437",
+    "slug_base": "emergency-fund-guide",
+    "title": "How Much Should You Have in an Emergency Fund? The Honest Answer",
+    "tag": "Saving",
+    "emoji": "\ud83d\udee1\ufe0f",
+    "bg": "#f0fdf4",
+    "desc": "How much to save in your emergency fund, where to keep it, and the fastest way to build one \u2014 even on a tight budget.",
+    "date": "2026-05-12",
+    "sections": [
+      {
+        "h": "How Much Do You Actually Need?",
+        "body": "Define 'expenses' correctly: rent/mortgage, food, utilities, insurance, and minimum debt payments. Not your lifestyle spending.\n\nMost people overestimate their required emergency fund. Start with 1 month \u2014 it covers most real emergencies \u2014 then build toward 3."
+      },
+      {
+        "h": "Where to Keep It",
+        "body": "Never keep your emergency fund in stocks or crypto. The whole point is that it's there when you need it \u2014 markets can be down 40% exactly when you lose your job.\n\nKeep it in a HYSA: FDIC insured, earns 4\u20135% APY (vs 0.01% at big banks), and you can access it in 24 hours."
+      },
+      {
+        "h": "How to Build It Fast",
+        "body": "Practical ways to build it faster:\n\u2022 **Automate it:** Set up a weekly transfer to your HYSA \u2014 whatever you can afford\n\u2022 **Windfall rule:** Put 50% of any unexpected money (tax refund, bonus) directly into the fund\n\u2022 **Cut one expense:** Cancel one subscription and redirect that exact amount to savings"
+      }
+    ],
+    "affiliates": [
+      "robinhood"
+    ]
   }
 ]
