@@ -1749,5 +1749,84 @@
       "strike",
       "coinbase"
     ]
+  },
+  {
+    "slug": "bitcoin-lightning-network-explained-2026-05-12-103757",
+    "slug_base": "bitcoin-lightning-network-explained",
+    "title": "Lightning Network Explained: Why Bitcoin Payments Are Now Instant",
+    "tag": "Crypto",
+    "emoji": "\u26a1",
+    "bg": "#fefce8",
+    "desc": "The Bitcoin Lightning Network explained simply \u2014 what it is, how it makes Bitcoin instant and free, and why Strike is built on it.",
+    "date": "2026-05-12",
+    "sections": [
+      {
+        "h": "Bitcoin's Speed Problem",
+        "body": "Bitcoin's blockchain is intentionally slow and secure. Every transaction is permanently recorded on a distributed ledger verified by thousands of nodes worldwide. This security comes with a cost: speed and fees.\n\nFor buying coffee or sending $5, waiting 10 minutes and paying $20 doesn't work. Lightning is Bitcoin's answer."
+      },
+      {
+        "h": "How Lightning Works",
+        "body": "Lightning Network is a 'second layer' on top of Bitcoin:\n\n1. Two parties open a payment channel (one blockchain transaction)\n2. Exchange unlimited instant payments through that channel\n3. Close the channel when done (one more blockchain transaction)\n\nNet result: instant Bitcoin payments at essentially zero cost."
+      },
+      {
+        "h": "Strike: Lightning Made Simple",
+        "body": "Strike is one of the most popular Lightning Network apps in the US. It lets you buy Bitcoin instantly with near-zero fees, and send Bitcoin to anyone for fractions of a cent.\n\nStrike's standout offer for new users: your **first $500 of Bitcoin is completely fee-free**. No catch."
+      }
+    ],
+    "affiliates": [
+      "strike",
+      "coinbase"
+    ]
+  },
+  {
+    "slug": "emergency-fund-guide-2026-05-12-103757",
+    "slug_base": "emergency-fund-guide",
+    "title": "How Much Should You Have in an Emergency Fund? The Honest Answer",
+    "tag": "Saving",
+    "emoji": "\ud83d\udee1\ufe0f",
+    "bg": "#f0fdf4",
+    "desc": "How much to save in your emergency fund, where to keep it, and the fastest way to build one \u2014 even on a tight budget.",
+    "date": "2026-05-12",
+    "sections": [
+      {
+        "h": "How Much Do You Actually Need?",
+        "body": "Define 'expenses' correctly: rent/mortgage, food, utilities, insurance, and minimum debt payments. Not your lifestyle spending.\n\nMost people overestimate their required emergency fund. Start with 1 month \u2014 it covers most real emergencies \u2014 then build toward 3."
+      },
+      {
+        "h": "Where to Keep It",
+        "body": "Your emergency fund should be:\n1. **Liquid** \u2014 accessible in 24 hours\n2. **Safe** \u2014 FDIC insured\n3. **Earning interest** \u2014 not sitting in a 0.01% APY checking account\n\nThe best home is a **high-yield savings account (HYSA)**. Top HYSAs pay 4\u20135% APY \u2014 on a $10,000 fund, that's $400\u2013$500/year in free interest."
+      },
+      {
+        "h": "How to Build It Fast",
+        "body": "Break it into milestones:\n\n**Month 1\u20132:** Save $500 \u2014 covers most minor emergencies\n**Month 3\u20134:** Reach $1,000 \u2014 covers car repairs, medical bills\n**Month 5+:** Continue until you hit 3 months of expenses\n\nTreat your emergency fund contribution like a bill. Set up an automatic transfer on payday before you can spend the money."
+      }
+    ],
+    "affiliates": [
+      "robinhood"
+    ]
+  },
+  {
+    "slug": "finance-news-roundup-2026-05-12-103757",
+    "slug_base": "finance-news-roundup",
+    "title": "Finance News Roundup: What Happened This Week (2026-05-12)",
+    "tag": "News",
+    "emoji": "\ud83d\udcf0",
+    "bg": "#f0f9ff",
+    "desc": "The latest finance and crypto news for May 12, 2026 \u2014 markets, investing updates, and what it means for your money.",
+    "date": "2026-05-12",
+    "sections": [
+      {
+        "h": "Top Finance & Market Stories",
+        "body": "**The Three-Bucket 401(k) Withdrawal Hack That Can Save Retirees Six Figures in Taxes**\n <a href=\"https://finance.yahoo.com/markets/options/articles/three-bucket-401-k-withdrawal-101520164.html\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>\n\n**Infrastructure's longevity problem is minting a record secondaries market**\n <a href=\"https://finance.yahoo.com/markets/stocks/articles/infrastructures-longevity-problem-minting-record-100858138.html\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>\n\n**OpenAI chief Altman to take stand in OpenAI-Musk trial on Tuesday**\n <a href=\"https://finance.yahoo.com/sectors/technology/articles/openai-chief-altman-stand-openai-100408962.html\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>\n\n**HELOC and home equity loan rates today, May 12, 2026: Compared to last year, rates are down meaningfully**\n <a href=\"https://finance.yahoo.com/personal-finance/mortgages/article/heloc-home-equity-loan-rates-today-tuesday-may-12-2026-100000706.html\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>"
+      },
+      {
+        "h": "Crypto & Digital Assets",
+        "body": "**CleanSpark shares slide after reporting $378M fiscal second quarter loss**\nCleanSpark posted a $378.3 million net loss in its fiscal second-quarter results, more than double the prior year, with nearly 60% tied to Bitcoin price declines. <a href=\"https://cointelegraph.com/news/cleanspark-posts-378m-in-quarterly-losses-largely-driven-by-bitcoin-price-drop?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>\n\n**Binance says AI-powered security has thwarted $10B in fraud since 2025**\nBinance says it prevented $10.53 billion in user losses and blacklisted 36,000 malicious addresses, with AI now powering over half of its fraud controls. <a href=\"https://cointelegraph.com/news/binance-ai-powered-security-stopped-10b-fraud-since-2025?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>\n\n**Three men charged in US over crypto wrench attack spree**\nUS prosecutors say three men posed as delivery drivers and forced entry into homes to steal at least $6.5 million in crypto. <a href=\"https://cointelegraph.com/news/us-trio-charged-6-5m-crypto-wrench-attack-ring-los-angeles?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>"
+      }
+    ],
+    "affiliates": [
+      "gemini",
+      "coinbase"
+    ]
   }
 ]
