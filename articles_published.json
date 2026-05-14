@@ -2269,5 +2269,61 @@
     "affiliates": [
       "gemini"
     ]
+  },
+  {
+    "slug": "how-to-invest-50-dollars-month-2026-05-14-211604",
+    "slug_base": "how-to-invest-50-dollars-month",
+    "title": "You Don't Need a Lot of Money to Start Investing \u2014 Here's the Proof",
+    "tag": "Investing",
+    "emoji": "\ud83d\udcc8",
+    "bg": "#eff6ff",
+    "desc": "How $50/month grows through compound interest, which accounts to use, and the exact steps to start investing today.",
+    "date": "2026-05-14",
+    "sections": [
+      {
+        "h": "The Math on $50 a Month",
+        "body": "**$50/month at 7% annual return:**\n\u2022 After 10 years: **$8,654**\n\u2022 After 20 years: **$26,126**\n\u2022 After 30 years: **$60,905**\n\nYou contributed $18,000. Compound interest did the rest \u2014 $42,905 that you never earned yourself."
+      },
+      {
+        "h": "Where to Put Your $50",
+        "body": "The simplest path:\n\n1. **Open a Roth IRA** (tax-free growth forever)\n2. **Buy VOO or VTI** (S&P 500 / total market index ETF)\n3. **Set up automatic monthly purchases**\n4. **Don't touch it**\n\nRobinhood offers Roth IRAs with $0 minimums and fractional shares \u2014 start with $50."
+      },
+      {
+        "h": "The One Thing That Matters",
+        "body": "The single most important investing decision you'll make is to start.\n\nNot which stocks to pick. Not when to buy. Just whether you start at all.\n\nOpen Robinhood today, set up a recurring $50 into VOO, and you've already beaten the 90% of people who say they'll invest 'when things calm down' \u2014 and never do."
+      }
+    ],
+    "affiliates": [
+      "robinhood",
+      "coinbase"
+    ]
+  },
+  {
+    "slug": "gemini-credit-card-review-2026-2026-05-14-211604",
+    "slug_base": "gemini-credit-card-review-2026",
+    "title": "Gemini Credit Card Review 2026: Is 4% Crypto Cashback Worth It?",
+    "tag": "Crypto",
+    "emoji": "\ud83d\udc8e",
+    "bg": "#fdf4ff",
+    "desc": "Full review of the Gemini Credit Card \u2014 4% dining rewards, how real-time crypto cashback works, who it's best for, and whether it's worth applying.",
+    "date": "2026-05-14",
+    "sections": [
+      {
+        "h": "What Is the Gemini Credit Card?",
+        "body": "The Gemini Credit Card earns cryptocurrency on every purchase instead of points or cash back. No annual fee, no foreign transaction fees, and rewards deposit instantly into your Gemini wallet.\n\nRewards rates:\n\u2022 **Dining:** 4% back in crypto\n\u2022 **Groceries:** 3% back in crypto\n\u2022 **Everything else:** 1% back in crypto"
+      },
+      {
+        "h": "How the Rewards Actually Work",
+        "body": "Swipe card \u2192 cashback calculated \u2192 crypto purchased at market rate \u2192 deposited to Gemini wallet. The whole process is instant.\n\nYou pick your reward coin in the app settings (changeable anytime). You're accumulating crypto with every purchase, whether prices are up or down on that day."
+      },
+      {
+        "h": "Is 4% Crypto Cashback Good?",
+        "body": "For dining specifically: yes, 4% is excellent. Most premium cash-back cards top out at 3% on dining \u2014 and charge annual fees of $95\u2013$550.\n\nGemini's 4% dining reward with a $0 annual fee is genuinely competitive against any rewards card on the market."
+      }
+    ],
+    "affiliates": [
+      "gemini_card",
+      "gemini"
+    ]
   }
 ]
