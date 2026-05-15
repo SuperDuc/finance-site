@@ -2403,5 +2403,60 @@
       "robinhood",
       "gemini"
     ]
+  },
+  {
+    "slug": "index-funds-explained-2026-05-15-160555",
+    "slug_base": "index-funds-explained",
+    "title": "Index Funds: The Investment Even Warren Buffett Recommends",
+    "tag": "Investing",
+    "emoji": "\ud83d\udcca",
+    "bg": "#eff6ff",
+    "desc": "Index funds explained from scratch \u2014 what they are, why they outperform most active investors, and how to buy your first one today.",
+    "date": "2026-05-15",
+    "sections": [
+      {
+        "h": "What Is an Index Fund?",
+        "body": "An index fund holds stocks that mirror a market index \u2014 most commonly the S&P 500 (500 largest US companies).\n\nInstead of picking individual stocks, you buy tiny pieces of all 500 companies at once. When the market goes up, your fund goes up.\n\nThe S&P 500 has returned an average of ~10.5% annually since 1957."
+      },
+      {
+        "h": "Why They Beat Most Active Investors",
+        "body": "The S&P 500 SPIVA report: 91% of large-cap active funds underperformed the S&P 500 over 20 years.\n\nReasons: fees eat returns, markets are highly efficient, and past performance doesn't predict future results. Index funds don't try to beat the market \u2014 they are the market."
+      },
+      {
+        "h": "The Best Index Funds to Start With",
+        "body": "For most beginners, one of these three is all you need:\n\n\u2022 **VOO** \u2014 Vanguard S&P 500 ETF, 0.03% expense ratio\n\u2022 **VTI** \u2014 Vanguard Total Stock Market ETF, 0.03%\n\u2022 **VT** \u2014 Vanguard Total World Stock ETF, 0.07% (global)\n\nAll available commission-free on Robinhood and Fidelity."
+      }
+    ],
+    "affiliates": [
+      "robinhood"
+    ]
+  },
+  {
+    "slug": "bitcoin-lightning-network-explained-2026-05-15-160555",
+    "slug_base": "bitcoin-lightning-network-explained",
+    "title": "Strike and Lightning Network: How Bitcoin Became Usable Every Day",
+    "tag": "Crypto",
+    "emoji": "\u26a1",
+    "bg": "#fefce8",
+    "desc": "The Bitcoin Lightning Network explained simply \u2014 what it is, how it makes Bitcoin instant and free, and why Strike is built on it.",
+    "date": "2026-05-15",
+    "sections": [
+      {
+        "h": "Bitcoin's Speed Problem",
+        "body": "Bitcoin is great as a store of value but has a limitation: the main blockchain processes only ~7 transactions per second. Visa handles 24,000 per second.\n\nBitcoin transactions can take 10+ minutes and cost $5\u2013$50 in fees during busy periods \u2014 terrible for everyday payments. The Lightning Network solves this."
+      },
+      {
+        "h": "How Lightning Works",
+        "body": "Lightning creates 'payment channels' between users \u2014 like running a tab at a bar, settling multiple transactions at once.\n\nInside a Lightning channel: transactions are **instant and nearly free**. Only opening and closing a channel touches the main blockchain.\n\nResult: thousands of transactions per second, fees under $0.01, settlement in milliseconds."
+      },
+      {
+        "h": "Strike: Lightning Made Simple",
+        "body": "Strike abstracts away all Lightning Network complexity into a clean, simple app. You don't need to understand payment channels \u2014 it just works.\n\nFor buying Bitcoin, Strike is one of the lowest-fee options available. The first $500 is completely free, and fees after that remain very competitive."
+      }
+    ],
+    "affiliates": [
+      "strike",
+      "coinbase"
+    ]
   }
 ]
