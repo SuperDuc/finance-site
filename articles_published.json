@@ -3426,5 +3426,65 @@
       "gemini_card",
       "gemini"
     ]
+  },
+  {
+    "slug": "bitcoin-lightning-network-explained-2026-05-20-220158",
+    "slug_base": "bitcoin-lightning-network-explained",
+    "title": "Lightning Network Explained: Why Bitcoin Payments Are Now Instant",
+    "tag": "Crypto",
+    "emoji": "\u26a1",
+    "bg": "#fefce8",
+    "desc": "The Bitcoin Lightning Network explained simply \u2014 what it is, how it makes Bitcoin instant and free, and why Strike is built on it.",
+    "date": "2026-05-20",
+    "sections": [
+      {
+        "h": "Bitcoin's Speed Problem",
+        "body": "Bitcoin is great as a store of value but has a limitation: the main blockchain processes only ~7 transactions per second. Visa handles 24,000 per second.\n\nBitcoin transactions can take 10+ minutes and cost $5\u2013$50 in fees during busy periods \u2014 terrible for everyday payments. The Lightning Network solves this."
+      },
+      {
+        "h": "How Lightning Works",
+        "body": "Lightning creates 'payment channels' between users \u2014 like running a tab at a bar, settling multiple transactions at once.\n\nInside a Lightning channel: transactions are **instant and nearly free**. Only opening and closing a channel touches the main blockchain.\n\nResult: thousands of transactions per second, fees under $0.01, settlement in milliseconds."
+      },
+      {
+        "h": "Strike: Lightning Made Simple",
+        "body": "Strike is one of the most popular Lightning Network apps in the US. It lets you buy Bitcoin instantly with near-zero fees, and send Bitcoin to anyone for fractions of a cent.\n\nStrike's standout offer for new users: your **first $500 of Bitcoin is completely fee-free**. No catch."
+      }
+    ],
+    "affiliates": [
+      "strike",
+      "coinbase"
+    ]
+  },
+  {
+    "slug": "gemini-vs-coinbase-2026-2026-05-20-220158",
+    "slug_base": "gemini-vs-coinbase-2026",
+    "title": "Gemini or Coinbase? Here's Which One to Choose",
+    "tag": "Crypto",
+    "emoji": "\u2696\ufe0f",
+    "bg": "#f0fdf4",
+    "desc": "Head-to-head comparison of Gemini and Coinbase \u2014 fees, security, coin selection, and sign-up bonuses \u2014 to help you choose the right exchange.",
+    "date": "2026-05-20",
+    "sections": [
+      {
+        "h": "The Quick Answer",
+        "body": "Both are regulated, reputable US crypto exchanges. **Coinbase** wins on coin selection (600+) and beginner ease. **Gemini** wins on security credentials and a standout sign-up bonus: **$50 free crypto** when you trade $100."
+      },
+      {
+        "h": "Fees",
+        "body": "Coinbase charges 1.49%\u20132.99% on standard purchases. Gemini charges similar spreads. Both offer lower-fee 'Pro' modes for experienced users.\n\nFor everyday buying, fees are comparable. Gemini's $50 welcome bonus effectively cancels months of fees."
+      },
+      {
+        "h": "Security",
+        "body": "Gemini has more third-party security certifications and undergoes regular independent audits. Coinbase's public listing means it faces strict SEC reporting \u2014 a different but equally meaningful layer of accountability."
+      },
+      {
+        "h": "Verdict",
+        "body": "If you're only opening one: pick Gemini for the $50 referral bonus and top-tier security. Pick Coinbase if you want to explore smaller altcoins beyond the top 70."
+      }
+    ],
+    "affiliates": [
+      "gemini",
+      "coinbase"
+    ]
   }
 ]
