@@ -3292,5 +3292,84 @@
       "gemini_card",
       "gemini"
     ]
+  },
+  {
+    "slug": "compound-interest-explained-2026-05-20-105719",
+    "slug_base": "compound-interest-explained",
+    "title": "The Power of Compound Interest: Why Starting Early Changes Everything",
+    "tag": "Investing",
+    "emoji": "\ud83d\udd22",
+    "bg": "#eff6ff",
+    "desc": "Compound interest explained simply with real examples \u2014 how it builds wealth and why starting early is the most important financial decision you can make.",
+    "date": "2026-05-20",
+    "sections": [
+      {
+        "h": "Simple vs Compound Interest",
+        "body": "Compound interest means your money earns money on its money \u2014 and that money earns money on that money.\n\nThe formula: **A = P(1 + r)^t**\n\nAt 7%: your money grows 3.9\u00d7 in 20 years, 7.6\u00d7 in 30 years, 14.9\u00d7 in 40 years. Time is the main variable."
+      },
+      {
+        "h": "The Rule of 72",
+        "body": "Doubling times by rate:\n\n| Rate | Years to Double |\n|------|----------------|\n| 4% | 18 years |\n| 6% | 12 years |\n| 8% | 9 years |\n| 10% | 7.2 years |\n\nThis is why starting early matters more than starting with a large amount."
+      },
+      {
+        "h": "Why Starting Early Beats Earning More",
+        "body": "**Alex** invests $5,000/year from age 25\u201335 (10 years), then stops. Total invested: $50,000.\n**Jordan** invests $5,000/year from age 35\u201365 (30 years). Total invested: $150,000.\n\nAt 65 (7% return):\n\u2022 Alex: **$602,000**\n\u2022 Jordan: **$472,000**\n\nAlex invested a third as much money and still won by $130,000. Starting a decade earlier overwhelms 30 extra years of contributions."
+      }
+    ],
+    "affiliates": [
+      "robinhood"
+    ]
+  },
+  {
+    "slug": "passive-income-ideas-2026-2026-05-20-105719",
+    "slug_base": "passive-income-ideas-2026",
+    "title": "8 Realistic Passive Income Ideas That Actually Work in 2026",
+    "tag": "Investing",
+    "emoji": "\ud83d\udcb8",
+    "bg": "#fefce8",
+    "desc": "Realistic passive income ideas for 2026 \u2014 dividend investing, crypto staking, affiliate income, and more. How much each earns and how to start.",
+    "date": "2026-05-20",
+    "sections": [
+      {
+        "h": "Dividend Investing",
+        "body": "Buy shares of dividend-paying stocks or ETFs and receive quarterly payments. A 4% dividend yield on $10,000 = $400/year \u2014 $33/month \u2014 for doing nothing after the initial purchase.\n\nBest dividend ETFs: **SCHD** (Schwab US Dividend Equity), **VYM** (Vanguard High Dividend Yield), **JEPI** (JPMorgan Equity Premium Income, ~7% yield).\n\nUse Robinhood or Fidelity to set up automatic reinvestment (DRIP) and watch compounding accelerate."
+      },
+      {
+        "h": "Crypto Staking",
+        "body": "If you're holding crypto long-term, staking is free money. You're not selling \u2014 you're putting existing holdings to work.\n\nGemini's staking feature lets you earn directly from your account. Rates vary by asset and market conditions, but passive crypto yield beats leaving coins idle."
+      },
+      {
+        "h": "Affiliate Marketing",
+        "body": "Affiliate income is passive once set up. Write a review once. Share a link once. Earn commissions for months as people find the content organically.\n\nBest niches by commission: finance (highest per conversion), software/SaaS (recurring monthly commissions), health (massive audience)."
+      }
+    ],
+    "affiliates": [
+      "robinhood",
+      "gemini"
+    ]
+  },
+  {
+    "slug": "finance-news-roundup-2026-05-20-105719",
+    "slug_base": "finance-news-roundup",
+    "title": "Finance News Roundup: What Happened This Week (2026-05-20)",
+    "tag": "News",
+    "emoji": "\ud83d\udcf0",
+    "bg": "#f0f9ff",
+    "desc": "The latest finance and crypto news for May 20, 2026 \u2014 markets, investing updates, and what it means for your money.",
+    "date": "2026-05-20",
+    "sections": [
+      {
+        "h": "Top Finance & Market Stories",
+        "body": "**Gold and silver prices today, Wednesday, May 20: Lowest opening in weeks after Trump's latest comments on Iran**\n <a href=\"https://finance.yahoo.com/personal-finance/investing/article/gold-and-silver-prices-today-wednesday-may-20-lowest-opening-in-weeks-after-trumps-latest-comments-on-iran-104149917.html\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>\n\n**Stock market today: Dow, S&P 500, Nasdaq futures rise in countdown to Nvidia earnings**\n <a href=\"https://finance.yahoo.com/news/live/stock-market-today-dow-sp-500-nasdaq-futures-rise-in-countdown-to-nvidia-earnings-222757872.html\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>\n\n**GM to shift some production from Asia to Mexico from 2027**\n <a href=\"https://finance.yahoo.com/economy/policy/articles/gm-shift-production-asia-mexico-103849030.html\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>\n\n**Morning Bid: Nvidia vigil**\n <a href=\"https://finance.yahoo.com/markets/stocks/articles/morning-bid-nvidia-vigil-103739063.html\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>"
+      },
+      {
+        "h": "Crypto & Digital Assets",
+        "body": "**Euro stablecoin project Qivalis adds 25 banks ahead of launch**\nQivalis expands to 37 banks after adding 25 new members across 15 countries, boosting euro stablecoin plans ahead of a second-half 2026 launch. <a href=\"https://cointelegraph.com/news/qivalis-euro-stablecoin-consortium-adds-25-banks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>\n\n**OpenAI launches overseas AI lab in Singapore with $234M commitment**\nOpenAI is opening its first overseas applied AI lab in Singapore through a $234 million partnership expected to create more than 200 technical roles. <a href=\"https://cointelegraph.com/news/openai-launches-overseas-ai-lab-singapore-234m-commitment?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>\n\n**Bitwise calls HYPE \u2018most mispriced\u2019 crypto despite 77% rise this year**\nBitwise\u2019s Matt Hougan says Hyperliquid\u2019s token is not priced as if it is tied to a \u201cglobal super-app,\u201d arguing the platform is more than just a crypto platform. <a href=\"https://cointelegraph.com/news/bitwise-says-hyperliquid-most-mispriced-crypto-despite-77-rise-this-year?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>"
+      }
+    ],
+    "affiliates": [
+      "gemini",
+      "coinbase"
+    ]
   }
 ]
