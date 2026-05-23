@@ -3962,5 +3962,60 @@
       "robinhood",
       "gemini"
     ]
+  },
+  {
+    "slug": "how-to-save-money-tight-budget-2026-05-23-150550",
+    "slug_base": "how-to-save-money-tight-budget",
+    "title": "Saving Money When You're Broke: Realistic Tips",
+    "tag": "Budgeting",
+    "emoji": "\u2702\ufe0f",
+    "bg": "#f0fdf4",
+    "desc": "Practical, realistic tips for saving money on a tight budget in 2026 \u2014 no extreme couponing or sacrifice required.",
+    "date": "2026-05-23",
+    "sections": [
+      {
+        "h": "The Mindset Shift",
+        "body": "Pay yourself first: set up a recurring transfer to a high-yield savings account on every payday.\n\nStart with whatever doesn't feel uncomfortable \u2014 $50, $100, $200. You'll naturally adjust your spending to match what's left. That's the entire system."
+      },
+      {
+        "h": "The Biggest Wins",
+        "body": "Finance advice obsesses over small cuts while ignoring the big levers:\n\n\u2022 Negotiate rent at renewal: save $100\u2013$300/month\n\u2022 Refinance loans at better rates: save $200\u2013$500/month\n\u2022 Switch to a cheaper cell plan: save $30\u2013$80/month\n\u2022 Cut 2 streaming services: save $20\u2013$40/month\n\nThese five moves can free up $500+/month without feeling deprived."
+      },
+      {
+        "h": "Where to Put What You Save",
+        "body": "Where your money sits matters almost as much as how much you save:\n\n\u2022 Move savings to a high-yield account (4\u20135% APY vs 0.01% at big banks)\n\u2022 Use Roth IRA first for retirement (tax-free growth)\n\u2022 Minimize taxes through tax-advantaged accounts before taxable investing\n\nTaxes are the biggest drag on long-term wealth. Using Roth IRAs and 401(k)s is the highest-leverage financial move most people can make."
+      }
+    ],
+    "affiliates": [
+      "robinhood"
+    ]
+  },
+  {
+    "slug": "dollar-cost-averaging-guide-2026-05-23-150550",
+    "slug_base": "dollar-cost-averaging-guide",
+    "title": "How Dollar Cost Averaging Removes Emotion From Investing",
+    "tag": "Investing",
+    "emoji": "\ud83d\udcc5",
+    "bg": "#eff6ff",
+    "desc": "Dollar cost averaging explained \u2014 what it is, why it works, and how to automate it for stocks, ETFs, and crypto.",
+    "date": "2026-05-23",
+    "sections": [
+      {
+        "h": "What Is Dollar Cost Averaging?",
+        "body": "DCA is the strategy used by almost every 401(k) in the country \u2014 employees contribute a fixed percentage of each paycheck automatically, regardless of market conditions.\n\nThe principle: don't try to predict the market. Just buy consistently and let time do the work."
+      },
+      {
+        "h": "Why It Works",
+        "body": "The biggest enemy of investment returns is the investor's own behavior \u2014 buying in excitement, selling in fear. DCA prevents this by automating the buying process.\n\nHistorically, someone who invested $200/month in the S&P 500 for 30 years would have significantly more money than someone who tried to time perfect entry points."
+      },
+      {
+        "h": "DCA for Crypto",
+        "body": "Crypto DCA example: $100/week into Bitcoin starting January 2022 (near the peak). By 2025, that investor had a significant profit despite starting at what felt like the worst possible time.\n\nConsistency beats timing. Use Coinbase to set up automatic weekly crypto buys and stop agonizing over price."
+      }
+    ],
+    "affiliates": [
+      "robinhood",
+      "coinbase"
+    ]
   }
 ]
