@@ -3882,5 +3882,85 @@
     "affiliates": [
       "robinhood"
     ]
+  },
+  {
+    "slug": "how-to-invest-50-dollars-month-2026-05-23-095911",
+    "slug_base": "how-to-invest-50-dollars-month",
+    "title": "How to Start Investing With Just $50 a Month",
+    "tag": "Investing",
+    "emoji": "\ud83d\udcc8",
+    "bg": "#eff6ff",
+    "desc": "How $50/month grows through compound interest, which accounts to use, and the exact steps to start investing today.",
+    "date": "2026-05-23",
+    "sections": [
+      {
+        "h": "The Math on $50 a Month",
+        "body": "**$50/month at 7% annual return:**\n\u2022 After 10 years: **$8,654**\n\u2022 After 20 years: **$26,126**\n\u2022 After 30 years: **$60,905**\n\nYou contributed $18,000. Compound interest did the rest \u2014 $42,905 that you never earned yourself."
+      },
+      {
+        "h": "Where to Put Your $50",
+        "body": "For most beginners: Roth IRA \u2192 index ETFs \u2192 automate.\n\n\u2022 **Roth IRA:** Tax-free growth. Every dollar of gains comes out tax-free in retirement.\n\u2022 **VOO or VTI:** Instant diversification across 500\u20133,500 companies. Expense ratio under 0.05%.\n\u2022 **Automate:** Set recurring purchases on payday.\n\nThis beats most professional money managers over 30 years."
+      },
+      {
+        "h": "The One Thing That Matters",
+        "body": "Time in the market beats timing the market \u2014 always.\n\nEvery month you wait to start is compounding you can never recover. The best time was 10 years ago. The second best time is today.\n\nOpen an account, set up a $50 recurring investment, and stop thinking about it."
+      }
+    ],
+    "affiliates": [
+      "robinhood",
+      "coinbase"
+    ]
+  },
+  {
+    "slug": "bitcoin-lightning-network-explained-2026-05-23-095911",
+    "slug_base": "bitcoin-lightning-network-explained",
+    "title": "Strike and Lightning Network: How Bitcoin Became Usable Every Day",
+    "tag": "Crypto",
+    "emoji": "\u26a1",
+    "bg": "#fefce8",
+    "desc": "The Bitcoin Lightning Network explained simply \u2014 what it is, how it makes Bitcoin instant and free, and why Strike is built on it.",
+    "date": "2026-05-23",
+    "sections": [
+      {
+        "h": "Bitcoin's Speed Problem",
+        "body": "Bitcoin is great as a store of value but has a limitation: the main blockchain processes only ~7 transactions per second. Visa handles 24,000 per second.\n\nBitcoin transactions can take 10+ minutes and cost $5\u2013$50 in fees during busy periods \u2014 terrible for everyday payments. The Lightning Network solves this."
+      },
+      {
+        "h": "How Lightning Works",
+        "body": "Lightning creates 'payment channels' between users \u2014 like running a tab at a bar, settling multiple transactions at once.\n\nInside a Lightning channel: transactions are **instant and nearly free**. Only opening and closing a channel touches the main blockchain.\n\nResult: thousands of transactions per second, fees under $0.01, settlement in milliseconds."
+      },
+      {
+        "h": "Strike: Lightning Made Simple",
+        "body": "Strike is one of the most popular Lightning Network apps in the US. It lets you buy Bitcoin instantly with near-zero fees, and send Bitcoin to anyone for fractions of a cent.\n\nStrike's standout offer for new users: your **first $500 of Bitcoin is completely fee-free**. No catch."
+      }
+    ],
+    "affiliates": [
+      "strike",
+      "coinbase"
+    ]
+  },
+  {
+    "slug": "finance-news-roundup-2026-05-23-095911",
+    "slug_base": "finance-news-roundup",
+    "title": "Markets & Money: Top Stories for May 23, 2026",
+    "tag": "News",
+    "emoji": "\ud83d\udcf0",
+    "bg": "#f0f9ff",
+    "desc": "The latest finance and crypto news for May 23, 2026 \u2014 markets, investing updates, and what it means for your money.",
+    "date": "2026-05-23",
+    "sections": [
+      {
+        "h": "Top Finance & Market Stories",
+        "body": "**Amazon allegedly made millions from this now illegal policy**\n <a href=\"https://finance.yahoo.com/economy/policy/articles/amazon-allegedly-made-millions-now-170700373.html\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>\n\n**UK's Softcat boosts profit guidance on strong corporate demand for AI tech**\n <a href=\"https://finance.yahoo.com/sectors/technology/articles/uks-softcat-boosts-profit-guidance-065215749.html\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>\n\n**Ask an Advisor: Can I Retire at 55 With $4.6 Million?**\n <a href=\"https://finance.yahoo.com/markets/options/articles/ask-advisor-4-6-million-103000164.html\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>\n\n**Why Upstart (UPST) Still Has an AI-Lending Moonshot Case**\n <a href=\"https://finance.yahoo.com/markets/stocks/articles/why-upstart-upst-still-ai-071800019.html\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>"
+      },
+      {
+        "h": "Crypto & Digital Assets",
+        "body": "**SEC approves Nasdaq to list Bitcoin index options on the exchange**\nThe cash-settled, European-style contracts will trade under the ticker QBTC on Phlx, but still require CFTC approval before trading can begin. <a href=\"https://cointelegraph.com/news/sec-approves-nasdaq-to-list-bitcoin-index-options-on-the-exchange?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>\n\n**$1.26B Bitcoin ETF outflows spark \u2018contrarian\u2019 buy signal: Santiment**\nOngoing Bitcoin ETF outflows have historically \u201ccorrelated with conditions favorable for patient accumulation rather than panic,\" according to Santiment. <a href=\"https://cointelegraph.com/news/bitcoin-etf-outflows-are-a-contrarian-buy-signal-santiment?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>\n\n**\u2018Not unlikely\u2019 Strategy will sell Bitcoin in 2026: Michael Saylor**\nStrategy chairman Michael Saylor said the goal is to maximize Strategy\u2019s Bitcoin per share by 2033. <a href=\"https://cointelegraph.com/news/michael-saylor-strategy-mstr-bitcoin-sell-speculation-btc?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>"
+      }
+    ],
+    "affiliates": [
+      "robinhood",
+      "gemini"
+    ]
   }
 ]
