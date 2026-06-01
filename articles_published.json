@@ -5636,5 +5636,61 @@
       "strike",
       "robinhood"
     ]
+  },
+  {
+    "slug": "passive-income-ideas-2026-2026-06-01-160642",
+    "slug_base": "passive-income-ideas-2026",
+    "title": "8 Realistic Passive Income Ideas That Actually Work in 2026",
+    "tag": "Investing",
+    "emoji": "\ud83d\udcb8",
+    "bg": "#fefce8",
+    "desc": "Realistic passive income ideas for 2026 \u2014 dividend investing, crypto staking, affiliate income, and more. How much each earns and how to start.",
+    "date": "2026-06-01",
+    "sections": [
+      {
+        "h": "Dividend Investing",
+        "body": "Dividend investing is the most proven passive income method. You buy profitable companies. They share profits quarterly. You reinvest those dividends to buy more shares.\n\nREITs (Real Estate Investment Trusts) pay dividends too \u2014 often 5\u20138% yields \u2014 letting you earn real estate income without owning property."
+      },
+      {
+        "h": "Crypto Staking",
+        "body": "Staking means locking up cryptocurrency to help validate blockchain transactions. In return, you earn rewards \u2014 essentially interest on your crypto.\n\nCurrent approximate staking yields:\n\u2022 Ethereum (ETH): ~3\u20134% annually\n\u2022 Solana (SOL): ~6\u20137% annually\n\nGemini offers staking on multiple assets directly from the platform \u2014 no technical setup required."
+      },
+      {
+        "h": "Affiliate Marketing",
+        "body": "Affiliate income is passive once set up. Write a review once. Share a link once. Earn commissions for months as people find the content organically.\n\nBest niches by commission: finance (highest per conversion), software/SaaS (recurring monthly commissions), health (massive audience)."
+      }
+    ],
+    "affiliates": [
+      "robinhood",
+      "gemini"
+    ]
+  },
+  {
+    "slug": "dollar-cost-averaging-guide-2026-06-01-160642",
+    "slug_base": "dollar-cost-averaging-guide",
+    "title": "How Dollar Cost Averaging Removes Emotion From Investing",
+    "tag": "Investing",
+    "emoji": "\ud83d\udcc5",
+    "bg": "#eff6ff",
+    "desc": "Dollar cost averaging explained \u2014 what it is, why it works, and how to automate it for stocks, ETFs, and crypto.",
+    "date": "2026-06-01",
+    "sections": [
+      {
+        "h": "What Is Dollar Cost Averaging?",
+        "body": "DCA is the strategy used by almost every 401(k) in the country \u2014 employees contribute a fixed percentage of each paycheck automatically, regardless of market conditions.\n\nThe principle: don't try to predict the market. Just buy consistently and let time do the work."
+      },
+      {
+        "h": "Why It Works",
+        "body": "The biggest enemy of investment returns is the investor's own behavior \u2014 buying in excitement, selling in fear. DCA prevents this by automating the buying process.\n\nHistorically, someone who invested $200/month in the S&P 500 for 30 years would have significantly more money than someone who tried to time perfect entry points."
+      },
+      {
+        "h": "DCA for Crypto",
+        "body": "DCA is even more valuable for crypto, where volatility is extreme. Instead of trying to buy the dip, just buy $50 of Bitcoin every week.\n\nCoinbase and Gemini both support recurring crypto purchases. Set it once and let it run.\n\nHistorically, anyone who DCA'd into Bitcoin over any 4-year period has been profitable \u2014 even if they started at a local price peak."
+      }
+    ],
+    "affiliates": [
+      "robinhood",
+      "coinbase"
+    ]
   }
 ]
