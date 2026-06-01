@@ -5557,5 +5557,84 @@
     "affiliates": [
       "robinhood"
     ]
+  },
+  {
+    "slug": "index-funds-explained-2026-06-01-095948",
+    "slug_base": "index-funds-explained",
+    "title": "Index Funds: The Investment Even Warren Buffett Recommends",
+    "tag": "Investing",
+    "emoji": "\ud83d\udcca",
+    "bg": "#eff6ff",
+    "desc": "Index funds explained from scratch \u2014 what they are, why they outperform most active investors, and how to buy your first one today.",
+    "date": "2026-06-01",
+    "sections": [
+      {
+        "h": "What Is an Index Fund?",
+        "body": "An index fund is the simplest investment vehicle that works. You're buying the whole market, not betting on individual companies.\n\nMost popular example: **VOO** (Vanguard S&P 500 ETF). It holds the same stocks as the S&P 500 and charges just 0.03% per year \u2014 $3 on a $10,000 investment."
+      },
+      {
+        "h": "Why They Beat Most Active Investors",
+        "body": "The S&P 500 SPIVA report: 91% of large-cap active funds underperformed the S&P 500 over 20 years.\n\nReasons: fees eat returns, markets are highly efficient, and past performance doesn't predict future results. Index funds don't try to beat the market \u2014 they are the market."
+      },
+      {
+        "h": "The Best Index Funds to Start With",
+        "body": "Start simple:\n\u2022 **US exposure:** VOO or VTI\n\u2022 **Global exposure:** VT, or 60% VTI + 40% VXUS\n\u2022 **One fund forever:** VT\n\nDon't overthink it. Pick one, automate monthly purchases, and check prices less often. That's the entire strategy."
+      }
+    ],
+    "affiliates": [
+      "robinhood"
+    ]
+  },
+  {
+    "slug": "bitcoin-lightning-network-explained-2026-06-01-095948",
+    "slug_base": "bitcoin-lightning-network-explained",
+    "title": "Lightning Network Explained: Why Bitcoin Payments Are Now Instant",
+    "tag": "Crypto",
+    "emoji": "\u26a1",
+    "bg": "#fefce8",
+    "desc": "The Bitcoin Lightning Network explained simply \u2014 what it is, how it makes Bitcoin instant and free, and why Strike is built on it.",
+    "date": "2026-06-01",
+    "sections": [
+      {
+        "h": "Bitcoin's Speed Problem",
+        "body": "Bitcoin's blockchain is intentionally slow and secure. Every transaction is permanently recorded on a distributed ledger verified by thousands of nodes worldwide. This security comes with a cost: speed and fees.\n\nFor buying coffee or sending $5, waiting 10 minutes and paying $20 doesn't work. Lightning is Bitcoin's answer."
+      },
+      {
+        "h": "How Lightning Works",
+        "body": "Lightning Network is a 'second layer' on top of Bitcoin:\n\n1. Two parties open a payment channel (one blockchain transaction)\n2. Exchange unlimited instant payments through that channel\n3. Close the channel when done (one more blockchain transaction)\n\nNet result: instant Bitcoin payments at essentially zero cost."
+      },
+      {
+        "h": "Strike: Lightning Made Simple",
+        "body": "Strike is one of the most popular Lightning Network apps in the US. It lets you buy Bitcoin instantly with near-zero fees, and send Bitcoin to anyone for fractions of a cent.\n\nStrike's standout offer for new users: your **first $500 of Bitcoin is completely fee-free**. No catch."
+      }
+    ],
+    "affiliates": [
+      "strike",
+      "coinbase"
+    ]
+  },
+  {
+    "slug": "finance-news-roundup-2026-06-01-095948",
+    "slug_base": "finance-news-roundup",
+    "title": "Markets & Money: Top Stories for June 01, 2026",
+    "tag": "News",
+    "emoji": "\ud83d\udcf0",
+    "bg": "#f0f9ff",
+    "desc": "The latest finance and crypto news for June 01, 2026 \u2014 markets, investing updates, and what it means for your money.",
+    "date": "2026-06-01",
+    "sections": [
+      {
+        "h": "Top Finance & Market Stories",
+        "body": "**Nvidia\u2019s latest product is a game-changer**\n <a href=\"https://finance.yahoo.com/markets/stocks/articles/nvidia-latest-product-game-changer-010300358.html\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>\n\n**Wall Street futures gain as AI advances overshadow US-Iran tensions**\n <a href=\"https://finance.yahoo.com/markets/stocks/articles/wall-street-futures-gain-ai-095009105.html\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>\n\n**New Jersey governor has a plan to stop residents\u2019 electricity bills from subsidizing massive data center energy costs**\n <a href=\"https://finance.yahoo.com/sectors/energy/articles/jersey-governor-plan-stop-residents-093000851.html\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>\n\n**Japan must promote yen stablecoins in Asia, ruling party panel says**\n <a href=\"https://finance.yahoo.com/markets/crypto/articles/japan-must-promote-yen-stablecoins-084214732.html\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>"
+      },
+      {
+        "h": "Crypto & Digital Assets",
+        "body": "**Trump says Iran will 'work out well:' Five things to know in Bitcoin this week**\nBitcoin price headed below $72,000 on Iran woes as US president Donald Trump told observes to \"sit back and relax\" with the ceasefire still absent. <a href=\"https://cointelegraph.com/markets/trump-says-iran-will-work-out-well-five-things-to-know-in-bitcoin-this-week?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>\n\n**NYDIG suggests $1.3B IBIT sale was whale exiting directional trade**\nNYDIG\u2019s Greg Cipolaro says a sale below market price and giving up millions of dollars for immediate execution indicates a large directional holder exited a trade on BlackRock\u2019s IBIT last week. <a href=\"https://cointelegraph.com/news/nydig-ibit-whale-exit-directional-bitcoin-trade?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>\n\n**Sui Foundation says \u2018major upgrade\u2019 fixed bugs behind three outages**\nThe Sui Network's first two outages were caused by bugs introduced in its 1.72 update, while an interim fix deployed to restore the blockchain triggered the third. <a href=\"https://cointelegraph.com/news/sui-major-upgrade-fixes-outage-bugs-restores-network?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>"
+      }
+    ],
+    "affiliates": [
+      "strike",
+      "robinhood"
+    ]
   }
 ]
