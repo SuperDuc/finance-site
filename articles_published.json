@@ -5746,5 +5746,83 @@
     "affiliates": [
       "robinhood"
     ]
+  },
+  {
+    "slug": "compound-interest-explained-2026-06-02-093800",
+    "slug_base": "compound-interest-explained",
+    "title": "Compound Interest Explained: The Math That Makes or Breaks Your Wealth",
+    "tag": "Investing",
+    "emoji": "\ud83d\udd22",
+    "bg": "#eff6ff",
+    "desc": "Compound interest explained simply with real examples \u2014 how it builds wealth and why starting early is the most important financial decision you can make.",
+    "date": "2026-06-02",
+    "sections": [
+      {
+        "h": "Simple vs Compound Interest",
+        "body": "Simple interest earns returns on your original investment only. Compound interest earns returns on your investment **plus all previous returns**.\n\n\u2022 $10,000 at 7% simple for 30 years \u2192 **$31,000**\n\u2022 $10,000 at 7% compound for 30 years \u2192 **$76,122**\n\nSame money, same rate, same time. The difference is whether returns earn returns."
+      },
+      {
+        "h": "The Rule of 72",
+        "body": "Quick mental math: divide 72 by your interest rate to find years to double your money.\n\n\u2022 At 6% \u2192 doubles every 12 years\n\u2022 At 7% \u2192 doubles every ~10 years\n\u2022 At 10% \u2192 doubles every 7.2 years\n\nS&P 500 historical return (~10%): your money doubles roughly every 7 years."
+      },
+      {
+        "h": "Why Starting Early Beats Earning More",
+        "body": "**Alex** invests $5,000/year from age 25\u201335 (10 years), then stops. Total invested: $50,000.\n**Jordan** invests $5,000/year from age 35\u201365 (30 years). Total invested: $150,000.\n\nAt 65 (7% return):\n\u2022 Alex: **$602,000**\n\u2022 Jordan: **$472,000**\n\nAlex invested a third as much money and still won by $130,000. Starting a decade earlier overwhelms 30 extra years of contributions."
+      }
+    ],
+    "affiliates": [
+      "robinhood"
+    ]
+  },
+  {
+    "slug": "emergency-fund-guide-2026-06-02-093800",
+    "slug_base": "emergency-fund-guide",
+    "title": "Building an Emergency Fund: How Much, Where, and How Fast",
+    "tag": "Saving",
+    "emoji": "\ud83d\udee1\ufe0f",
+    "bg": "#f0fdf4",
+    "desc": "How much to save in your emergency fund, where to keep it, and the fastest way to build one \u2014 even on a tight budget.",
+    "date": "2026-06-02",
+    "sections": [
+      {
+        "h": "How Much Do You Actually Need?",
+        "body": "The classic advice is 3\u20136 months of expenses. But the right amount depends on your situation:\n\n\u2022 **Stable job, dual income:** 3 months is enough\n\u2022 **Single income or variable income:** 6 months minimum\n\u2022 **Self-employed or freelance:** 9\u201312 months recommended\n\nThe goal: be able to pay your bills for that many months if all income stopped tomorrow."
+      },
+      {
+        "h": "Where to Keep It",
+        "body": "Your emergency fund should be:\n1. **Liquid** \u2014 accessible in 24 hours\n2. **Safe** \u2014 FDIC insured\n3. **Earning interest** \u2014 not sitting in a 0.01% APY checking account\n\nThe best home is a **high-yield savings account (HYSA)**. Top HYSAs pay 4\u20135% APY \u2014 on a $10,000 fund, that's $400\u2013$500/year in free interest."
+      },
+      {
+        "h": "How to Build It Fast",
+        "body": "Practical ways to build it faster:\n\u2022 **Automate it:** Set up a weekly transfer to your HYSA \u2014 whatever you can afford\n\u2022 **Windfall rule:** Put 50% of any unexpected money (tax refund, bonus) directly into the fund\n\u2022 **Cut one expense:** Cancel one subscription and redirect that exact amount to savings"
+      }
+    ],
+    "affiliates": [
+      "robinhood"
+    ]
+  },
+  {
+    "slug": "finance-news-roundup-2026-06-02-093800",
+    "slug_base": "finance-news-roundup",
+    "title": "This Week in Finance: Markets, Crypto & Money News",
+    "tag": "News",
+    "emoji": "\ud83d\udcf0",
+    "bg": "#f0f9ff",
+    "desc": "The latest finance and crypto news for June 02, 2026 \u2014 markets, investing updates, and what it means for your money.",
+    "date": "2026-06-02",
+    "sections": [
+      {
+        "h": "Top Finance & Market Stories",
+        "body": "**Generali broadens Intermap use in central and eastern Europe**\n <a href=\"https://finance.yahoo.com/sectors/healthcare/articles/generali-broadens-intermap-central-eastern-093542605.html\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>\n\n**Jobs data live updates: Labor market appears to thaw as economists await new data**\n <a href=\"https://finance.yahoo.com/economy/live/jobs-report-may-data-labor-market-live-updates-090000760.html\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>\n\n**Marvell Technology surges after Nvidia's Huang calls it 'next trillion-dollar company'**\n <a href=\"https://finance.yahoo.com/markets/stocks/articles/marvell-technology-surges-nvidias-huang-084424457.html\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>\n\n**INEOS Expands LNG Business Into Asia With Marubeni Supply Deal**\n <a href=\"https://finance.yahoo.com/sectors/energy/articles/ineos-expands-lng-business-asia-084223544.html\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>"
+      },
+      {
+        "h": "Crypto & Digital Assets",
+        "body": "**Bitcoin price falls under $70K as crypto markets liquidate $800M**\nBitcoin fell to fresh two-month lows as BTC price weakness accelerated and analysis targeted its 200-day moving average trend line. <a href=\"https://cointelegraph.com/markets/bitcoin-price-falls-under-70k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>\n\n**Robinhood enters Canada after $180 million WonderFi acquisition**\nRobinhood will enter Canada after its WonderFi acquisition brought local crypto exchanges Bitbuy and Coinsquare under its control. <a href=\"https://cointelegraph.com/news/robinhood-enters-canada-crypto-market-wonderfi-acquisition?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>\n\n**Bitcoin falls to 2-month low as divergence from equities widens**\nSantiment says that \u201cthe gap between traditional equities and crypto has become increasingly difficult for traders to ignore.\u201d <a href=\"https://cointelegraph.com/news/btc-falls-to-70k-but-divergence-from-stocks-is-temporary-say-analysts?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>"
+      }
+    ],
+    "affiliates": [
+      "gemini",
+      "coinbase"
+    ]
   }
 ]
