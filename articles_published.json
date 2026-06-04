@@ -6215,5 +6215,60 @@
       "gemini",
       "coinbase"
     ]
+  },
+  {
+    "slug": "gemini-credit-card-review-2026-2026-06-04-150954",
+    "slug_base": "gemini-credit-card-review-2026",
+    "title": "Earn Crypto on Every Purchase: Gemini Credit Card Full Review",
+    "tag": "Crypto",
+    "emoji": "\ud83d\udc8e",
+    "bg": "#fdf4ff",
+    "desc": "Full review of the Gemini Credit Card \u2014 4% dining rewards, how real-time crypto cashback works, who it's best for, and whether it's worth applying.",
+    "date": "2026-06-04",
+    "sections": [
+      {
+        "h": "What Is the Gemini Credit Card?",
+        "body": "A Mastercard that converts everyday spending into cryptocurrency. You choose which coin receives your rewards \u2014 Bitcoin, Ethereum, or any of 60+ assets.\n\nKey facts: No annual fee. No foreign transaction fees. Rewards hit your account in seconds, not at month-end."
+      },
+      {
+        "h": "How the Rewards Actually Work",
+        "body": "Swipe card \u2192 cashback calculated \u2192 crypto purchased at market rate \u2192 deposited to Gemini wallet. The whole process is instant.\n\nYou pick your reward coin in the app settings (changeable anytime). You're accumulating crypto with every purchase, whether prices are up or down on that day."
+      },
+      {
+        "h": "Is 4% Crypto Cashback Good?",
+        "body": "For dining specifically: yes, 4% is excellent. Most premium cash-back cards top out at 3% on dining \u2014 and charge annual fees of $95\u2013$550.\n\nGemini's 4% dining reward with a $0 annual fee is genuinely competitive against any rewards card on the market."
+      }
+    ],
+    "affiliates": [
+      "gemini_card",
+      "gemini"
+    ]
+  },
+  {
+    "slug": "compound-interest-explained-2026-06-04-150954",
+    "slug_base": "compound-interest-explained",
+    "title": "How Compound Interest Works: Why Einstein Called It the 8th Wonder",
+    "tag": "Investing",
+    "emoji": "\ud83d\udd22",
+    "bg": "#eff6ff",
+    "desc": "Compound interest explained simply with real examples \u2014 how it builds wealth and why starting early is the most important financial decision you can make.",
+    "date": "2026-06-04",
+    "sections": [
+      {
+        "h": "Simple vs Compound Interest",
+        "body": "Compound interest means your money earns money on its money \u2014 and that money earns money on that money.\n\nThe formula: **A = P(1 + r)^t**\n\nAt 7%: your money grows 3.9\u00d7 in 20 years, 7.6\u00d7 in 30 years, 14.9\u00d7 in 40 years. Time is the main variable."
+      },
+      {
+        "h": "The Rule of 72",
+        "body": "Doubling times by rate:\n\n| Rate | Years to Double |\n|------|----------------|\n| 4% | 18 years |\n| 6% | 12 years |\n| 8% | 9 years |\n| 10% | 7.2 years |\n\nThis is why starting early matters more than starting with a large amount."
+      },
+      {
+        "h": "Why Starting Early Beats Earning More",
+        "body": "Time is worth more than money in investing. Starting at 25 vs 35 isn't a 10-year head start \u2014 it's potentially hundreds of thousands of dollars at retirement.\n\nEvery year you delay is compounding you can never recover. The best time to start is right now."
+      }
+    ],
+    "affiliates": [
+      "robinhood"
+    ]
   }
 ]
