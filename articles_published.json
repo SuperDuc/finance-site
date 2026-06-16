@@ -8472,5 +8472,83 @@
       "strike",
       "coinbase"
     ]
+  },
+  {
+    "slug": "high-yield-savings-account-guide-2026-06-16-095511",
+    "slug_base": "high-yield-savings-account-guide",
+    "title": "Why Your Savings Account Is Costing You Thousands",
+    "tag": "Saving",
+    "emoji": "\ud83c\udfe6",
+    "bg": "#f0fdf4",
+    "desc": "How high-yield savings accounts work, how much more you'll earn vs a traditional bank, and how to open one in 10 minutes.",
+    "date": "2026-06-16",
+    "sections": [
+      {
+        "h": "The Problem: Your Bank Is Ripping You Off",
+        "body": "The national average savings APY at big banks (Chase, Bank of America, Wells Fargo) is 0.01%. That means on $10,000, you earn $1 per year.\n\nMeanwhile, inflation runs at 2\u20134% annually. You're effectively losing purchasing power every month your money sits there."
+      },
+      {
+        "h": "What Makes It \"High-Yield\"?",
+        "body": "Online banks can offer 4\u20135% APY because they don't maintain thousands of physical branches. That cost savings goes straight into your interest rate.\n\nHYSAs are not investments or exotic products. They're regular FDIC-insured savings accounts. The only difference is the number after the % sign."
+      },
+      {
+        "h": "The Math",
+        "body": "Example with $25,000:\n\u2022 Chase savings at 0.01% APY: $2.50/year\n\u2022 HYSA at 4.5% APY: $1,125/year\n\nEvery day you wait costs you about $3. The account opening takes 10 minutes. There's no good reason to keep your savings at a big bank."
+      }
+    ],
+    "affiliates": [
+      "gemini"
+    ]
+  },
+  {
+    "slug": "index-funds-explained-2026-06-16-095511",
+    "slug_base": "index-funds-explained",
+    "title": "Index Funds: The Investment Even Warren Buffett Recommends",
+    "tag": "Investing",
+    "emoji": "\ud83d\udcca",
+    "bg": "#eff6ff",
+    "desc": "Index funds explained from scratch \u2014 what they are, why they outperform most active investors, and how to buy your first one today.",
+    "date": "2026-06-16",
+    "sections": [
+      {
+        "h": "What Is an Index Fund?",
+        "body": "An index fund holds stocks that mirror a market index \u2014 most commonly the S&P 500 (500 largest US companies).\n\nInstead of picking individual stocks, you buy tiny pieces of all 500 companies at once. When the market goes up, your fund goes up.\n\nThe S&P 500 has returned an average of ~10.5% annually since 1957."
+      },
+      {
+        "h": "Why They Beat Most Active Investors",
+        "body": "Over any 15-year period, more than **90% of actively managed mutual funds underperform the S&P 500 index**.\n\nProfessional fund managers \u2014 with MBAs, Bloomberg terminals, and decades of experience \u2014 can't beat a simple index fund 9 out of 10 times. Yet they charge 1\u20132% in annual fees."
+      },
+      {
+        "h": "The Best Index Funds to Start With",
+        "body": "For most beginners, one of these three is all you need:\n\n\u2022 **VOO** \u2014 Vanguard S&P 500 ETF, 0.03% expense ratio\n\u2022 **VTI** \u2014 Vanguard Total Stock Market ETF, 0.03%\n\u2022 **VT** \u2014 Vanguard Total World Stock ETF, 0.07% (global)\n\nAll available commission-free on Robinhood and Fidelity."
+      }
+    ],
+    "affiliates": [
+      "robinhood"
+    ]
+  },
+  {
+    "slug": "finance-news-roundup-2026-06-16-095511",
+    "slug_base": "finance-news-roundup",
+    "title": "Markets & Money: Top Stories for June 16, 2026",
+    "tag": "News",
+    "emoji": "\ud83d\udcf0",
+    "bg": "#f0f9ff",
+    "desc": "The latest finance and crypto news for June 16, 2026 \u2014 markets, investing updates, and what it means for your money.",
+    "date": "2026-06-16",
+    "sections": [
+      {
+        "h": "Top Finance & Market Stories",
+        "body": "**Cathie Wood buys $529.7 million of popular new stock**\n <a href=\"https://finance.yahoo.com/markets/stocks/articles/cathie-wood-buys-529-7-133300502.html\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>\n\n**Stocks rise as SpaceX fever lifts tech; yen flat after BOJ hikes rates**\n <a href=\"https://finance.yahoo.com/news/asia-markets-temper-iran-deal-011441660.html\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>\n\n**Stock market today: Dow, S&P 500, Nasdaq futures drift ahead of Warsh's first Fed meeting as chair**\n <a href=\"https://finance.yahoo.com/markets/live/stock-market-today-dow-sp-500-nasdaq-futures-drift-ahead-of-warshs-first-fed-meeting-as-chair-223512220.html\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>\n\n**Dollar drifts, no respite for yen after BOJ hikes rates as expected**\n <a href=\"https://finance.yahoo.com/news/dollar-sways-near-10-day-010359872.html\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>"
+      },
+      {
+        "h": "Crypto & Digital Assets",
+        "body": "**Bitcoin miner IREN enters Europe with Nostrum acquisition as AI pivot accelerates**\nThe acquisition adds about 490 megawatts of secured power in Spain as IREN expands beyond Bitcoin mining and builds its European AI cloud platform. <a href=\"https://cointelegraph.com/news/iren-nostrum-acquisition-europe-ai-cloud?utm_source=rss&utm_medium=rss&utm_campaign=rss\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>\n\n**Here\u2019s what happened in crypto today**\nNeed to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation. <a href=\"https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>\n\n**Bitcoin recovery rests on US-Iran deal as momentum remains weak**\nLVRG Research director Nick Ruck says Bitcoin could face a \u201cvolatile path\u201d if a recently agreed peace deal between the US and Iran breaks down. <a href=\"https://cointelegraph.com/news/bitcoin-price-momentum-remains-weak-despite-reclaiming-67k-swissblock?utm_source=rss&utm_medium=rss&utm_campaign=rss\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>"
+      }
+    ],
+    "affiliates": [
+      "robinhood",
+      "gemini"
+    ]
   }
 ]
