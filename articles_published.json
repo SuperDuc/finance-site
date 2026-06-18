@@ -8990,5 +8990,59 @@
       "robinhood",
       "coinbase"
     ]
+  },
+  {
+    "slug": "debt-avalanche-vs-snowball-2026-06-18-205746",
+    "slug_base": "debt-avalanche-vs-snowball",
+    "title": "Debt Avalanche vs Snowball: Which Method Saves More Money?",
+    "tag": "Debt",
+    "emoji": "\ud83d\udcb3",
+    "bg": "#fefce8",
+    "desc": "A clear comparison of the debt avalanche and snowball methods \u2014 which saves more money, which keeps you motivated, and exactly how to choose.",
+    "date": "2026-06-18",
+    "sections": [
+      {
+        "h": "The Two Methods",
+        "body": "**Debt Avalanche:** Pay minimums on all debts, throw extra money at the highest-interest debt first. Mathematically optimal \u2014 saves the most in interest.\n\n**Debt Snowball:** Pay minimums on all debts, throw extra money at the smallest balance first. Psychologically optimal \u2014 quick wins keep you motivated."
+      },
+      {
+        "h": "Which Saves More Money?",
+        "body": "Mathematically, the avalanche wins every time. The gap is largest when you have high-interest debt (credit cards), a long timeline, and large rate differences between debts.\n\nFor most people with credit card debt, the avalanche saves $1,000\u2013$3,000+ in interest."
+      },
+      {
+        "h": "Which Method Works for YOU?",
+        "body": "Dave Ramsey advocates the snowball because he's seen thousands fail with mathematically optimal plans they couldn't sustain.\n\nBut if you can stay motivated with the avalanche, the extra savings are real money. Use our free debt payoff calculator to see the exact numbers for your situation."
+      }
+    ],
+    "affiliates": [
+      "robinhood"
+    ]
+  },
+  {
+    "slug": "index-funds-explained-2026-06-18-205746",
+    "slug_base": "index-funds-explained",
+    "title": "What Are Index Funds and Why Do They Beat Stock Pickers?",
+    "tag": "Investing",
+    "emoji": "\ud83d\udcca",
+    "bg": "#eff6ff",
+    "desc": "Index funds explained from scratch \u2014 what they are, why they outperform most active investors, and how to buy your first one today.",
+    "date": "2026-06-18",
+    "sections": [
+      {
+        "h": "What Is an Index Fund?",
+        "body": "An index fund is the simplest investment vehicle that works. You're buying the whole market, not betting on individual companies.\n\nMost popular example: **VOO** (Vanguard S&P 500 ETF). It holds the same stocks as the S&P 500 and charges just 0.03% per year \u2014 $3 on a $10,000 investment."
+      },
+      {
+        "h": "Why They Beat Most Active Investors",
+        "body": "Over any 15-year period, more than **90% of actively managed mutual funds underperform the S&P 500 index**.\n\nProfessional fund managers \u2014 with MBAs, Bloomberg terminals, and decades of experience \u2014 can't beat a simple index fund 9 out of 10 times. Yet they charge 1\u20132% in annual fees."
+      },
+      {
+        "h": "The Best Index Funds to Start With",
+        "body": "For most beginners, one of these three is all you need:\n\n\u2022 **VOO** \u2014 Vanguard S&P 500 ETF, 0.03% expense ratio\n\u2022 **VTI** \u2014 Vanguard Total Stock Market ETF, 0.03%\n\u2022 **VT** \u2014 Vanguard Total World Stock ETF, 0.07% (global)\n\nAll available commission-free on Robinhood and Fidelity."
+      }
+    ],
+    "affiliates": [
+      "robinhood"
+    ]
   }
 ]
