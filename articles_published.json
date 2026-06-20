@@ -9318,5 +9318,64 @@
       "gemini_card",
       "coinbase"
     ]
+  },
+  {
+    "slug": "compound-interest-explained-2026-06-20-145151",
+    "slug_base": "compound-interest-explained",
+    "title": "Compound Interest Explained: The Math That Makes or Breaks Your Wealth",
+    "tag": "Investing",
+    "emoji": "\ud83d\udd22",
+    "bg": "#eff6ff",
+    "desc": "Compound interest explained simply with real examples \u2014 how it builds wealth and why starting early is the most important financial decision you can make.",
+    "date": "2026-06-20",
+    "sections": [
+      {
+        "h": "Simple vs Compound Interest",
+        "body": "Compound interest means your money earns money on its money \u2014 and that money earns money on that money.\n\nThe formula: **A = P(1 + r)^t**\n\nAt 7%: your money grows 3.9\u00d7 in 20 years, 7.6\u00d7 in 30 years, 14.9\u00d7 in 40 years. Time is the main variable."
+      },
+      {
+        "h": "The Rule of 72",
+        "body": "Quick mental math: divide 72 by your interest rate to find years to double your money.\n\n\u2022 At 6% \u2192 doubles every 12 years\n\u2022 At 7% \u2192 doubles every ~10 years\n\u2022 At 10% \u2192 doubles every 7.2 years\n\nS&P 500 historical return (~10%): your money doubles roughly every 7 years."
+      },
+      {
+        "h": "Why Starting Early Beats Earning More",
+        "body": "**Alex** invests $5,000/year from age 25\u201335 (10 years), then stops. Total invested: $50,000.\n**Jordan** invests $5,000/year from age 35\u201365 (30 years). Total invested: $150,000.\n\nAt 65 (7% return):\n\u2022 Alex: **$602,000**\n\u2022 Jordan: **$472,000**\n\nAlex invested a third as much money and still won by $130,000. Starting a decade earlier overwhelms 30 extra years of contributions."
+      }
+    ],
+    "affiliates": [
+      "robinhood"
+    ]
+  },
+  {
+    "slug": "gemini-vs-coinbase-2026-2026-06-20-145151",
+    "slug_base": "gemini-vs-coinbase-2026",
+    "title": "Coinbase vs Gemini: The Honest Comparison",
+    "tag": "Crypto",
+    "emoji": "\u2696\ufe0f",
+    "bg": "#f0fdf4",
+    "desc": "Head-to-head comparison of Gemini and Coinbase \u2014 fees, security, coin selection, and sign-up bonuses \u2014 to help you choose the right exchange.",
+    "date": "2026-06-20",
+    "sections": [
+      {
+        "h": "The Quick Answer",
+        "body": "Both exchanges are legitimate and safe. Coinbase is better for wider coin selection; Gemini is better for security and the most generous welcome bonus in crypto."
+      },
+      {
+        "h": "Fees",
+        "body": "Neither exchange is the cheapest on fees (that's Kraken or Binance US). But both prioritize regulatory compliance and security over minimum fees \u2014 a worthwhile trade-off for US users."
+      },
+      {
+        "h": "Security",
+        "body": "Gemini holds the edge. It's the only SOC 2 Type 2 certified crypto exchange and holds a NYDFS BitLicense \u2014 one of the strictest financial licenses in the US.\n\nCoinbase is publicly traded on NASDAQ (ticker: COIN) and holds licenses in all 50 states. Both are among the safest options available."
+      },
+      {
+        "h": "Verdict",
+        "body": "If you're only opening one: pick Gemini for the $50 referral bonus and top-tier security. Pick Coinbase if you want to explore smaller altcoins beyond the top 70."
+      }
+    ],
+    "affiliates": [
+      "gemini",
+      "coinbase"
+    ]
   }
 ]
