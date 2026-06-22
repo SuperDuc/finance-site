@@ -9763,5 +9763,60 @@
       "gemini_card",
       "gemini"
     ]
+  },
+  {
+    "slug": "index-funds-explained-2026-06-22-210707",
+    "slug_base": "index-funds-explained",
+    "title": "Index Funds for Beginners: A Complete 2026 Guide",
+    "tag": "Investing",
+    "emoji": "\ud83d\udcca",
+    "bg": "#eff6ff",
+    "desc": "Index funds explained from scratch \u2014 what they are, why they outperform most active investors, and how to buy your first one today.",
+    "date": "2026-06-22",
+    "sections": [
+      {
+        "h": "What Is an Index Fund?",
+        "body": "An index fund is the simplest investment vehicle that works. You're buying the whole market, not betting on individual companies.\n\nMost popular example: **VOO** (Vanguard S&P 500 ETF). It holds the same stocks as the S&P 500 and charges just 0.03% per year \u2014 $3 on a $10,000 investment."
+      },
+      {
+        "h": "Why They Beat Most Active Investors",
+        "body": "Over any 15-year period, more than **90% of actively managed mutual funds underperform the S&P 500 index**.\n\nProfessional fund managers \u2014 with MBAs, Bloomberg terminals, and decades of experience \u2014 can't beat a simple index fund 9 out of 10 times. Yet they charge 1\u20132% in annual fees."
+      },
+      {
+        "h": "The Best Index Funds to Start With",
+        "body": "For most beginners, one of these three is all you need:\n\n\u2022 **VOO** \u2014 Vanguard S&P 500 ETF, 0.03% expense ratio\n\u2022 **VTI** \u2014 Vanguard Total Stock Market ETF, 0.03%\n\u2022 **VT** \u2014 Vanguard Total World Stock ETF, 0.07% (global)\n\nAll available commission-free on Robinhood and Fidelity."
+      }
+    ],
+    "affiliates": [
+      "robinhood"
+    ]
+  },
+  {
+    "slug": "passive-income-ideas-2026-2026-06-22-210707",
+    "slug_base": "passive-income-ideas-2026",
+    "title": "How to Build Passive Income From Scratch in 2026",
+    "tag": "Investing",
+    "emoji": "\ud83d\udcb8",
+    "bg": "#fefce8",
+    "desc": "Realistic passive income ideas for 2026 \u2014 dividend investing, crypto staking, affiliate income, and more. How much each earns and how to start.",
+    "date": "2026-06-22",
+    "sections": [
+      {
+        "h": "Dividend Investing",
+        "body": "Dividend investing is the most proven passive income method. You buy profitable companies. They share profits quarterly. You reinvest those dividends to buy more shares.\n\nREITs (Real Estate Investment Trusts) pay dividends too \u2014 often 5\u20138% yields \u2014 letting you earn real estate income without owning property."
+      },
+      {
+        "h": "Crypto Staking",
+        "body": "Staking means locking up cryptocurrency to help validate blockchain transactions. In return, you earn rewards \u2014 essentially interest on your crypto.\n\nCurrent approximate staking yields:\n\u2022 Ethereum (ETH): ~3\u20134% annually\n\u2022 Solana (SOL): ~6\u20137% annually\n\nGemini offers staking on multiple assets directly from the platform \u2014 no technical setup required."
+      },
+      {
+        "h": "Affiliate Marketing",
+        "body": "Refer people to products and earn a commission when they sign up \u2014 this is literally how this site earns money.\n\nFinancial affiliate programs pay well:\n\u2022 Crypto exchanges: $10\u2013$50 per new user\n\u2022 Robinhood: you both get a free stock\n\u2022 Credit cards: $50\u2013$200 per approval\n\nA single well-placed affiliate link in a blog post can earn for years with zero ongoing effort."
+      }
+    ],
+    "affiliates": [
+      "robinhood",
+      "gemini"
+    ]
   }
 ]
