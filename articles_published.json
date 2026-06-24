@@ -10095,5 +10095,60 @@
       "robinhood",
       "gemini"
     ]
+  },
+  {
+    "slug": "emergency-fund-guide-2026-06-24-150314",
+    "slug_base": "emergency-fund-guide",
+    "title": "Building an Emergency Fund: How Much, Where, and How Fast",
+    "tag": "Saving",
+    "emoji": "\ud83d\udee1\ufe0f",
+    "bg": "#f0fdf4",
+    "desc": "How much to save in your emergency fund, where to keep it, and the fastest way to build one \u2014 even on a tight budget.",
+    "date": "2026-06-24",
+    "sections": [
+      {
+        "h": "How Much Do You Actually Need?",
+        "body": "Define 'expenses' correctly: rent/mortgage, food, utilities, insurance, and minimum debt payments. Not your lifestyle spending.\n\nMost people overestimate their required emergency fund. Start with 1 month \u2014 it covers most real emergencies \u2014 then build toward 3."
+      },
+      {
+        "h": "Where to Keep It",
+        "body": "Your emergency fund should be:\n1. **Liquid** \u2014 accessible in 24 hours\n2. **Safe** \u2014 FDIC insured\n3. **Earning interest** \u2014 not sitting in a 0.01% APY checking account\n\nThe best home is a **high-yield savings account (HYSA)**. Top HYSAs pay 4\u20135% APY \u2014 on a $10,000 fund, that's $400\u2013$500/year in free interest."
+      },
+      {
+        "h": "How to Build It Fast",
+        "body": "Break it into milestones:\n\n**Month 1\u20132:** Save $500 \u2014 covers most minor emergencies\n**Month 3\u20134:** Reach $1,000 \u2014 covers car repairs, medical bills\n**Month 5+:** Continue until you hit 3 months of expenses\n\nTreat your emergency fund contribution like a bill. Set up an automatic transfer on payday before you can spend the money."
+      }
+    ],
+    "affiliates": [
+      "robinhood"
+    ]
+  },
+  {
+    "slug": "how-to-invest-50-dollars-month-2026-06-24-150314",
+    "slug_base": "how-to-invest-50-dollars-month",
+    "title": "$50 a Month: What It Grows to Over 10, 20, and 30 Years",
+    "tag": "Investing",
+    "emoji": "\ud83d\udcc8",
+    "bg": "#eff6ff",
+    "desc": "How $50/month grows through compound interest, which accounts to use, and the exact steps to start investing today.",
+    "date": "2026-06-24",
+    "sections": [
+      {
+        "h": "The Math on $50 a Month",
+        "body": "**$50/month at 7% annual return:**\n\u2022 After 10 years: **$8,654**\n\u2022 After 20 years: **$26,126**\n\u2022 After 30 years: **$60,905**\n\nYou contributed $18,000. Compound interest did the rest \u2014 $42,905 that you never earned yourself."
+      },
+      {
+        "h": "Where to Put Your $50",
+        "body": "For most beginners: Roth IRA \u2192 index ETFs \u2192 automate.\n\n\u2022 **Roth IRA:** Tax-free growth. Every dollar of gains comes out tax-free in retirement.\n\u2022 **VOO or VTI:** Instant diversification across 500\u20133,500 companies. Expense ratio under 0.05%.\n\u2022 **Automate:** Set recurring purchases on payday.\n\nThis beats most professional money managers over 30 years."
+      },
+      {
+        "h": "The One Thing That Matters",
+        "body": "Time in the market beats timing the market \u2014 always.\n\nEvery month you wait to start is compounding you can never recover. The best time was 10 years ago. The second best time is today.\n\nOpen an account, set up a $50 recurring investment, and stop thinking about it."
+      }
+    ],
+    "affiliates": [
+      "robinhood",
+      "coinbase"
+    ]
   }
 ]
