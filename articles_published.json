@@ -10876,5 +10876,60 @@
       "robinhood",
       "gemini"
     ]
+  },
+  {
+    "slug": "gemini-credit-card-review-2026-2026-06-28-143930",
+    "slug_base": "gemini-credit-card-review-2026",
+    "title": "Gemini Credit Card Review 2026: Is 4% Crypto Cashback Worth It?",
+    "tag": "Crypto",
+    "emoji": "\ud83d\udc8e",
+    "bg": "#fdf4ff",
+    "desc": "Full review of the Gemini Credit Card \u2014 4% dining rewards, how real-time crypto cashback works, who it's best for, and whether it's worth applying.",
+    "date": "2026-06-28",
+    "sections": [
+      {
+        "h": "What Is the Gemini Credit Card?",
+        "body": "The Gemini Credit Card earns cryptocurrency on every purchase instead of points or cash back. No annual fee, no foreign transaction fees, and rewards deposit instantly into your Gemini wallet.\n\nRewards rates:\n\u2022 **Dining:** 4% back in crypto\n\u2022 **Groceries:** 3% back in crypto\n\u2022 **Everything else:** 1% back in crypto"
+      },
+      {
+        "h": "How the Rewards Actually Work",
+        "body": "Every time you swipe, your cashback converts to crypto at the current market rate and deposits into your Gemini account within seconds. No waiting, no minimums, no manual redemption.\n\nThis means your dining cashback starts earning price appreciation immediately. If you earn 4% back in Bitcoin and Bitcoin goes up, your rewards are worth more."
+      },
+      {
+        "h": "Is 4% Crypto Cashback Good?",
+        "body": "For dining specifically: yes, 4% is excellent. Most premium cash-back cards top out at 3% on dining \u2014 and charge annual fees of $95\u2013$550.\n\nGemini's 4% dining reward with a $0 annual fee is genuinely competitive against any rewards card on the market."
+      }
+    ],
+    "affiliates": [
+      "gemini_card",
+      "gemini"
+    ]
+  },
+  {
+    "slug": "high-yield-savings-account-guide-2026-06-28-143930",
+    "slug_base": "high-yield-savings-account-guide",
+    "title": "Why Your Savings Account Is Costing You Thousands",
+    "tag": "Saving",
+    "emoji": "\ud83c\udfe6",
+    "bg": "#f0fdf4",
+    "desc": "How high-yield savings accounts work, how much more you'll earn vs a traditional bank, and how to open one in 10 minutes.",
+    "date": "2026-06-28",
+    "sections": [
+      {
+        "h": "The Problem: Your Bank Is Ripping You Off",
+        "body": "The national average savings APY at big banks (Chase, Bank of America, Wells Fargo) is 0.01%. That means on $10,000, you earn $1 per year.\n\nMeanwhile, inflation runs at 2\u20134% annually. You're effectively losing purchasing power every month your money sits there."
+      },
+      {
+        "h": "What Makes It \"High-Yield\"?",
+        "body": "Online banks can offer 4\u20135% APY because they don't maintain thousands of physical branches. That cost savings goes straight into your interest rate.\n\nHYSAs are not investments or exotic products. They're regular FDIC-insured savings accounts. The only difference is the number after the % sign."
+      },
+      {
+        "h": "The Math",
+        "body": "Let's say you have $15,000 in savings:\n\n\u2022 Big bank at 0.01% APY: **$1.50/year**\n\u2022 High-yield savings at 4.5% APY: **$675/year**\n\nThat's $673.50 in free money for switching accounts. Over 5 years with compound interest, the difference grows to over $3,500."
+      }
+    ],
+    "affiliates": [
+      "gemini"
+    ]
   }
 ]
