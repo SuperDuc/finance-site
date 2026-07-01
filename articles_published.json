@@ -11456,5 +11456,59 @@
       "strike",
       "robinhood"
     ]
+  },
+  {
+    "slug": "debt-avalanche-vs-snowball-2026-07-01-150554",
+    "slug_base": "debt-avalanche-vs-snowball",
+    "title": "Debt Avalanche vs Snowball: Which Method Saves More Money?",
+    "tag": "Debt",
+    "emoji": "\ud83d\udcb3",
+    "bg": "#fefce8",
+    "desc": "A clear comparison of the debt avalanche and snowball methods \u2014 which saves more money, which keeps you motivated, and exactly how to choose.",
+    "date": "2026-07-01",
+    "sections": [
+      {
+        "h": "The Two Methods",
+        "body": "Both methods are identical except for which debt gets your extra payment each month.\n\n\u2022 **Avalanche** = highest interest rate first\n\u2022 **Snowball** = smallest balance first\n\nBoth dramatically accelerate payoff compared to minimum payments only."
+      },
+      {
+        "h": "Which Saves More Money?",
+        "body": "The avalanche always saves more interest \u2014 sometimes significantly.\n\nExample: $20,000 across three debts (15% credit card, 8% personal loan, 4% car loan), $300 extra/month:\n\n\u2022 **Avalanche:** Debt-free in 48 months, $4,200 in interest\n\u2022 **Snowball:** Debt-free in 51 months, $5,100 in interest\n\n$900 more in your pocket with avalanche."
+      },
+      {
+        "h": "Which Method Works for YOU?",
+        "body": "Dave Ramsey advocates the snowball because he's seen thousands fail with mathematically optimal plans they couldn't sustain.\n\nBut if you can stay motivated with the avalanche, the extra savings are real money. Use our free debt payoff calculator to see the exact numbers for your situation."
+      }
+    ],
+    "affiliates": [
+      "robinhood"
+    ]
+  },
+  {
+    "slug": "high-yield-savings-account-guide-2026-07-01-150554",
+    "slug_base": "high-yield-savings-account-guide",
+    "title": "Earn 10x More Interest: High-Yield Savings Accounts Explained",
+    "tag": "Saving",
+    "emoji": "\ud83c\udfe6",
+    "bg": "#f0fdf4",
+    "desc": "How high-yield savings accounts work, how much more you'll earn vs a traditional bank, and how to open one in 10 minutes.",
+    "date": "2026-07-01",
+    "sections": [
+      {
+        "h": "The Problem: Your Bank Is Ripping You Off",
+        "body": "Here's a number that should make you angry: 0.01% APY. On $10,000, that's $1/year.\n\nHigh-yield savings accounts pay 4\u20135% APY on the same money \u2014 $400\u2013$500/year. Same FDIC insurance. Same access. You just need to log into a different app."
+      },
+      {
+        "h": "What Makes It \"High-Yield\"?",
+        "body": "Online banks can offer 4\u20135% APY because they don't maintain thousands of physical branches. That cost savings goes straight into your interest rate.\n\nHYSAs are not investments or exotic products. They're regular FDIC-insured savings accounts. The only difference is the number after the % sign."
+      },
+      {
+        "h": "The Math",
+        "body": "Example with $25,000:\n\u2022 Chase savings at 0.01% APY: $2.50/year\n\u2022 HYSA at 4.5% APY: $1,125/year\n\nEvery day you wait costs you about $3. The account opening takes 10 minutes. There's no good reason to keep your savings at a big bank."
+      }
+    ],
+    "affiliates": [
+      "gemini"
+    ]
   }
 ]
