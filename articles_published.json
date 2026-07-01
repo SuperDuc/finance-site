@@ -11377,5 +11377,84 @@
       "robinhood",
       "coinbase"
     ]
+  },
+  {
+    "slug": "index-funds-explained-2026-07-01-091826",
+    "slug_base": "index-funds-explained",
+    "title": "What Are Index Funds and Why Do They Beat Stock Pickers?",
+    "tag": "Investing",
+    "emoji": "\ud83d\udcca",
+    "bg": "#eff6ff",
+    "desc": "Index funds explained from scratch \u2014 what they are, why they outperform most active investors, and how to buy your first one today.",
+    "date": "2026-07-01",
+    "sections": [
+      {
+        "h": "What Is an Index Fund?",
+        "body": "An index fund is the simplest investment vehicle that works. You're buying the whole market, not betting on individual companies.\n\nMost popular example: **VOO** (Vanguard S&P 500 ETF). It holds the same stocks as the S&P 500 and charges just 0.03% per year \u2014 $3 on a $10,000 investment."
+      },
+      {
+        "h": "Why They Beat Most Active Investors",
+        "body": "Over any 15-year period, more than **90% of actively managed mutual funds underperform the S&P 500 index**.\n\nProfessional fund managers \u2014 with MBAs, Bloomberg terminals, and decades of experience \u2014 can't beat a simple index fund 9 out of 10 times. Yet they charge 1\u20132% in annual fees."
+      },
+      {
+        "h": "The Best Index Funds to Start With",
+        "body": "Start simple:\n\u2022 **US exposure:** VOO or VTI\n\u2022 **Global exposure:** VT, or 60% VTI + 40% VXUS\n\u2022 **One fund forever:** VT\n\nDon't overthink it. Pick one, automate monthly purchases, and check prices less often. That's the entire strategy."
+      }
+    ],
+    "affiliates": [
+      "robinhood"
+    ]
+  },
+  {
+    "slug": "bitcoin-lightning-network-explained-2026-07-01-091826",
+    "slug_base": "bitcoin-lightning-network-explained",
+    "title": "Strike and Lightning Network: How Bitcoin Became Usable Every Day",
+    "tag": "Crypto",
+    "emoji": "\u26a1",
+    "bg": "#fefce8",
+    "desc": "The Bitcoin Lightning Network explained simply \u2014 what it is, how it makes Bitcoin instant and free, and why Strike is built on it.",
+    "date": "2026-07-01",
+    "sections": [
+      {
+        "h": "Bitcoin's Speed Problem",
+        "body": "Bitcoin is great as a store of value but has a limitation: the main blockchain processes only ~7 transactions per second. Visa handles 24,000 per second.\n\nBitcoin transactions can take 10+ minutes and cost $5\u2013$50 in fees during busy periods \u2014 terrible for everyday payments. The Lightning Network solves this."
+      },
+      {
+        "h": "How Lightning Works",
+        "body": "Lightning creates 'payment channels' between users \u2014 like running a tab at a bar, settling multiple transactions at once.\n\nInside a Lightning channel: transactions are **instant and nearly free**. Only opening and closing a channel touches the main blockchain.\n\nResult: thousands of transactions per second, fees under $0.01, settlement in milliseconds."
+      },
+      {
+        "h": "Strike: Lightning Made Simple",
+        "body": "Strike is one of the most popular Lightning Network apps in the US. It lets you buy Bitcoin instantly with near-zero fees, and send Bitcoin to anyone for fractions of a cent.\n\nStrike's standout offer for new users: your **first $500 of Bitcoin is completely fee-free**. No catch."
+      }
+    ],
+    "affiliates": [
+      "strike",
+      "coinbase"
+    ]
+  },
+  {
+    "slug": "finance-news-roundup-2026-07-01-091826",
+    "slug_base": "finance-news-roundup",
+    "title": "Finance News Roundup: What Happened This Week (2026-07-01)",
+    "tag": "News",
+    "emoji": "\ud83d\udcf0",
+    "bg": "#f0f9ff",
+    "desc": "The latest finance and crypto news for July 01, 2026 \u2014 markets, investing updates, and what it means for your money.",
+    "date": "2026-07-01",
+    "sections": [
+      {
+        "h": "Top Finance & Market Stories",
+        "body": "**Best secured personal loans and lenders of July 2026: Get lower rates by adding collateral**\n <a href=\"https://finance.yahoo.com/personal-finance/personal-loans/article/best-secured-personal-loans-224147862.html\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>\n\n**Student loan overhaul starts July 1: What borrowers should know**\n <a href=\"https://finance.yahoo.com/personal-finance/student-loans/article/student-loan-overhaul-starts-july-1-what-borrowers-should-know-150138537.html\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>\n\n**Best same-day emergency loans for July 2026: Get fast funding after approval**\n <a href=\"https://finance.yahoo.com/personal-finance/personal-loans/article/best-same-day-emergency-loans-220714166.html\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>\n\n**Weekly survey of mortgage lenders with the lowest rates: 6% is back (without fees)**\n <a href=\"https://finance.yahoo.com/personal-finance/mortgages/article/weekly-survey-mortgage-lenders-with-the-best-lowest-rates-june-29-170834159.html\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>"
+      },
+      {
+        "h": "Crypto & Digital Assets",
+        "body": "**Former Goliath Ventures CEO pleads guilty in $400M crypto Ponzi case**\nFormer Goliath Ventures CEO Christopher Delgado pleaded guilty to fraud and money laundering and agreed to forfeit properties, vehicles, luxury goods and crypto wallets. <a href=\"https://cointelegraph.com/news/goliath-ceo-guilty-400m-crypto-ponzi-case?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>\n\n**Taiwan\u2019s legislature passes crypto, stablecoin regulations**\nTaiwan\u2019s legislative branch has passed the nation\u2019s first crypto and stablecoin rules, which aim to integrate the country with the global crypto market. <a href=\"https://cointelegraph.com/news/taiwans-legislature-passes-crypto-regulation-licensing-laws?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>\n\n**Anthropic to bring back Fable 5 as US lifts export controls**\nClaude Fable 5 will be redeployed with a new set of classifiers designed to identify and block a broader range of cybersecurity-related tasks. <a href=\"https://cointelegraph.com/news/anthropic-reactivates-newest-ai-models-after-us-govt-lifts-restrictions?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>"
+      }
+    ],
+    "affiliates": [
+      "strike",
+      "robinhood"
+    ]
   }
 ]
