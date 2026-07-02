@@ -11643,5 +11643,64 @@
       "gemini",
       "coinbase"
     ]
+  },
+  {
+    "slug": "emergency-fund-guide-2026-07-02-145118",
+    "slug_base": "emergency-fund-guide",
+    "title": "How Much Should You Have in an Emergency Fund? The Honest Answer",
+    "tag": "Saving",
+    "emoji": "\ud83d\udee1\ufe0f",
+    "bg": "#f0fdf4",
+    "desc": "How much to save in your emergency fund, where to keep it, and the fastest way to build one \u2014 even on a tight budget.",
+    "date": "2026-07-02",
+    "sections": [
+      {
+        "h": "How Much Do You Actually Need?",
+        "body": "The classic advice is 3\u20136 months of expenses. But the right amount depends on your situation:\n\n\u2022 **Stable job, dual income:** 3 months is enough\n\u2022 **Single income or variable income:** 6 months minimum\n\u2022 **Self-employed or freelance:** 9\u201312 months recommended\n\nThe goal: be able to pay your bills for that many months if all income stopped tomorrow."
+      },
+      {
+        "h": "Where to Keep It",
+        "body": "Never keep your emergency fund in stocks or crypto. The whole point is that it's there when you need it \u2014 markets can be down 40% exactly when you lose your job.\n\nKeep it in a HYSA: FDIC insured, earns 4\u20135% APY (vs 0.01% at big banks), and you can access it in 24 hours."
+      },
+      {
+        "h": "How to Build It Fast",
+        "body": "Practical ways to build it faster:\n\u2022 **Automate it:** Set up a weekly transfer to your HYSA \u2014 whatever you can afford\n\u2022 **Windfall rule:** Put 50% of any unexpected money (tax refund, bonus) directly into the fund\n\u2022 **Cut one expense:** Cancel one subscription and redirect that exact amount to savings"
+      }
+    ],
+    "affiliates": [
+      "robinhood"
+    ]
+  },
+  {
+    "slug": "gemini-vs-coinbase-2026-2026-07-02-145118",
+    "slug_base": "gemini-vs-coinbase-2026",
+    "title": "Gemini vs Coinbase: Which Crypto Exchange Is Better in 2026?",
+    "tag": "Crypto",
+    "emoji": "\u2696\ufe0f",
+    "bg": "#f0fdf4",
+    "desc": "Head-to-head comparison of Gemini and Coinbase \u2014 fees, security, coin selection, and sign-up bonuses \u2014 to help you choose the right exchange.",
+    "date": "2026-07-02",
+    "sections": [
+      {
+        "h": "The Quick Answer",
+        "body": "Both exchanges are legitimate and safe. Coinbase is better for wider coin selection; Gemini is better for security and the most generous welcome bonus in crypto."
+      },
+      {
+        "h": "Fees",
+        "body": "Coinbase charges 1.49%\u20132.99% on standard purchases. Gemini charges similar spreads. Both offer lower-fee 'Pro' modes for experienced users.\n\nFor everyday buying, fees are comparable. Gemini's $50 welcome bonus effectively cancels months of fees."
+      },
+      {
+        "h": "Security",
+        "body": "Gemini has more third-party security certifications and undergoes regular independent audits. Coinbase's public listing means it faces strict SEC reporting \u2014 a different but equally meaningful layer of accountability."
+      },
+      {
+        "h": "Verdict",
+        "body": "If you're only opening one: pick Gemini for the $50 referral bonus and top-tier security. Pick Coinbase if you want to explore smaller altcoins beyond the top 70."
+      }
+    ],
+    "affiliates": [
+      "gemini",
+      "coinbase"
+    ]
   }
 ]
