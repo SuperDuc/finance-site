@@ -12090,5 +12090,59 @@
       "robinhood",
       "coinbase"
     ]
+  },
+  {
+    "slug": "index-funds-explained-2026-07-04-202507",
+    "slug_base": "index-funds-explained",
+    "title": "What Are Index Funds and Why Do They Beat Stock Pickers?",
+    "tag": "Investing",
+    "emoji": "\ud83d\udcca",
+    "bg": "#eff6ff",
+    "desc": "Index funds explained from scratch \u2014 what they are, why they outperform most active investors, and how to buy your first one today.",
+    "date": "2026-07-04",
+    "sections": [
+      {
+        "h": "What Is an Index Fund?",
+        "body": "An index fund holds stocks that mirror a market index \u2014 most commonly the S&P 500 (500 largest US companies).\n\nInstead of picking individual stocks, you buy tiny pieces of all 500 companies at once. When the market goes up, your fund goes up.\n\nThe S&P 500 has returned an average of ~10.5% annually since 1957."
+      },
+      {
+        "h": "Why They Beat Most Active Investors",
+        "body": "Over any 15-year period, more than **90% of actively managed mutual funds underperform the S&P 500 index**.\n\nProfessional fund managers \u2014 with MBAs, Bloomberg terminals, and decades of experience \u2014 can't beat a simple index fund 9 out of 10 times. Yet they charge 1\u20132% in annual fees."
+      },
+      {
+        "h": "The Best Index Funds to Start With",
+        "body": "Start simple:\n\u2022 **US exposure:** VOO or VTI\n\u2022 **Global exposure:** VT, or 60% VTI + 40% VXUS\n\u2022 **One fund forever:** VT\n\nDon't overthink it. Pick one, automate monthly purchases, and check prices less often. That's the entire strategy."
+      }
+    ],
+    "affiliates": [
+      "robinhood"
+    ]
+  },
+  {
+    "slug": "roth-ira-beginners-guide-2026-07-04-202507",
+    "slug_base": "roth-ira-beginners-guide",
+    "title": "Roth IRA Explained: The Best Retirement Account Most People Aren't Using",
+    "tag": "Investing",
+    "emoji": "\ud83c\udfdb\ufe0f",
+    "bg": "#eff6ff",
+    "desc": "A complete beginner's guide to Roth IRAs \u2014 what they are, why they're powerful, 2026 contribution limits, and how to open one in minutes.",
+    "date": "2026-07-04",
+    "sections": [
+      {
+        "h": "What Is a Roth IRA?",
+        "body": "A Roth IRA is a retirement account where you contribute after-tax dollars \u2014 and then all growth and withdrawals are **completely tax-free**.\n\nExample: Invest $6,000 at 25. By 65, it grows to $90,000 at 7% return. You pay taxes on the $6,000. The $84,000 in gains? Zero taxes. Forever."
+      },
+      {
+        "h": "2026 Contribution Limits",
+        "body": "In 2026, you can contribute up to **$7,000/year** to a Roth IRA ($8,000 if you're 50+).\n\nIncome limits: full contribution allowed under $146,000 (single) or $230,000 (married filing jointly).\n\n$7,000/year = ~$583/month = ~$134/week."
+      },
+      {
+        "h": "How to Open One",
+        "body": "Opening a Roth IRA takes 10 minutes:\n\n1. Choose a brokerage (Fidelity, Vanguard, or Robinhood)\n2. Click 'Open a Roth IRA'\n3. Fill in your personal info\n4. Fund via bank transfer\n5. Invest in a target-date fund or index ETF\n\nRobinhood offers a 3% IRA contribution match for Gold members \u2014 a compelling offer."
+      }
+    ],
+    "affiliates": [
+      "robinhood"
+    ]
   }
 ]
