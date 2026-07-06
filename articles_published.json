@@ -12483,5 +12483,60 @@
     "affiliates": [
       "robinhood"
     ]
+  },
+  {
+    "slug": "bitcoin-lightning-network-explained-2026-07-06-204343",
+    "slug_base": "bitcoin-lightning-network-explained",
+    "title": "Lightning Network Explained: Why Bitcoin Payments Are Now Instant",
+    "tag": "Crypto",
+    "emoji": "\u26a1",
+    "bg": "#fefce8",
+    "desc": "The Bitcoin Lightning Network explained simply \u2014 what it is, how it makes Bitcoin instant and free, and why Strike is built on it.",
+    "date": "2026-07-06",
+    "sections": [
+      {
+        "h": "Bitcoin's Speed Problem",
+        "body": "Bitcoin's blockchain is intentionally slow and secure. Every transaction is permanently recorded on a distributed ledger verified by thousands of nodes worldwide. This security comes with a cost: speed and fees.\n\nFor buying coffee or sending $5, waiting 10 minutes and paying $20 doesn't work. Lightning is Bitcoin's answer."
+      },
+      {
+        "h": "How Lightning Works",
+        "body": "Lightning creates 'payment channels' between users \u2014 like running a tab at a bar, settling multiple transactions at once.\n\nInside a Lightning channel: transactions are **instant and nearly free**. Only opening and closing a channel touches the main blockchain.\n\nResult: thousands of transactions per second, fees under $0.01, settlement in milliseconds."
+      },
+      {
+        "h": "Strike: Lightning Made Simple",
+        "body": "Strike abstracts away all Lightning Network complexity into a clean, simple app. You don't need to understand payment channels \u2014 it just works.\n\nFor buying Bitcoin, Strike is one of the lowest-fee options available. The first $500 is completely free, and fees after that remain very competitive."
+      }
+    ],
+    "affiliates": [
+      "strike",
+      "coinbase"
+    ]
+  },
+  {
+    "slug": "compound-interest-explained-2026-07-06-204343",
+    "slug_base": "compound-interest-explained",
+    "title": "How Compound Interest Works: Why Einstein Called It the 8th Wonder",
+    "tag": "Investing",
+    "emoji": "\ud83d\udd22",
+    "bg": "#eff6ff",
+    "desc": "Compound interest explained simply with real examples \u2014 how it builds wealth and why starting early is the most important financial decision you can make.",
+    "date": "2026-07-06",
+    "sections": [
+      {
+        "h": "Simple vs Compound Interest",
+        "body": "Compound interest means your money earns money on its money \u2014 and that money earns money on that money.\n\nThe formula: **A = P(1 + r)^t**\n\nAt 7%: your money grows 3.9\u00d7 in 20 years, 7.6\u00d7 in 30 years, 14.9\u00d7 in 40 years. Time is the main variable."
+      },
+      {
+        "h": "The Rule of 72",
+        "body": "Quick mental math: divide 72 by your interest rate to find years to double your money.\n\n\u2022 At 6% \u2192 doubles every 12 years\n\u2022 At 7% \u2192 doubles every ~10 years\n\u2022 At 10% \u2192 doubles every 7.2 years\n\nS&P 500 historical return (~10%): your money doubles roughly every 7 years."
+      },
+      {
+        "h": "Why Starting Early Beats Earning More",
+        "body": "**Alex** invests $5,000/year from age 25\u201335 (10 years), then stops. Total invested: $50,000.\n**Jordan** invests $5,000/year from age 35\u201365 (30 years). Total invested: $150,000.\n\nAt 65 (7% return):\n\u2022 Alex: **$602,000**\n\u2022 Jordan: **$472,000**\n\nAlex invested a third as much money and still won by $130,000. Starting a decade earlier overwhelms 30 extra years of contributions."
+      }
+    ],
+    "affiliates": [
+      "robinhood"
+    ]
   }
 ]
