@@ -12815,5 +12815,60 @@
       "gemini_card",
       "coinbase"
     ]
+  },
+  {
+    "slug": "passive-income-ideas-2026-2026-07-08-145144",
+    "slug_base": "passive-income-ideas-2026",
+    "title": "8 Realistic Passive Income Ideas That Actually Work in 2026",
+    "tag": "Investing",
+    "emoji": "\ud83d\udcb8",
+    "bg": "#fefce8",
+    "desc": "Realistic passive income ideas for 2026 \u2014 dividend investing, crypto staking, affiliate income, and more. How much each earns and how to start.",
+    "date": "2026-07-08",
+    "sections": [
+      {
+        "h": "Dividend Investing",
+        "body": "Buy shares of dividend-paying stocks or ETFs and receive quarterly payments. A 4% dividend yield on $10,000 = $400/year \u2014 $33/month \u2014 for doing nothing after the initial purchase.\n\nBest dividend ETFs: **SCHD** (Schwab US Dividend Equity), **VYM** (Vanguard High Dividend Yield), **JEPI** (JPMorgan Equity Premium Income, ~7% yield).\n\nUse Robinhood or Fidelity to set up automatic reinvestment (DRIP) and watch compounding accelerate."
+      },
+      {
+        "h": "Crypto Staking",
+        "body": "If you're holding crypto long-term, staking is free money. You're not selling \u2014 you're putting existing holdings to work.\n\nGemini's staking feature lets you earn directly from your account. Rates vary by asset and market conditions, but passive crypto yield beats leaving coins idle."
+      },
+      {
+        "h": "Affiliate Marketing",
+        "body": "Refer people to products and earn a commission when they sign up \u2014 this is literally how this site earns money.\n\nFinancial affiliate programs pay well:\n\u2022 Crypto exchanges: $10\u2013$50 per new user\n\u2022 Robinhood: you both get a free stock\n\u2022 Credit cards: $50\u2013$200 per approval\n\nA single well-placed affiliate link in a blog post can earn for years with zero ongoing effort."
+      }
+    ],
+    "affiliates": [
+      "robinhood",
+      "gemini"
+    ]
+  },
+  {
+    "slug": "emergency-fund-guide-2026-07-08-145144",
+    "slug_base": "emergency-fund-guide",
+    "title": "Building an Emergency Fund: How Much, Where, and How Fast",
+    "tag": "Saving",
+    "emoji": "\ud83d\udee1\ufe0f",
+    "bg": "#f0fdf4",
+    "desc": "How much to save in your emergency fund, where to keep it, and the fastest way to build one \u2014 even on a tight budget.",
+    "date": "2026-07-08",
+    "sections": [
+      {
+        "h": "How Much Do You Actually Need?",
+        "body": "Define 'expenses' correctly: rent/mortgage, food, utilities, insurance, and minimum debt payments. Not your lifestyle spending.\n\nMost people overestimate their required emergency fund. Start with 1 month \u2014 it covers most real emergencies \u2014 then build toward 3."
+      },
+      {
+        "h": "Where to Keep It",
+        "body": "Never keep your emergency fund in stocks or crypto. The whole point is that it's there when you need it \u2014 markets can be down 40% exactly when you lose your job.\n\nKeep it in a HYSA: FDIC insured, earns 4\u20135% APY (vs 0.01% at big banks), and you can access it in 24 hours."
+      },
+      {
+        "h": "How to Build It Fast",
+        "body": "Practical ways to build it faster:\n\u2022 **Automate it:** Set up a weekly transfer to your HYSA \u2014 whatever you can afford\n\u2022 **Windfall rule:** Put 50% of any unexpected money (tax refund, bonus) directly into the fund\n\u2022 **Cut one expense:** Cancel one subscription and redirect that exact amount to savings"
+      }
+    ],
+    "affiliates": [
+      "robinhood"
+    ]
   }
 ]
