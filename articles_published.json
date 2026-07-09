@@ -13009,5 +13009,61 @@
       "gemini",
       "coinbase"
     ]
+  },
+  {
+    "slug": "dollar-cost-averaging-guide-2026-07-09-150659",
+    "slug_base": "dollar-cost-averaging-guide",
+    "title": "How Dollar Cost Averaging Removes Emotion From Investing",
+    "tag": "Investing",
+    "emoji": "\ud83d\udcc5",
+    "bg": "#eff6ff",
+    "desc": "Dollar cost averaging explained \u2014 what it is, why it works, and how to automate it for stocks, ETFs, and crypto.",
+    "date": "2026-07-09",
+    "sections": [
+      {
+        "h": "What Is Dollar Cost Averaging?",
+        "body": "Dollar cost averaging (DCA) means investing a fixed dollar amount on a regular schedule \u2014 weekly, biweekly, or monthly \u2014 regardless of what the market is doing.\n\nWhen prices are low, your fixed amount buys more shares. When prices are high, it buys fewer. Over time, this smooths out your average purchase cost."
+      },
+      {
+        "h": "Why It Works",
+        "body": "DCA works for two reasons:\n\n**1. Removes emotion.** The biggest investing mistake is panic-selling during crashes. DCA forces you to keep buying even when everything looks scary \u2014 exactly when the best deals are available.\n\n**2. Removes the need to time the market.** Even professional fund managers can't reliably time the market. DCA sidesteps the problem entirely."
+      },
+      {
+        "h": "DCA for Crypto",
+        "body": "DCA is even more valuable for crypto, where volatility is extreme. Instead of trying to buy the dip, just buy $50 of Bitcoin every week.\n\nCoinbase and Gemini both support recurring crypto purchases. Set it once and let it run.\n\nHistorically, anyone who DCA'd into Bitcoin over any 4-year period has been profitable \u2014 even if they started at a local price peak."
+      }
+    ],
+    "affiliates": [
+      "robinhood",
+      "coinbase"
+    ]
+  },
+  {
+    "slug": "passive-income-ideas-2026-2026-07-09-150659",
+    "slug_base": "passive-income-ideas-2026",
+    "title": "Passive Income in 2026: What's Working Right Now",
+    "tag": "Investing",
+    "emoji": "\ud83d\udcb8",
+    "bg": "#fefce8",
+    "desc": "Realistic passive income ideas for 2026 \u2014 dividend investing, crypto staking, affiliate income, and more. How much each earns and how to start.",
+    "date": "2026-07-09",
+    "sections": [
+      {
+        "h": "Dividend Investing",
+        "body": "Buy shares of dividend-paying stocks or ETFs and receive quarterly payments. A 4% dividend yield on $10,000 = $400/year \u2014 $33/month \u2014 for doing nothing after the initial purchase.\n\nBest dividend ETFs: **SCHD** (Schwab US Dividend Equity), **VYM** (Vanguard High Dividend Yield), **JEPI** (JPMorgan Equity Premium Income, ~7% yield).\n\nUse Robinhood or Fidelity to set up automatic reinvestment (DRIP) and watch compounding accelerate."
+      },
+      {
+        "h": "Crypto Staking",
+        "body": "Staking means locking up cryptocurrency to help validate blockchain transactions. In return, you earn rewards \u2014 essentially interest on your crypto.\n\nCurrent approximate staking yields:\n\u2022 Ethereum (ETH): ~3\u20134% annually\n\u2022 Solana (SOL): ~6\u20137% annually\n\nGemini offers staking on multiple assets directly from the platform \u2014 no technical setup required."
+      },
+      {
+        "h": "Affiliate Marketing",
+        "body": "Refer people to products and earn a commission when they sign up \u2014 this is literally how this site earns money.\n\nFinancial affiliate programs pay well:\n\u2022 Crypto exchanges: $10\u2013$50 per new user\n\u2022 Robinhood: you both get a free stock\n\u2022 Credit cards: $50\u2013$200 per approval\n\nA single well-placed affiliate link in a blog post can earn for years with zero ongoing effort."
+      }
+    ],
+    "affiliates": [
+      "robinhood",
+      "gemini"
+    ]
   }
 ]
