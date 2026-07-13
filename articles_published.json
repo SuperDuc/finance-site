@@ -13834,5 +13834,64 @@
     "affiliates": [
       "robinhood"
     ]
+  },
+  {
+    "slug": "robinhood-review-2026-2026-07-13-203116",
+    "slug_base": "robinhood-review-2026",
+    "title": "Is Robinhood Good? Our 2026 Full Review",
+    "tag": "Investing",
+    "emoji": "\ud83d\udfe2",
+    "bg": "#f0fdf4",
+    "desc": "An honest 2026 Robinhood review \u2014 commissions, the 3% IRA match, crypto trading, pros, cons, and who it's best for.",
+    "date": "2026-07-13",
+    "sections": [
+      {
+        "h": "What's Changed in 2026",
+        "body": "In 2026, Robinhood offers stocks, ETFs, options, crypto, and a surprisingly competitive 3% IRA match. The UI remains the simplest of any investing app \u2014 that's still its biggest advantage."
+      },
+      {
+        "h": "What You Can Trade",
+        "body": "Robinhood supports:\n\u2022 Stocks (US-listed)\n\u2022 ETFs\n\u2022 Options\n\u2022 Crypto (30+ coins including BTC, ETH, DOGE, SOL)\n\u2022 Fractional shares from $1\n\nNotably missing: mutual funds, international stocks, bonds. For those, consider Fidelity."
+      },
+      {
+        "h": "The 3% IRA Match",
+        "body": "No other retail broker matches IRA contributions this generously. 3% on $7,000 = $210 free money annually. Robinhood Gold ($60/yr) pays for itself many times over through this feature alone."
+      },
+      {
+        "h": "Pros and Cons",
+        "body": "**Best for:** Beginners who want simplicity. Anyone who wants a 3% IRA match. People who want stocks and crypto in one app.\n\n**Look elsewhere if:** You need advanced charting, screeners, mutual funds, or phone support. Fidelity or Schwab fit those needs better."
+      }
+    ],
+    "affiliates": [
+      "robinhood"
+    ]
+  },
+  {
+    "slug": "dollar-cost-averaging-guide-2026-07-13-203116",
+    "slug_base": "dollar-cost-averaging-guide",
+    "title": "Dollar Cost Averaging: The Strategy That Works While You Sleep",
+    "tag": "Investing",
+    "emoji": "\ud83d\udcc5",
+    "bg": "#eff6ff",
+    "desc": "Dollar cost averaging explained \u2014 what it is, why it works, and how to automate it for stocks, ETFs, and crypto.",
+    "date": "2026-07-13",
+    "sections": [
+      {
+        "h": "What Is Dollar Cost Averaging?",
+        "body": "DCA is the strategy used by almost every 401(k) in the country \u2014 employees contribute a fixed percentage of each paycheck automatically, regardless of market conditions.\n\nThe principle: don't try to predict the market. Just buy consistently and let time do the work."
+      },
+      {
+        "h": "Why It Works",
+        "body": "DCA works for two reasons:\n\n**1. Removes emotion.** The biggest investing mistake is panic-selling during crashes. DCA forces you to keep buying even when everything looks scary \u2014 exactly when the best deals are available.\n\n**2. Removes the need to time the market.** Even professional fund managers can't reliably time the market. DCA sidesteps the problem entirely."
+      },
+      {
+        "h": "DCA for Crypto",
+        "body": "Crypto DCA example: $100/week into Bitcoin starting January 2022 (near the peak). By 2025, that investor had a significant profit despite starting at what felt like the worst possible time.\n\nConsistency beats timing. Use Coinbase to set up automatic weekly crypto buys and stop agonizing over price."
+      }
+    ],
+    "affiliates": [
+      "robinhood",
+      "coinbase"
+    ]
   }
 ]
