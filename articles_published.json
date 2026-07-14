@@ -13977,5 +13977,60 @@
       "robinhood",
       "gemini"
     ]
+  },
+  {
+    "slug": "how-to-invest-50-dollars-month-2026-07-14-143859",
+    "slug_base": "how-to-invest-50-dollars-month",
+    "title": "How to Start Investing With Just $50 a Month",
+    "tag": "Investing",
+    "emoji": "\ud83d\udcc8",
+    "bg": "#eff6ff",
+    "desc": "How $50/month grows through compound interest, which accounts to use, and the exact steps to start investing today.",
+    "date": "2026-07-14",
+    "sections": [
+      {
+        "h": "The Math on $50 a Month",
+        "body": "**$50/month at 7% annual return:**\n\u2022 After 10 years: **$8,654**\n\u2022 After 20 years: **$26,126**\n\u2022 After 30 years: **$60,905**\n\nYou contributed $18,000. Compound interest did the rest \u2014 $42,905 that you never earned yourself."
+      },
+      {
+        "h": "Where to Put Your $50",
+        "body": "For most beginners: Roth IRA \u2192 index ETFs \u2192 automate.\n\n\u2022 **Roth IRA:** Tax-free growth. Every dollar of gains comes out tax-free in retirement.\n\u2022 **VOO or VTI:** Instant diversification across 500\u20133,500 companies. Expense ratio under 0.05%.\n\u2022 **Automate:** Set recurring purchases on payday.\n\nThis beats most professional money managers over 30 years."
+      },
+      {
+        "h": "The One Thing That Matters",
+        "body": "The single most important investing decision you'll make is to start.\n\nNot which stocks to pick. Not when to buy. Just whether you start at all.\n\nOpen Robinhood today, set up a recurring $50 into VOO, and you've already beaten the 90% of people who say they'll invest 'when things calm down' \u2014 and never do."
+      }
+    ],
+    "affiliates": [
+      "robinhood",
+      "coinbase"
+    ]
+  },
+  {
+    "slug": "compound-interest-explained-2026-07-14-143859",
+    "slug_base": "compound-interest-explained",
+    "title": "Compound Interest Explained: The Math That Makes or Breaks Your Wealth",
+    "tag": "Investing",
+    "emoji": "\ud83d\udd22",
+    "bg": "#eff6ff",
+    "desc": "Compound interest explained simply with real examples \u2014 how it builds wealth and why starting early is the most important financial decision you can make.",
+    "date": "2026-07-14",
+    "sections": [
+      {
+        "h": "Simple vs Compound Interest",
+        "body": "Compound interest means your money earns money on its money \u2014 and that money earns money on that money.\n\nThe formula: **A = P(1 + r)^t**\n\nAt 7%: your money grows 3.9\u00d7 in 20 years, 7.6\u00d7 in 30 years, 14.9\u00d7 in 40 years. Time is the main variable."
+      },
+      {
+        "h": "The Rule of 72",
+        "body": "Doubling times by rate:\n\n| Rate | Years to Double |\n|------|----------------|\n| 4% | 18 years |\n| 6% | 12 years |\n| 8% | 9 years |\n| 10% | 7.2 years |\n\nThis is why starting early matters more than starting with a large amount."
+      },
+      {
+        "h": "Why Starting Early Beats Earning More",
+        "body": "Time is worth more than money in investing. Starting at 25 vs 35 isn't a 10-year head start \u2014 it's potentially hundreds of thousands of dollars at retirement.\n\nEvery year you delay is compounding you can never recover. The best time to start is right now."
+      }
+    ],
+    "affiliates": [
+      "robinhood"
+    ]
   }
 ]
