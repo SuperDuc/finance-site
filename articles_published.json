@@ -14746,5 +14746,64 @@
       "gemini",
       "coinbase"
     ]
+  },
+  {
+    "slug": "how-to-save-money-tight-budget-2026-07-18-142908",
+    "slug_base": "how-to-save-money-tight-budget",
+    "title": "Saving Money When You're Broke: Realistic Tips",
+    "tag": "Budgeting",
+    "emoji": "\u2702\ufe0f",
+    "bg": "#f0fdf4",
+    "desc": "Practical, realistic tips for saving money on a tight budget in 2026 \u2014 no extreme couponing or sacrifice required.",
+    "date": "2026-07-18",
+    "sections": [
+      {
+        "h": "The Mindset Shift",
+        "body": "Pay yourself first: set up a recurring transfer to a high-yield savings account on every payday.\n\nStart with whatever doesn't feel uncomfortable \u2014 $50, $100, $200. You'll naturally adjust your spending to match what's left. That's the entire system."
+      },
+      {
+        "h": "The Biggest Wins",
+        "body": "Focus on the big three: housing, transportation, and food. These represent 60\u201370% of most budgets. A 10% reduction in each saves more than cutting every other expense combined.\n\n\u2022 **Housing:** Add a roommate ($400\u2013$800/month saved)\n\u2022 **Transportation:** Refinance your auto loan if rates have dropped\n\u2022 **Food:** Meal prep twice a week \u2014 cuts dining out by ~50%"
+      },
+      {
+        "h": "Where to Put What You Save",
+        "body": "Where your money sits matters almost as much as how much you save:\n\n\u2022 Move savings to a high-yield account (4\u20135% APY vs 0.01% at big banks)\n\u2022 Use Roth IRA first for retirement (tax-free growth)\n\u2022 Minimize taxes through tax-advantaged accounts before taxable investing\n\nTaxes are the biggest drag on long-term wealth. Using Roth IRAs and 401(k)s is the highest-leverage financial move most people can make."
+      }
+    ],
+    "affiliates": [
+      "robinhood"
+    ]
+  },
+  {
+    "slug": "gemini-vs-coinbase-2026-2026-07-18-142908",
+    "slug_base": "gemini-vs-coinbase-2026",
+    "title": "Gemini or Coinbase? Here's Which One to Choose",
+    "tag": "Crypto",
+    "emoji": "\u2696\ufe0f",
+    "bg": "#f0fdf4",
+    "desc": "Head-to-head comparison of Gemini and Coinbase \u2014 fees, security, coin selection, and sign-up bonuses \u2014 to help you choose the right exchange.",
+    "date": "2026-07-18",
+    "sections": [
+      {
+        "h": "The Quick Answer",
+        "body": "Both exchanges are legitimate and safe. Coinbase is better for wider coin selection; Gemini is better for security and the most generous welcome bonus in crypto."
+      },
+      {
+        "h": "Fees",
+        "body": "Neither exchange is the cheapest on fees (that's Kraken or Binance US). But both prioritize regulatory compliance and security over minimum fees \u2014 a worthwhile trade-off for US users."
+      },
+      {
+        "h": "Security",
+        "body": "Gemini holds the edge. It's the only SOC 2 Type 2 certified crypto exchange and holds a NYDFS BitLicense \u2014 one of the strictest financial licenses in the US.\n\nCoinbase is publicly traded on NASDAQ (ticker: COIN) and holds licenses in all 50 states. Both are among the safest options available."
+      },
+      {
+        "h": "Verdict",
+        "body": "If you're only opening one: pick Gemini for the $50 referral bonus and top-tier security. Pick Coinbase if you want to explore smaller altcoins beyond the top 70."
+      }
+    ],
+    "affiliates": [
+      "gemini",
+      "coinbase"
+    ]
   }
 ]
