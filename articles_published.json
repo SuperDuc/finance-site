@@ -15444,5 +15444,85 @@
       "robinhood",
       "coinbase"
     ]
+  },
+  {
+    "slug": "dollar-cost-averaging-guide-2026-07-22-085858",
+    "slug_base": "dollar-cost-averaging-guide",
+    "title": "Dollar Cost Averaging: The Strategy That Works While You Sleep",
+    "tag": "Investing",
+    "emoji": "\ud83d\udcc5",
+    "bg": "#eff6ff",
+    "desc": "Dollar cost averaging explained \u2014 what it is, why it works, and how to automate it for stocks, ETFs, and crypto.",
+    "date": "2026-07-22",
+    "sections": [
+      {
+        "h": "What Is Dollar Cost Averaging?",
+        "body": "DCA is the strategy used by almost every 401(k) in the country \u2014 employees contribute a fixed percentage of each paycheck automatically, regardless of market conditions.\n\nThe principle: don't try to predict the market. Just buy consistently and let time do the work."
+      },
+      {
+        "h": "Why It Works",
+        "body": "DCA works for two reasons:\n\n**1. Removes emotion.** The biggest investing mistake is panic-selling during crashes. DCA forces you to keep buying even when everything looks scary \u2014 exactly when the best deals are available.\n\n**2. Removes the need to time the market.** Even professional fund managers can't reliably time the market. DCA sidesteps the problem entirely."
+      },
+      {
+        "h": "DCA for Crypto",
+        "body": "DCA is even more valuable for crypto, where volatility is extreme. Instead of trying to buy the dip, just buy $50 of Bitcoin every week.\n\nCoinbase and Gemini both support recurring crypto purchases. Set it once and let it run.\n\nHistorically, anyone who DCA'd into Bitcoin over any 4-year period has been profitable \u2014 even if they started at a local price peak."
+      }
+    ],
+    "affiliates": [
+      "robinhood",
+      "coinbase"
+    ]
+  },
+  {
+    "slug": "passive-income-ideas-2026-2026-07-22-085858",
+    "slug_base": "passive-income-ideas-2026",
+    "title": "How to Build Passive Income From Scratch in 2026",
+    "tag": "Investing",
+    "emoji": "\ud83d\udcb8",
+    "bg": "#fefce8",
+    "desc": "Realistic passive income ideas for 2026 \u2014 dividend investing, crypto staking, affiliate income, and more. How much each earns and how to start.",
+    "date": "2026-07-22",
+    "sections": [
+      {
+        "h": "Dividend Investing",
+        "body": "Dividend investing is the most proven passive income method. You buy profitable companies. They share profits quarterly. You reinvest those dividends to buy more shares.\n\nREITs (Real Estate Investment Trusts) pay dividends too \u2014 often 5\u20138% yields \u2014 letting you earn real estate income without owning property."
+      },
+      {
+        "h": "Crypto Staking",
+        "body": "If you're holding crypto long-term, staking is free money. You're not selling \u2014 you're putting existing holdings to work.\n\nGemini's staking feature lets you earn directly from your account. Rates vary by asset and market conditions, but passive crypto yield beats leaving coins idle."
+      },
+      {
+        "h": "Affiliate Marketing",
+        "body": "Affiliate income is passive once set up. Write a review once. Share a link once. Earn commissions for months as people find the content organically.\n\nBest niches by commission: finance (highest per conversion), software/SaaS (recurring monthly commissions), health (massive audience)."
+      }
+    ],
+    "affiliates": [
+      "robinhood",
+      "gemini"
+    ]
+  },
+  {
+    "slug": "finance-news-roundup-2026-07-22-085858",
+    "slug_base": "finance-news-roundup",
+    "title": "Finance News Roundup: What Happened This Week (2026-07-22)",
+    "tag": "News",
+    "emoji": "\ud83d\udcf0",
+    "bg": "#f0f9ff",
+    "desc": "The latest finance and crypto news for July 22, 2026 \u2014 markets, investing updates, and what it means for your money.",
+    "date": "2026-07-22",
+    "sections": [
+      {
+        "h": "Top Finance & Market Stories",
+        "body": "**Bank of America CEO warns inflation will back Fed into a corner**\n <a href=\"https://finance.yahoo.com/economy/articles/bank-america-ceo-sobering-verdict-033300805.html\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>\n\n**Spain just opened a door America slammed shut**\n <a href=\"https://finance.yahoo.com/economy/policy/articles/spain-just-opened-door-america-021700849.html\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>\n\n**Samsung launches first US credit card with Barclays, signals ambitions for deeper financial services push**\n <a href=\"https://finance.yahoo.com/technology/articles/samsung-launches-first-us-credit-210248375.html\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>\n\n**The Number Tesla Stock Bulls Are Really Waiting for This Earnings Season Has Nothing to Do With Cars**\n <a href=\"https://finance.yahoo.com/markets/stocks/articles/number-tesla-stock-bulls-really-210419453.html\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>"
+      },
+      {
+        "h": "Crypto & Digital Assets",
+        "body": "**Bitcoin ETFs extend inflow streak to six days with $203M added**\nUS spot Bitcoin ETFs extended their inflow streak to six sessions, bringing in about $930 million while remaining down $4.84 billion on a net basis year to date. <a href=\"https://cointelegraph.com/news/bitcoin-etfs-203-million-inflow-streak-six-days?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>\n\n**Here\u2019s what happened in crypto today**\nNeed to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation. <a href=\"https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>\n\n**Balance Coin crashes 99% after reported $915K exploit**\nThe attack allowed the exploiter to liquidate multiple Bitcoin-backed vaults before swapping the assets for profit. <a href=\"https://cointelegraph.com/news/algorithmic-stablecoin-balance-coin-plummets-99-after-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>"
+      }
+    ],
+    "affiliates": [
+      "robinhood",
+      "gemini"
+    ]
   }
 ]
