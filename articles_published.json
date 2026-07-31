@@ -17222,5 +17222,59 @@
       "robinhood",
       "gemini"
     ]
+  },
+  {
+    "slug": "roth-ira-beginners-guide-2026-07-31-145249",
+    "slug_base": "roth-ira-beginners-guide",
+    "title": "How to Open a Roth IRA in 2026 (Step-by-Step)",
+    "tag": "Investing",
+    "emoji": "\ud83c\udfdb\ufe0f",
+    "bg": "#eff6ff",
+    "desc": "A complete beginner's guide to Roth IRAs \u2014 what they are, why they're powerful, 2026 contribution limits, and how to open one in minutes.",
+    "date": "2026-07-31",
+    "sections": [
+      {
+        "h": "What Is a Roth IRA?",
+        "body": "A Roth IRA is a retirement account where you contribute after-tax dollars \u2014 and then all growth and withdrawals are **completely tax-free**.\n\nExample: Invest $6,000 at 25. By 65, it grows to $90,000 at 7% return. You pay taxes on the $6,000. The $84,000 in gains? Zero taxes. Forever."
+      },
+      {
+        "h": "2026 Contribution Limits",
+        "body": "In 2026, you can contribute up to **$7,000/year** to a Roth IRA ($8,000 if you're 50+).\n\nIncome limits: full contribution allowed under $146,000 (single) or $230,000 (married filing jointly).\n\n$7,000/year = ~$583/month = ~$134/week."
+      },
+      {
+        "h": "How to Open One",
+        "body": "Opening a Roth IRA takes 10 minutes:\n\n1. Choose a brokerage (Fidelity, Vanguard, or Robinhood)\n2. Click 'Open a Roth IRA'\n3. Fill in your personal info\n4. Fund via bank transfer\n5. Invest in a target-date fund or index ETF\n\nRobinhood offers a 3% IRA contribution match for Gold members \u2014 a compelling offer."
+      }
+    ],
+    "affiliates": [
+      "robinhood"
+    ]
+  },
+  {
+    "slug": "emergency-fund-guide-2026-07-31-145249",
+    "slug_base": "emergency-fund-guide",
+    "title": "Building an Emergency Fund: How Much, Where, and How Fast",
+    "tag": "Saving",
+    "emoji": "\ud83d\udee1\ufe0f",
+    "bg": "#f0fdf4",
+    "desc": "How much to save in your emergency fund, where to keep it, and the fastest way to build one \u2014 even on a tight budget.",
+    "date": "2026-07-31",
+    "sections": [
+      {
+        "h": "How Much Do You Actually Need?",
+        "body": "The classic advice is 3\u20136 months of expenses. But the right amount depends on your situation:\n\n\u2022 **Stable job, dual income:** 3 months is enough\n\u2022 **Single income or variable income:** 6 months minimum\n\u2022 **Self-employed or freelance:** 9\u201312 months recommended\n\nThe goal: be able to pay your bills for that many months if all income stopped tomorrow."
+      },
+      {
+        "h": "Where to Keep It",
+        "body": "Never keep your emergency fund in stocks or crypto. The whole point is that it's there when you need it \u2014 markets can be down 40% exactly when you lose your job.\n\nKeep it in a HYSA: FDIC insured, earns 4\u20135% APY (vs 0.01% at big banks), and you can access it in 24 hours."
+      },
+      {
+        "h": "How to Build It Fast",
+        "body": "Practical ways to build it faster:\n\u2022 **Automate it:** Set up a weekly transfer to your HYSA \u2014 whatever you can afford\n\u2022 **Windfall rule:** Put 50% of any unexpected money (tax refund, bonus) directly into the fund\n\u2022 **Cut one expense:** Cancel one subscription and redirect that exact amount to savings"
+      }
+    ],
+    "affiliates": [
+      "robinhood"
+    ]
   }
 ]
