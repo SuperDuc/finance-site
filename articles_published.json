@@ -18576,5 +18576,65 @@
       "robinhood",
       "gemini"
     ]
+  },
+  {
+    "slug": "dollar-cost-averaging-guide-2026-08-07-142507",
+    "slug_base": "dollar-cost-averaging-guide",
+    "title": "Dollar Cost Averaging: The Strategy That Works While You Sleep",
+    "tag": "Investing",
+    "emoji": "\ud83d\udcc5",
+    "bg": "#eff6ff",
+    "desc": "Dollar cost averaging explained \u2014 what it is, why it works, and how to automate it for stocks, ETFs, and crypto.",
+    "date": "2026-08-07",
+    "sections": [
+      {
+        "h": "What Is Dollar Cost Averaging?",
+        "body": "DCA is the strategy used by almost every 401(k) in the country \u2014 employees contribute a fixed percentage of each paycheck automatically, regardless of market conditions.\n\nThe principle: don't try to predict the market. Just buy consistently and let time do the work."
+      },
+      {
+        "h": "Why It Works",
+        "body": "DCA works for two reasons:\n\n**1. Removes emotion.** The biggest investing mistake is panic-selling during crashes. DCA forces you to keep buying even when everything looks scary \u2014 exactly when the best deals are available.\n\n**2. Removes the need to time the market.** Even professional fund managers can't reliably time the market. DCA sidesteps the problem entirely."
+      },
+      {
+        "h": "DCA for Crypto",
+        "body": "DCA is even more valuable for crypto, where volatility is extreme. Instead of trying to buy the dip, just buy $50 of Bitcoin every week.\n\nCoinbase and Gemini both support recurring crypto purchases. Set it once and let it run.\n\nHistorically, anyone who DCA'd into Bitcoin over any 4-year period has been profitable \u2014 even if they started at a local price peak."
+      }
+    ],
+    "affiliates": [
+      "robinhood",
+      "coinbase"
+    ]
+  },
+  {
+    "slug": "gemini-vs-coinbase-2026-2026-08-07-142507",
+    "slug_base": "gemini-vs-coinbase-2026",
+    "title": "Gemini or Coinbase? Here's Which One to Choose",
+    "tag": "Crypto",
+    "emoji": "\u2696\ufe0f",
+    "bg": "#f0fdf4",
+    "desc": "Head-to-head comparison of Gemini and Coinbase \u2014 fees, security, coin selection, and sign-up bonuses \u2014 to help you choose the right exchange.",
+    "date": "2026-08-07",
+    "sections": [
+      {
+        "h": "The Quick Answer",
+        "body": "Both are regulated, reputable US crypto exchanges. **Coinbase** wins on coin selection (600+) and beginner ease. **Gemini** wins on security credentials and a standout sign-up bonus: **$50 free crypto** when you trade $100."
+      },
+      {
+        "h": "Fees",
+        "body": "Coinbase charges 1.49%\u20132.99% on standard purchases. Gemini charges similar spreads. Both offer lower-fee 'Pro' modes for experienced users.\n\nFor everyday buying, fees are comparable. Gemini's $50 welcome bonus effectively cancels months of fees."
+      },
+      {
+        "h": "Security",
+        "body": "Gemini has more third-party security certifications and undergoes regular independent audits. Coinbase's public listing means it faces strict SEC reporting \u2014 a different but equally meaningful layer of accountability."
+      },
+      {
+        "h": "Verdict",
+        "body": "If you're only opening one: pick Gemini for the $50 referral bonus and top-tier security. Pick Coinbase if you want to explore smaller altcoins beyond the top 70."
+      }
+    ],
+    "affiliates": [
+      "gemini",
+      "coinbase"
+    ]
   }
 ]
