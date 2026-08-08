@@ -18691,5 +18691,84 @@
       "robinhood",
       "gemini"
     ]
+  },
+  {
+    "slug": "emergency-fund-guide-2026-08-08-081650",
+    "slug_base": "emergency-fund-guide",
+    "title": "Emergency Fund 101: Build One Even on a Tight Budget",
+    "tag": "Saving",
+    "emoji": "\ud83d\udee1\ufe0f",
+    "bg": "#f0fdf4",
+    "desc": "How much to save in your emergency fund, where to keep it, and the fastest way to build one \u2014 even on a tight budget.",
+    "date": "2026-08-08",
+    "sections": [
+      {
+        "h": "How Much Do You Actually Need?",
+        "body": "The classic advice is 3\u20136 months of expenses. But the right amount depends on your situation:\n\n\u2022 **Stable job, dual income:** 3 months is enough\n\u2022 **Single income or variable income:** 6 months minimum\n\u2022 **Self-employed or freelance:** 9\u201312 months recommended\n\nThe goal: be able to pay your bills for that many months if all income stopped tomorrow."
+      },
+      {
+        "h": "Where to Keep It",
+        "body": "Your emergency fund should be:\n1. **Liquid** \u2014 accessible in 24 hours\n2. **Safe** \u2014 FDIC insured\n3. **Earning interest** \u2014 not sitting in a 0.01% APY checking account\n\nThe best home is a **high-yield savings account (HYSA)**. Top HYSAs pay 4\u20135% APY \u2014 on a $10,000 fund, that's $400\u2013$500/year in free interest."
+      },
+      {
+        "h": "How to Build It Fast",
+        "body": "Break it into milestones:\n\n**Month 1\u20132:** Save $500 \u2014 covers most minor emergencies\n**Month 3\u20134:** Reach $1,000 \u2014 covers car repairs, medical bills\n**Month 5+:** Continue until you hit 3 months of expenses\n\nTreat your emergency fund contribution like a bill. Set up an automatic transfer on payday before you can spend the money."
+      }
+    ],
+    "affiliates": [
+      "robinhood"
+    ]
+  },
+  {
+    "slug": "bitcoin-lightning-network-explained-2026-08-08-081650",
+    "slug_base": "bitcoin-lightning-network-explained",
+    "title": "What Is the Bitcoin Lightning Network? A Simple Explanation",
+    "tag": "Crypto",
+    "emoji": "\u26a1",
+    "bg": "#fefce8",
+    "desc": "The Bitcoin Lightning Network explained simply \u2014 what it is, how it makes Bitcoin instant and free, and why Strike is built on it.",
+    "date": "2026-08-08",
+    "sections": [
+      {
+        "h": "Bitcoin's Speed Problem",
+        "body": "Bitcoin's blockchain is intentionally slow and secure. Every transaction is permanently recorded on a distributed ledger verified by thousands of nodes worldwide. This security comes with a cost: speed and fees.\n\nFor buying coffee or sending $5, waiting 10 minutes and paying $20 doesn't work. Lightning is Bitcoin's answer."
+      },
+      {
+        "h": "How Lightning Works",
+        "body": "Lightning creates 'payment channels' between users \u2014 like running a tab at a bar, settling multiple transactions at once.\n\nInside a Lightning channel: transactions are **instant and nearly free**. Only opening and closing a channel touches the main blockchain.\n\nResult: thousands of transactions per second, fees under $0.01, settlement in milliseconds."
+      },
+      {
+        "h": "Strike: Lightning Made Simple",
+        "body": "Strike is one of the most popular Lightning Network apps in the US. It lets you buy Bitcoin instantly with near-zero fees, and send Bitcoin to anyone for fractions of a cent.\n\nStrike's standout offer for new users: your **first $500 of Bitcoin is completely fee-free**. No catch."
+      }
+    ],
+    "affiliates": [
+      "strike",
+      "coinbase"
+    ]
+  },
+  {
+    "slug": "finance-news-roundup-2026-08-08-081650",
+    "slug_base": "finance-news-roundup",
+    "title": "This Week in Finance: Markets, Crypto & Money News",
+    "tag": "News",
+    "emoji": "\ud83d\udcf0",
+    "bg": "#f0f9ff",
+    "desc": "The latest finance and crypto news for August 08, 2026 \u2014 markets, investing updates, and what it means for your money.",
+    "date": "2026-08-08",
+    "sections": [
+      {
+        "h": "Top Finance & Market Stories",
+        "body": "**Palantir CEO drops 11-word bombshell for stock market investors**\n <a href=\"https://finance.yahoo.com/markets/stocks/articles/palantir-ceo-drops-11-word-160300224.html\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>\n\n**Goldman Sachs sees 168% upside in this controversial power stock**\n <a href=\"https://finance.yahoo.com/energy/articles/goldman-sachs-sees-168-upside-213300285.html\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>\n\n**PENN Entertainment, Inc. Q2 2026 Earnings Call Summary**\n <a href=\"https://finance.yahoo.com/markets/stocks/articles/penn-entertainment-inc-q2-2026-034525639.html\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>\n\n**Shift4 Payments, Inc. Q2 2026 Earnings Call Summary**\n <a href=\"https://finance.yahoo.com/markets/stocks/articles/shift4-payments-inc-q2-2026-033541890.html\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>"
+      },
+      {
+        "h": "Crypto & Digital Assets",
+        "body": "**Domestic stablecoins could boost demand for dollar-backed tokens: IMF**\nIMF first deputy managing director Dan Katz says users may favor digital dollars for their liquidity, network effects and cross-border acceptance. <a href=\"https://cointelegraph.com/news/imf-domestic-stablecoins-dollar-token-demand?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>\n\n**US court backs Bybit\u2019s bid to trace funds from $1.5B North Korea hack**\nExpedited discovery allows the exchange to seek account identities, balances and transaction histories from platforms with US operations. <a href=\"https://cointelegraph.com/news/bybit-us-court-trace-funds-north-korea-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>\n\n**Donald Trump\u2019s media company to terminate Crypto.com deal**\nThe president\u2019s company will unwind an agreement with Crypto.com to create a multibillion-dollar CRO treasury and reportedly not integrate prediction markets onto Truth Social. <a href=\"https://cointelegraph.com/news/donald-trump-media-company-crypto-deal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>"
+      }
+    ],
+    "affiliates": [
+      "gemini",
+      "coinbase"
+    ]
   }
 ]
