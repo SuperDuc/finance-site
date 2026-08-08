@@ -18830,5 +18830,60 @@
       "robinhood",
       "coinbase"
     ]
+  },
+  {
+    "slug": "debt-avalanche-vs-snowball-2026-08-08-200951",
+    "slug_base": "debt-avalanche-vs-snowball",
+    "title": "How to Pay Off Debt Fast: Avalanche vs Snowball Explained",
+    "tag": "Debt",
+    "emoji": "\ud83d\udcb3",
+    "bg": "#fefce8",
+    "desc": "A clear comparison of the debt avalanche and snowball methods \u2014 which saves more money, which keeps you motivated, and exactly how to choose.",
+    "date": "2026-08-08",
+    "sections": [
+      {
+        "h": "The Two Methods",
+        "body": "Both methods are identical except for which debt gets your extra payment each month.\n\n\u2022 **Avalanche** = highest interest rate first\n\u2022 **Snowball** = smallest balance first\n\nBoth dramatically accelerate payoff compared to minimum payments only."
+      },
+      {
+        "h": "Which Saves More Money?",
+        "body": "The avalanche always saves more interest \u2014 sometimes significantly.\n\nExample: $20,000 across three debts (15% credit card, 8% personal loan, 4% car loan), $300 extra/month:\n\n\u2022 **Avalanche:** Debt-free in 48 months, $4,200 in interest\n\u2022 **Snowball:** Debt-free in 51 months, $5,100 in interest\n\n$900 more in your pocket with avalanche."
+      },
+      {
+        "h": "Which Method Works for YOU?",
+        "body": "The best debt payoff method is the one you actually stick with.\n\nResearch shows most people fail at debt payoff not because of a bad strategy but because they lose motivation. The snowball's quick wins combat this.\n\nIf you're disciplined: use the avalanche. If you need emotional momentum: use the snowball. Either beats minimum payments."
+      }
+    ],
+    "affiliates": [
+      "robinhood"
+    ]
+  },
+  {
+    "slug": "passive-income-ideas-2026-2026-08-08-200951",
+    "slug_base": "passive-income-ideas-2026",
+    "title": "8 Realistic Passive Income Ideas That Actually Work in 2026",
+    "tag": "Investing",
+    "emoji": "\ud83d\udcb8",
+    "bg": "#fefce8",
+    "desc": "Realistic passive income ideas for 2026 \u2014 dividend investing, crypto staking, affiliate income, and more. How much each earns and how to start.",
+    "date": "2026-08-08",
+    "sections": [
+      {
+        "h": "Dividend Investing",
+        "body": "Dividend investing is the most proven passive income method. You buy profitable companies. They share profits quarterly. You reinvest those dividends to buy more shares.\n\nREITs (Real Estate Investment Trusts) pay dividends too \u2014 often 5\u20138% yields \u2014 letting you earn real estate income without owning property."
+      },
+      {
+        "h": "Crypto Staking",
+        "body": "Staking means locking up cryptocurrency to help validate blockchain transactions. In return, you earn rewards \u2014 essentially interest on your crypto.\n\nCurrent approximate staking yields:\n\u2022 Ethereum (ETH): ~3\u20134% annually\n\u2022 Solana (SOL): ~6\u20137% annually\n\nGemini offers staking on multiple assets directly from the platform \u2014 no technical setup required."
+      },
+      {
+        "h": "Affiliate Marketing",
+        "body": "Refer people to products and earn a commission when they sign up \u2014 this is literally how this site earns money.\n\nFinancial affiliate programs pay well:\n\u2022 Crypto exchanges: $10\u2013$50 per new user\n\u2022 Robinhood: you both get a free stock\n\u2022 Credit cards: $50\u2013$200 per approval\n\nA single well-placed affiliate link in a blog post can earn for years with zero ongoing effort."
+      }
+    ],
+    "affiliates": [
+      "robinhood",
+      "gemini"
+    ]
   }
 ]
