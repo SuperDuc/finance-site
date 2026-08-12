@@ -19610,5 +19610,59 @@
       "robinhood",
       "gemini"
     ]
+  },
+  {
+    "slug": "how-to-save-money-tight-budget-2026-08-12-201724",
+    "slug_base": "how-to-save-money-tight-budget",
+    "title": "How to Save $500 a Month Even When You Think You Can't",
+    "tag": "Budgeting",
+    "emoji": "\u2702\ufe0f",
+    "bg": "#f0fdf4",
+    "desc": "Practical, realistic tips for saving money on a tight budget in 2026 \u2014 no extreme couponing or sacrifice required.",
+    "date": "2026-08-12",
+    "sections": [
+      {
+        "h": "The Mindset Shift",
+        "body": "Most people think of saving as what's left after spending. The shift that changes everything: **savings is a bill you pay first**.\n\nSet up an automatic transfer to savings on payday \u2014 before you can spend it. Even $25. The amount matters less than the habit.\n\nUnused gym memberships cost Americans $1.8 billion annually. Most people have more room to save than they think."
+      },
+      {
+        "h": "The Biggest Wins",
+        "body": "Finance advice obsesses over small cuts while ignoring the big levers:\n\n\u2022 Negotiate rent at renewal: save $100\u2013$300/month\n\u2022 Refinance loans at better rates: save $200\u2013$500/month\n\u2022 Switch to a cheaper cell plan: save $30\u2013$80/month\n\u2022 Cut 2 streaming services: save $20\u2013$40/month\n\nThese five moves can free up $500+/month without feeling deprived."
+      },
+      {
+        "h": "Where to Put What You Save",
+        "body": "Where your money sits matters almost as much as how much you save:\n\n\u2022 Move savings to a high-yield account (4\u20135% APY vs 0.01% at big banks)\n\u2022 Use Roth IRA first for retirement (tax-free growth)\n\u2022 Minimize taxes through tax-advantaged accounts before taxable investing\n\nTaxes are the biggest drag on long-term wealth. Using Roth IRAs and 401(k)s is the highest-leverage financial move most people can make."
+      }
+    ],
+    "affiliates": [
+      "robinhood"
+    ]
+  },
+  {
+    "slug": "index-funds-explained-2026-08-12-201724",
+    "slug_base": "index-funds-explained",
+    "title": "Index Funds for Beginners: A Complete 2026 Guide",
+    "tag": "Investing",
+    "emoji": "\ud83d\udcca",
+    "bg": "#eff6ff",
+    "desc": "Index funds explained from scratch \u2014 what they are, why they outperform most active investors, and how to buy your first one today.",
+    "date": "2026-08-12",
+    "sections": [
+      {
+        "h": "What Is an Index Fund?",
+        "body": "An index fund holds stocks that mirror a market index \u2014 most commonly the S&P 500 (500 largest US companies).\n\nInstead of picking individual stocks, you buy tiny pieces of all 500 companies at once. When the market goes up, your fund goes up.\n\nThe S&P 500 has returned an average of ~10.5% annually since 1957."
+      },
+      {
+        "h": "Why They Beat Most Active Investors",
+        "body": "Over any 15-year period, more than **90% of actively managed mutual funds underperform the S&P 500 index**.\n\nProfessional fund managers \u2014 with MBAs, Bloomberg terminals, and decades of experience \u2014 can't beat a simple index fund 9 out of 10 times. Yet they charge 1\u20132% in annual fees."
+      },
+      {
+        "h": "The Best Index Funds to Start With",
+        "body": "For most beginners, one of these three is all you need:\n\n\u2022 **VOO** \u2014 Vanguard S&P 500 ETF, 0.03% expense ratio\n\u2022 **VTI** \u2014 Vanguard Total Stock Market ETF, 0.03%\n\u2022 **VT** \u2014 Vanguard Total World Stock ETF, 0.07% (global)\n\nAll available commission-free on Robinhood and Fidelity."
+      }
+    ],
+    "affiliates": [
+      "robinhood"
+    ]
   }
 ]
