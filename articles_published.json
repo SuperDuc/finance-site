@@ -19744,5 +19744,60 @@
       "gemini_card",
       "coinbase"
     ]
+  },
+  {
+    "slug": "bitcoin-lightning-network-explained-2026-08-13-143050",
+    "slug_base": "bitcoin-lightning-network-explained",
+    "title": "Strike and Lightning Network: How Bitcoin Became Usable Every Day",
+    "tag": "Crypto",
+    "emoji": "\u26a1",
+    "bg": "#fefce8",
+    "desc": "The Bitcoin Lightning Network explained simply \u2014 what it is, how it makes Bitcoin instant and free, and why Strike is built on it.",
+    "date": "2026-08-13",
+    "sections": [
+      {
+        "h": "Bitcoin's Speed Problem",
+        "body": "Bitcoin's blockchain is intentionally slow and secure. Every transaction is permanently recorded on a distributed ledger verified by thousands of nodes worldwide. This security comes with a cost: speed and fees.\n\nFor buying coffee or sending $5, waiting 10 minutes and paying $20 doesn't work. Lightning is Bitcoin's answer."
+      },
+      {
+        "h": "How Lightning Works",
+        "body": "Lightning creates 'payment channels' between users \u2014 like running a tab at a bar, settling multiple transactions at once.\n\nInside a Lightning channel: transactions are **instant and nearly free**. Only opening and closing a channel touches the main blockchain.\n\nResult: thousands of transactions per second, fees under $0.01, settlement in milliseconds."
+      },
+      {
+        "h": "Strike: Lightning Made Simple",
+        "body": "Strike is one of the most popular Lightning Network apps in the US. It lets you buy Bitcoin instantly with near-zero fees, and send Bitcoin to anyone for fractions of a cent.\n\nStrike's standout offer for new users: your **first $500 of Bitcoin is completely fee-free**. No catch."
+      }
+    ],
+    "affiliates": [
+      "strike",
+      "coinbase"
+    ]
+  },
+  {
+    "slug": "debt-avalanche-vs-snowball-2026-08-13-143050",
+    "slug_base": "debt-avalanche-vs-snowball",
+    "title": "The Best Way to Pay Off Multiple Debts in 2026",
+    "tag": "Debt",
+    "emoji": "\ud83d\udcb3",
+    "bg": "#fefce8",
+    "desc": "A clear comparison of the debt avalanche and snowball methods \u2014 which saves more money, which keeps you motivated, and exactly how to choose.",
+    "date": "2026-08-13",
+    "sections": [
+      {
+        "h": "The Two Methods",
+        "body": "Both methods are identical except for which debt gets your extra payment each month.\n\n\u2022 **Avalanche** = highest interest rate first\n\u2022 **Snowball** = smallest balance first\n\nBoth dramatically accelerate payoff compared to minimum payments only."
+      },
+      {
+        "h": "Which Saves More Money?",
+        "body": "The avalanche always saves more interest \u2014 sometimes significantly.\n\nExample: $20,000 across three debts (15% credit card, 8% personal loan, 4% car loan), $300 extra/month:\n\n\u2022 **Avalanche:** Debt-free in 48 months, $4,200 in interest\n\u2022 **Snowball:** Debt-free in 51 months, $5,100 in interest\n\n$900 more in your pocket with avalanche."
+      },
+      {
+        "h": "Which Method Works for YOU?",
+        "body": "Dave Ramsey advocates the snowball because he's seen thousands fail with mathematically optimal plans they couldn't sustain.\n\nBut if you can stay motivated with the avalanche, the extra savings are real money. Use our free debt payoff calculator to see the exact numbers for your situation."
+      }
+    ],
+    "affiliates": [
+      "robinhood"
+    ]
   }
 ]
