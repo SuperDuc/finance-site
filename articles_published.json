@@ -19997,5 +19997,60 @@
       "robinhood",
       "gemini"
     ]
+  },
+  {
+    "slug": "emergency-fund-guide-2026-08-14-201245",
+    "slug_base": "emergency-fund-guide",
+    "title": "Emergency Fund 101: Build One Even on a Tight Budget",
+    "tag": "Saving",
+    "emoji": "\ud83d\udee1\ufe0f",
+    "bg": "#f0fdf4",
+    "desc": "How much to save in your emergency fund, where to keep it, and the fastest way to build one \u2014 even on a tight budget.",
+    "date": "2026-08-14",
+    "sections": [
+      {
+        "h": "How Much Do You Actually Need?",
+        "body": "Define 'expenses' correctly: rent/mortgage, food, utilities, insurance, and minimum debt payments. Not your lifestyle spending.\n\nMost people overestimate their required emergency fund. Start with 1 month \u2014 it covers most real emergencies \u2014 then build toward 3."
+      },
+      {
+        "h": "Where to Keep It",
+        "body": "Your emergency fund should be:\n1. **Liquid** \u2014 accessible in 24 hours\n2. **Safe** \u2014 FDIC insured\n3. **Earning interest** \u2014 not sitting in a 0.01% APY checking account\n\nThe best home is a **high-yield savings account (HYSA)**. Top HYSAs pay 4\u20135% APY \u2014 on a $10,000 fund, that's $400\u2013$500/year in free interest."
+      },
+      {
+        "h": "How to Build It Fast",
+        "body": "Break it into milestones:\n\n**Month 1\u20132:** Save $500 \u2014 covers most minor emergencies\n**Month 3\u20134:** Reach $1,000 \u2014 covers car repairs, medical bills\n**Month 5+:** Continue until you hit 3 months of expenses\n\nTreat your emergency fund contribution like a bill. Set up an automatic transfer on payday before you can spend the money."
+      }
+    ],
+    "affiliates": [
+      "robinhood"
+    ]
+  },
+  {
+    "slug": "dollar-cost-averaging-guide-2026-08-14-201245",
+    "slug_base": "dollar-cost-averaging-guide",
+    "title": "Dollar Cost Averaging: The Strategy That Works While You Sleep",
+    "tag": "Investing",
+    "emoji": "\ud83d\udcc5",
+    "bg": "#eff6ff",
+    "desc": "Dollar cost averaging explained \u2014 what it is, why it works, and how to automate it for stocks, ETFs, and crypto.",
+    "date": "2026-08-14",
+    "sections": [
+      {
+        "h": "What Is Dollar Cost Averaging?",
+        "body": "DCA is the strategy used by almost every 401(k) in the country \u2014 employees contribute a fixed percentage of each paycheck automatically, regardless of market conditions.\n\nThe principle: don't try to predict the market. Just buy consistently and let time do the work."
+      },
+      {
+        "h": "Why It Works",
+        "body": "DCA works for two reasons:\n\n**1. Removes emotion.** The biggest investing mistake is panic-selling during crashes. DCA forces you to keep buying even when everything looks scary \u2014 exactly when the best deals are available.\n\n**2. Removes the need to time the market.** Even professional fund managers can't reliably time the market. DCA sidesteps the problem entirely."
+      },
+      {
+        "h": "DCA for Crypto",
+        "body": "DCA is even more valuable for crypto, where volatility is extreme. Instead of trying to buy the dip, just buy $50 of Bitcoin every week.\n\nCoinbase and Gemini both support recurring crypto purchases. Set it once and let it run.\n\nHistorically, anyone who DCA'd into Bitcoin over any 4-year period has been profitable \u2014 even if they started at a local price peak."
+      }
+    ],
+    "affiliates": [
+      "robinhood",
+      "coinbase"
+    ]
   }
 ]
