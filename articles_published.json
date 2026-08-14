@@ -19942,5 +19942,60 @@
       "robinhood",
       "gemini"
     ]
+  },
+  {
+    "slug": "high-yield-savings-account-guide-2026-08-14-142526",
+    "slug_base": "high-yield-savings-account-guide",
+    "title": "Why Your Savings Account Is Costing You Thousands",
+    "tag": "Saving",
+    "emoji": "\ud83c\udfe6",
+    "bg": "#f0fdf4",
+    "desc": "How high-yield savings accounts work, how much more you'll earn vs a traditional bank, and how to open one in 10 minutes.",
+    "date": "2026-08-14",
+    "sections": [
+      {
+        "h": "The Problem: Your Bank Is Ripping You Off",
+        "body": "The national average savings APY at big banks (Chase, Bank of America, Wells Fargo) is 0.01%. That means on $10,000, you earn $1 per year.\n\nMeanwhile, inflation runs at 2\u20134% annually. You're effectively losing purchasing power every month your money sits there."
+      },
+      {
+        "h": "What Makes It \"High-Yield\"?",
+        "body": "Online banks can offer 4\u20135% APY because they don't maintain thousands of physical branches. That cost savings goes straight into your interest rate.\n\nHYSAs are not investments or exotic products. They're regular FDIC-insured savings accounts. The only difference is the number after the % sign."
+      },
+      {
+        "h": "The Math",
+        "body": "Let's say you have $15,000 in savings:\n\n\u2022 Big bank at 0.01% APY: **$1.50/year**\n\u2022 High-yield savings at 4.5% APY: **$675/year**\n\nThat's $673.50 in free money for switching accounts. Over 5 years with compound interest, the difference grows to over $3,500."
+      }
+    ],
+    "affiliates": [
+      "gemini"
+    ]
+  },
+  {
+    "slug": "passive-income-ideas-2026-2026-08-14-142526",
+    "slug_base": "passive-income-ideas-2026",
+    "title": "Passive Income in 2026: What's Working Right Now",
+    "tag": "Investing",
+    "emoji": "\ud83d\udcb8",
+    "bg": "#fefce8",
+    "desc": "Realistic passive income ideas for 2026 \u2014 dividend investing, crypto staking, affiliate income, and more. How much each earns and how to start.",
+    "date": "2026-08-14",
+    "sections": [
+      {
+        "h": "Dividend Investing",
+        "body": "Buy shares of dividend-paying stocks or ETFs and receive quarterly payments. A 4% dividend yield on $10,000 = $400/year \u2014 $33/month \u2014 for doing nothing after the initial purchase.\n\nBest dividend ETFs: **SCHD** (Schwab US Dividend Equity), **VYM** (Vanguard High Dividend Yield), **JEPI** (JPMorgan Equity Premium Income, ~7% yield).\n\nUse Robinhood or Fidelity to set up automatic reinvestment (DRIP) and watch compounding accelerate."
+      },
+      {
+        "h": "Crypto Staking",
+        "body": "If you're holding crypto long-term, staking is free money. You're not selling \u2014 you're putting existing holdings to work.\n\nGemini's staking feature lets you earn directly from your account. Rates vary by asset and market conditions, but passive crypto yield beats leaving coins idle."
+      },
+      {
+        "h": "Affiliate Marketing",
+        "body": "Refer people to products and earn a commission when they sign up \u2014 this is literally how this site earns money.\n\nFinancial affiliate programs pay well:\n\u2022 Crypto exchanges: $10\u2013$50 per new user\n\u2022 Robinhood: you both get a free stock\n\u2022 Credit cards: $50\u2013$200 per approval\n\nA single well-placed affiliate link in a blog post can earn for years with zero ongoing effort."
+      }
+    ],
+    "affiliates": [
+      "robinhood",
+      "gemini"
+    ]
   }
 ]
