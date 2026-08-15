@@ -20191,5 +20191,60 @@
       "coinbase",
       "strike"
     ]
+  },
+  {
+    "slug": "passive-income-ideas-2026-2026-08-15-200619",
+    "slug_base": "passive-income-ideas-2026",
+    "title": "8 Realistic Passive Income Ideas That Actually Work in 2026",
+    "tag": "Investing",
+    "emoji": "\ud83d\udcb8",
+    "bg": "#fefce8",
+    "desc": "Realistic passive income ideas for 2026 \u2014 dividend investing, crypto staking, affiliate income, and more. How much each earns and how to start.",
+    "date": "2026-08-15",
+    "sections": [
+      {
+        "h": "Dividend Investing",
+        "body": "Buy shares of dividend-paying stocks or ETFs and receive quarterly payments. A 4% dividend yield on $10,000 = $400/year \u2014 $33/month \u2014 for doing nothing after the initial purchase.\n\nBest dividend ETFs: **SCHD** (Schwab US Dividend Equity), **VYM** (Vanguard High Dividend Yield), **JEPI** (JPMorgan Equity Premium Income, ~7% yield).\n\nUse Robinhood or Fidelity to set up automatic reinvestment (DRIP) and watch compounding accelerate."
+      },
+      {
+        "h": "Crypto Staking",
+        "body": "If you're holding crypto long-term, staking is free money. You're not selling \u2014 you're putting existing holdings to work.\n\nGemini's staking feature lets you earn directly from your account. Rates vary by asset and market conditions, but passive crypto yield beats leaving coins idle."
+      },
+      {
+        "h": "Affiliate Marketing",
+        "body": "Affiliate income is passive once set up. Write a review once. Share a link once. Earn commissions for months as people find the content organically.\n\nBest niches by commission: finance (highest per conversion), software/SaaS (recurring monthly commissions), health (massive audience)."
+      }
+    ],
+    "affiliates": [
+      "robinhood",
+      "gemini"
+    ]
+  },
+  {
+    "slug": "roth-ira-beginners-guide-2026-08-15-200619",
+    "slug_base": "roth-ira-beginners-guide",
+    "title": "How to Open a Roth IRA in 2026 (Step-by-Step)",
+    "tag": "Investing",
+    "emoji": "\ud83c\udfdb\ufe0f",
+    "bg": "#eff6ff",
+    "desc": "A complete beginner's guide to Roth IRAs \u2014 what they are, why they're powerful, 2026 contribution limits, and how to open one in minutes.",
+    "date": "2026-08-15",
+    "sections": [
+      {
+        "h": "What Is a Roth IRA?",
+        "body": "A Roth IRA is a retirement account where you contribute after-tax dollars \u2014 and then all growth and withdrawals are **completely tax-free**.\n\nExample: Invest $6,000 at 25. By 65, it grows to $90,000 at 7% return. You pay taxes on the $6,000. The $84,000 in gains? Zero taxes. Forever."
+      },
+      {
+        "h": "2026 Contribution Limits",
+        "body": "2026 Roth IRA limits:\n\u2022 Under 50: **$7,000/year**\n\u2022 50 and older: **$8,000/year** (catch-up contribution)\n\nPhase-out starts at $146,000 MAGI for single filers. You must have earned income at least equal to your contribution."
+      },
+      {
+        "h": "How to Open One",
+        "body": "The barrier is lower than most people think:\n\u2022 No minimum balance at most brokers\n\u2022 10\u201315 minutes to set up\n\u2022 Start investing the same day\n\nThe most common mistake: waiting until you have 'enough.' Start with $50. Time is the main ingredient \u2014 and every year you wait costs you thousands in compounding."
+      }
+    ],
+    "affiliates": [
+      "robinhood"
+    ]
   }
 ]
