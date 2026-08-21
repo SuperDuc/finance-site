@@ -21214,5 +21214,89 @@
     "affiliates": [
       "gemini"
     ]
+  },
+  {
+    "slug": "bitcoin-lightning-network-explained-2026-08-21-081632",
+    "slug_base": "bitcoin-lightning-network-explained",
+    "title": "What Is the Bitcoin Lightning Network? A Simple Explanation",
+    "tag": "Crypto",
+    "emoji": "\u26a1",
+    "bg": "#fefce8",
+    "desc": "The Bitcoin Lightning Network explained simply \u2014 what it is, how it makes Bitcoin instant and free, and why Strike is built on it.",
+    "date": "2026-08-21",
+    "sections": [
+      {
+        "h": "Bitcoin's Speed Problem",
+        "body": "Bitcoin is great as a store of value but has a limitation: the main blockchain processes only ~7 transactions per second. Visa handles 24,000 per second.\n\nBitcoin transactions can take 10+ minutes and cost $5\u2013$50 in fees during busy periods \u2014 terrible for everyday payments. The Lightning Network solves this."
+      },
+      {
+        "h": "How Lightning Works",
+        "body": "Lightning Network is a 'second layer' on top of Bitcoin:\n\n1. Two parties open a payment channel (one blockchain transaction)\n2. Exchange unlimited instant payments through that channel\n3. Close the channel when done (one more blockchain transaction)\n\nNet result: instant Bitcoin payments at essentially zero cost."
+      },
+      {
+        "h": "Strike: Lightning Made Simple",
+        "body": "Strike abstracts away all Lightning Network complexity into a clean, simple app. You don't need to understand payment channels \u2014 it just works.\n\nFor buying Bitcoin, Strike is one of the lowest-fee options available. The first $500 is completely free, and fees after that remain very competitive."
+      }
+    ],
+    "affiliates": [
+      "strike",
+      "coinbase"
+    ]
+  },
+  {
+    "slug": "how-to-buy-bitcoin-beginners-guide-2026-08-21-081632",
+    "slug_base": "how-to-buy-bitcoin-beginners-guide",
+    "title": "How to Buy Bitcoin for the First Time in 2026",
+    "tag": "Crypto",
+    "emoji": "\u20bf",
+    "bg": "#fff7ed",
+    "desc": "Step-by-step guide to buying Bitcoin for the first time. Which exchange to use, how much to invest, and how to keep it safe.",
+    "date": "2026-08-21",
+    "sections": [
+      {
+        "h": "Why Bitcoin Still Matters in 2026",
+        "body": "Love it or hate it, Bitcoin isn't going away. With a fixed supply of 21 million coins and growing institutional adoption, Bitcoin has earned its place in many investors' portfolios.\n\nThe barrier to entry has dropped dramatically. You can now buy as little as $1 of Bitcoin \u2014 no technical knowledge required."
+      },
+      {
+        "h": "Step 1: Choose Your Exchange",
+        "body": "The exchange you choose matters for fees and ease of use. **Coinbase** is the most recognized name and requires minimal setup. **Strike** specializes in Bitcoin and offers near-zero fees.\n\nFor most beginners: start with Coinbase for simplicity, explore Strike as you get comfortable."
+      },
+      {
+        "h": "Step 2: Verify Your Account",
+        "body": "Account verification is required by law. You'll need:\n\u2022 A valid government ID (driver's license or passport)\n\u2022 Your Social Security Number (last 4 digits on some platforms)\n\u2022 A bank account or debit card\n\nMost exchanges verify instantly. Start this step today."
+      },
+      {
+        "h": "How Much Should You Buy?",
+        "body": "Financial advisors generally suggest keeping crypto to 5\u201310% of your total investment portfolio.\n\nIf you're brand new, start with an amount you're comfortable losing \u2014 treat it as the price of financial education. Consistency beats timing every time."
+      }
+    ],
+    "affiliates": [
+      "strike",
+      "coinbase"
+    ]
+  },
+  {
+    "slug": "finance-news-roundup-2026-08-21-081632",
+    "slug_base": "finance-news-roundup",
+    "title": "This Week in Finance: Markets, Crypto & Money News",
+    "tag": "News",
+    "emoji": "\ud83d\udcf0",
+    "bg": "#f0f9ff",
+    "desc": "The latest finance and crypto news for August 21, 2026 \u2014 markets, investing updates, and what it means for your money.",
+    "date": "2026-08-21",
+    "sections": [
+      {
+        "h": "Top Finance & Market Stories",
+        "body": "**Bank of America sends message on Capital One stock**\n <a href=\"https://finance.yahoo.com/markets/stocks/articles/bank-america-sends-message-capital-090300253.html\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>\n\n**The TJX Companies, Inc. Q2 2027 Earnings Call Summary**\n <a href=\"https://finance.yahoo.com/markets/stocks/articles/tjx-companies-inc-q2-2027-204535245.html\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>\n\n**Global yields fall after US Treasury boosts debt buybacks**\n <a href=\"https://finance.yahoo.com/news/bond-selloff-slows-stocks-wobble-025827451.html\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>\n\n**Micron Stock Pullback: High Growth, Low Multiple Support Upside**\n <a href=\"https://finance.yahoo.com/markets/stocks/articles/micron-stock-pullback-high-growth-203732435.html\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>"
+      },
+      {
+        "h": "Crypto & Digital Assets",
+        "body": "**Bitcoin ETFs draw $608M as Ether ETFs see largest inflow since October**\nBitcoin ETF inflows pushed August\u2019s total to a 2026 high of $2.07 billion as Bitcoin traded above $75,000 and Ether climbed to $2,357. <a href=\"https://cointelegraph.com/markets/bitcoin-etfs-ether-etfs-largest-inflow-october?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>\n\n**Here\u2019s what happened in crypto today**\nNeed to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation. <a href=\"https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>\n\n**South Korean lawmakers seek expanded FIU powers over unregistered crypto firms**\nThe proposal would let the FIU investigate suspected violations and refer unregistered crypto operators directly to law enforcement. <a href=\"https://cointelegraph.com/news/south-korea-fiu-unregistered-crypto-firms-bill?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>"
+      }
+    ],
+    "affiliates": [
+      "gemini_card",
+      "coinbase"
+    ]
   }
 ]
