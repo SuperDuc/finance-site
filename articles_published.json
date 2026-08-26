@@ -22190,5 +22190,85 @@
       "strike",
       "coinbase"
     ]
+  },
+  {
+    "slug": "index-funds-explained-2026-08-26-081826",
+    "slug_base": "index-funds-explained",
+    "title": "What Are Index Funds and Why Do They Beat Stock Pickers?",
+    "tag": "Investing",
+    "emoji": "\ud83d\udcca",
+    "bg": "#eff6ff",
+    "desc": "Index funds explained from scratch \u2014 what they are, why they outperform most active investors, and how to buy your first one today.",
+    "date": "2026-08-26",
+    "sections": [
+      {
+        "h": "What Is an Index Fund?",
+        "body": "An index fund holds stocks that mirror a market index \u2014 most commonly the S&P 500 (500 largest US companies).\n\nInstead of picking individual stocks, you buy tiny pieces of all 500 companies at once. When the market goes up, your fund goes up.\n\nThe S&P 500 has returned an average of ~10.5% annually since 1957."
+      },
+      {
+        "h": "Why They Beat Most Active Investors",
+        "body": "Over any 15-year period, more than **90% of actively managed mutual funds underperform the S&P 500 index**.\n\nProfessional fund managers \u2014 with MBAs, Bloomberg terminals, and decades of experience \u2014 can't beat a simple index fund 9 out of 10 times. Yet they charge 1\u20132% in annual fees."
+      },
+      {
+        "h": "The Best Index Funds to Start With",
+        "body": "For most beginners, one of these three is all you need:\n\n\u2022 **VOO** \u2014 Vanguard S&P 500 ETF, 0.03% expense ratio\n\u2022 **VTI** \u2014 Vanguard Total Stock Market ETF, 0.03%\n\u2022 **VT** \u2014 Vanguard Total World Stock ETF, 0.07% (global)\n\nAll available commission-free on Robinhood and Fidelity."
+      }
+    ],
+    "affiliates": [
+      "robinhood"
+    ]
+  },
+  {
+    "slug": "best-crypto-exchanges-2026-2026-08-26-081826",
+    "slug_base": "best-crypto-exchanges-2026",
+    "title": "Top Crypto Exchanges for US Users in 2026",
+    "tag": "Crypto",
+    "emoji": "\ud83c\udfc6",
+    "bg": "#fdf4ff",
+    "desc": "The top crypto exchanges for US users in 2026 \u2014 ranked by fees, security, coin selection, and sign-up bonuses.",
+    "date": "2026-08-26",
+    "sections": [
+      {
+        "h": "What to Look For",
+        "body": "Not all exchanges are equal. Prioritize:\n\n1. **Regulation** \u2014 licensed in your state?\n2. **Security** \u2014 SOC 2 certification, insurance, track record?\n3. **Fees** \u2014 total all-in cost per purchase\n4. **Coin selection** \u2014 does it list the assets you want?\n5. **Sign-up bonus** \u2014 some exchanges pay you just to join"
+      },
+      {
+        "h": "Gemini \u2014 Best Security + Best Bonus",
+        "body": "Gemini is the most regulated US crypto exchange: NYDFS BitLicense, SOC 2 Type 2 certified, regular third-party audits.\n\n**The bonus:** Trade $100 \u2192 receive $50 in free crypto. A 50% instant return on your first trade \u2014 no other major exchange matches this.\n\nBest for: security-conscious users and anyone who wants the best sign-up bonus."
+      },
+      {
+        "h": "Strike \u2014 Best for Bitcoin",
+        "body": "For Bitcoin specifically, Strike offers the best fees via the Lightning Network. Your first $500 of Bitcoin is completely fee-free \u2014 no other major platform matches this.\n\nStrike doesn't try to be everything. It's Bitcoin-focused with the simplest interface available.\n\nBest for: Bitcoin-first investors who care most about fees."
+      }
+    ],
+    "affiliates": [
+      "gemini",
+      "coinbase",
+      "strike"
+    ]
+  },
+  {
+    "slug": "finance-news-roundup-2026-08-26-081826",
+    "slug_base": "finance-news-roundup",
+    "title": "Finance News Roundup: What Happened This Week (2026-08-26)",
+    "tag": "News",
+    "emoji": "\ud83d\udcf0",
+    "bg": "#f0f9ff",
+    "desc": "The latest finance and crypto news for August 26, 2026 \u2014 markets, investing updates, and what it means for your money.",
+    "date": "2026-08-26",
+    "sections": [
+      {
+        "h": "Top Finance & Market Stories",
+        "body": "**Louis Navellier has blunt message on Nvidia\u2019s reign before earnings**\n <a href=\"https://finance.yahoo.com/markets/stocks/articles/louis-navellier-blunt-message-nvidia-214700439.html\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>\n\n**A $900 Million Reason to Be Excited About XPEV Stock, Even After Disappointing Earnings Results**\n <a href=\"https://finance.yahoo.com/markets/stocks/articles/900-million-reason-excited-xpev-203154382.html\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>\n\n**Alibaba Stock Wavers As AI Push Drives $10 Billion Share Sale**\n <a href=\"https://www.investors.com/news/technology/alibaba-stock-falls-as-ai-push-drives-10-billion-share-sale/?src=A00220&yptr=yahoo\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>\n\n**Alibaba Diluted Shareholders for AI. Its Insiders Just Bought the Dip**\n <a href=\"https://finance.yahoo.com/markets/stocks/articles/alibaba-diluted-shareholders-ai-insiders-203025926.html\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>"
+      },
+      {
+        "h": "Crypto & Digital Assets",
+        "body": "**Tornado Cash developer Roman Storm\u2019s retrial delayed to April 2027**\nJudge Katherine Polk Failla adjourned the retrial in light of Storm\u2019s pending motion for acquittal and related request for a continuance. <a href=\"https://cointelegraph.com/news/roman-storm-retrial-delayed-april-2027?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>\n\n**Bitcoin ETFs tear through 2026 outflows in 7-day hot streak**\nThe funds are $390 million short of October 2025\u2019s inflow total after cutting their year-to-date net outflow deficit by more than half. <a href=\"https://cointelegraph.com/news/bitcoin-etf-august-inflows-surge-past-3-billion?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>\n\n**Here\u2019s what happened in crypto today**\nNeed to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation. <a href=\"https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>"
+      }
+    ],
+    "affiliates": [
+      "strike",
+      "robinhood"
+    ]
   }
 ]
