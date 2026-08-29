@@ -22767,5 +22767,84 @@
     "affiliates": [
       "robinhood"
     ]
+  },
+  {
+    "slug": "compound-interest-explained-2026-08-29-081916",
+    "slug_base": "compound-interest-explained",
+    "title": "How Compound Interest Works: Why Einstein Called It the 8th Wonder",
+    "tag": "Investing",
+    "emoji": "\ud83d\udd22",
+    "bg": "#eff6ff",
+    "desc": "Compound interest explained simply with real examples \u2014 how it builds wealth and why starting early is the most important financial decision you can make.",
+    "date": "2026-08-29",
+    "sections": [
+      {
+        "h": "Simple vs Compound Interest",
+        "body": "Compound interest means your money earns money on its money \u2014 and that money earns money on that money.\n\nThe formula: **A = P(1 + r)^t**\n\nAt 7%: your money grows 3.9\u00d7 in 20 years, 7.6\u00d7 in 30 years, 14.9\u00d7 in 40 years. Time is the main variable."
+      },
+      {
+        "h": "The Rule of 72",
+        "body": "Doubling times by rate:\n\n| Rate | Years to Double |\n|------|----------------|\n| 4% | 18 years |\n| 6% | 12 years |\n| 8% | 9 years |\n| 10% | 7.2 years |\n\nThis is why starting early matters more than starting with a large amount."
+      },
+      {
+        "h": "Why Starting Early Beats Earning More",
+        "body": "Time is worth more than money in investing. Starting at 25 vs 35 isn't a 10-year head start \u2014 it's potentially hundreds of thousands of dollars at retirement.\n\nEvery year you delay is compounding you can never recover. The best time to start is right now."
+      }
+    ],
+    "affiliates": [
+      "robinhood"
+    ]
+  },
+  {
+    "slug": "dollar-cost-averaging-guide-2026-08-29-081916",
+    "slug_base": "dollar-cost-averaging-guide",
+    "title": "What Is Dollar Cost Averaging? The Beginner's Guide",
+    "tag": "Investing",
+    "emoji": "\ud83d\udcc5",
+    "bg": "#eff6ff",
+    "desc": "Dollar cost averaging explained \u2014 what it is, why it works, and how to automate it for stocks, ETFs, and crypto.",
+    "date": "2026-08-29",
+    "sections": [
+      {
+        "h": "What Is Dollar Cost Averaging?",
+        "body": "Dollar cost averaging (DCA) means investing a fixed dollar amount on a regular schedule \u2014 weekly, biweekly, or monthly \u2014 regardless of what the market is doing.\n\nWhen prices are low, your fixed amount buys more shares. When prices are high, it buys fewer. Over time, this smooths out your average purchase cost."
+      },
+      {
+        "h": "Why It Works",
+        "body": "The biggest enemy of investment returns is the investor's own behavior \u2014 buying in excitement, selling in fear. DCA prevents this by automating the buying process.\n\nHistorically, someone who invested $200/month in the S&P 500 for 30 years would have significantly more money than someone who tried to time perfect entry points."
+      },
+      {
+        "h": "DCA for Crypto",
+        "body": "DCA is even more valuable for crypto, where volatility is extreme. Instead of trying to buy the dip, just buy $50 of Bitcoin every week.\n\nCoinbase and Gemini both support recurring crypto purchases. Set it once and let it run.\n\nHistorically, anyone who DCA'd into Bitcoin over any 4-year period has been profitable \u2014 even if they started at a local price peak."
+      }
+    ],
+    "affiliates": [
+      "robinhood",
+      "coinbase"
+    ]
+  },
+  {
+    "slug": "finance-news-roundup-2026-08-29-081916",
+    "slug_base": "finance-news-roundup",
+    "title": "Markets & Money: Top Stories for August 29, 2026",
+    "tag": "News",
+    "emoji": "\ud83d\udcf0",
+    "bg": "#f0f9ff",
+    "desc": "The latest finance and crypto news for August 29, 2026 \u2014 markets, investing updates, and what it means for your money.",
+    "date": "2026-08-29",
+    "sections": [
+      {
+        "h": "Top Finance & Market Stories",
+        "body": "**183-year-old giant tool company closes factory, lays off dozens**\n <a href=\"https://finance.yahoo.com/markets/stocks/articles/183-old-giant-tool-company-160300042.html\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>\n\n**Best Buy Hikes Outlook After Hot Summer Quarter**\n <a href=\"https://finance.yahoo.com/markets/stocks/articles/best-buy-hikes-outlook-hot-040100279.html\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>\n\n**SaaSpocalypse Is \u2018Nonsense\u2019 Says Salesforce CEO Amid Earnings Beat and Anthropic Partnership**\n <a href=\"https://finance.yahoo.com/markets/stocks/articles/saaspocalypse-nonsense-says-salesforce-ceo-040100123.html\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>\n\n**Act Now or Pay Later: Coalition of Top Companies Tells World to Get Its Act Together on Cybersecurity**\n <a href=\"https://finance.yahoo.com/technology/ai/articles/act-now-pay-later-coalition-040100009.html\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>"
+      },
+      {
+        "h": "Crypto & Digital Assets",
+        "body": "**Stablecoins not credible for payments at scale, BIS chief says**\nBIS chief Pablo Hern\u00e1ndez de Cos said stablecoins lack credibility for payments at scale, while a new FSI study highlights sharp differences in issuer rules. <a href=\"https://cointelegraph.com/news/stablecoins-not-credible-payments-scale-bis-chief?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>\n\n**Bitcoin ETFs end 9-day inflow streak as BTC dips below $78K**\nUS spot Bitcoin ETFs posted $201.8 million in net outflows Friday, led by ARK 21Shares, as total fund assets slipped back below $100 billion. <a href=\"https://cointelegraph.com/markets/bitcoin-etf-end-9-day-inflow-streak-btc-below-78k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>\n\n**Here\u2019s what happened in crypto today**\nNeed to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation. <a href=\"https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>"
+      }
+    ],
+    "affiliates": [
+      "gemini",
+      "coinbase"
+    ]
   }
 ]
