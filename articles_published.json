@@ -23631,5 +23631,59 @@
       "gemini",
       "coinbase"
     ]
+  },
+  {
+    "slug": "high-yield-savings-account-guide-2026-09-02-141656",
+    "slug_base": "high-yield-savings-account-guide",
+    "title": "High-Yield Savings Accounts in 2026: Everything You Need to Know",
+    "tag": "Saving",
+    "emoji": "\ud83c\udfe6",
+    "bg": "#f0fdf4",
+    "desc": "How high-yield savings accounts work, how much more you'll earn vs a traditional bank, and how to open one in 10 minutes.",
+    "date": "2026-09-02",
+    "sections": [
+      {
+        "h": "The Problem: Your Bank Is Ripping You Off",
+        "body": "Here's a number that should make you angry: 0.01% APY. On $10,000, that's $1/year.\n\nHigh-yield savings accounts pay 4\u20135% APY on the same money \u2014 $400\u2013$500/year. Same FDIC insurance. Same access. You just need to log into a different app."
+      },
+      {
+        "h": "What Makes It \"High-Yield\"?",
+        "body": "Online banks can offer 4\u20135% APY because they don't maintain thousands of physical branches. That cost savings goes straight into your interest rate.\n\nHYSAs are not investments or exotic products. They're regular FDIC-insured savings accounts. The only difference is the number after the % sign."
+      },
+      {
+        "h": "The Math",
+        "body": "Let's say you have $15,000 in savings:\n\n\u2022 Big bank at 0.01% APY: **$1.50/year**\n\u2022 High-yield savings at 4.5% APY: **$675/year**\n\nThat's $673.50 in free money for switching accounts. Over 5 years with compound interest, the difference grows to over $3,500."
+      }
+    ],
+    "affiliates": [
+      "gemini"
+    ]
+  },
+  {
+    "slug": "emergency-fund-guide-2026-09-02-141656",
+    "slug_base": "emergency-fund-guide",
+    "title": "How Much Should You Have in an Emergency Fund? The Honest Answer",
+    "tag": "Saving",
+    "emoji": "\ud83d\udee1\ufe0f",
+    "bg": "#f0fdf4",
+    "desc": "How much to save in your emergency fund, where to keep it, and the fastest way to build one \u2014 even on a tight budget.",
+    "date": "2026-09-02",
+    "sections": [
+      {
+        "h": "How Much Do You Actually Need?",
+        "body": "The classic advice is 3\u20136 months of expenses. But the right amount depends on your situation:\n\n\u2022 **Stable job, dual income:** 3 months is enough\n\u2022 **Single income or variable income:** 6 months minimum\n\u2022 **Self-employed or freelance:** 9\u201312 months recommended\n\nThe goal: be able to pay your bills for that many months if all income stopped tomorrow."
+      },
+      {
+        "h": "Where to Keep It",
+        "body": "Your emergency fund should be:\n1. **Liquid** \u2014 accessible in 24 hours\n2. **Safe** \u2014 FDIC insured\n3. **Earning interest** \u2014 not sitting in a 0.01% APY checking account\n\nThe best home is a **high-yield savings account (HYSA)**. Top HYSAs pay 4\u20135% APY \u2014 on a $10,000 fund, that's $400\u2013$500/year in free interest."
+      },
+      {
+        "h": "How to Build It Fast",
+        "body": "Break it into milestones:\n\n**Month 1\u20132:** Save $500 \u2014 covers most minor emergencies\n**Month 3\u20134:** Reach $1,000 \u2014 covers car repairs, medical bills\n**Month 5+:** Continue until you hit 3 months of expenses\n\nTreat your emergency fund contribution like a bill. Set up an automatic transfer on payday before you can spend the money."
+      }
+    ],
+    "affiliates": [
+      "robinhood"
+    ]
   }
 ]
