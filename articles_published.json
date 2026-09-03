@@ -23744,5 +23744,84 @@
     "affiliates": [
       "robinhood"
     ]
+  },
+  {
+    "slug": "compound-interest-explained-2026-09-03-082401",
+    "slug_base": "compound-interest-explained",
+    "title": "Compound Interest Explained: The Math That Makes or Breaks Your Wealth",
+    "tag": "Investing",
+    "emoji": "\ud83d\udd22",
+    "bg": "#eff6ff",
+    "desc": "Compound interest explained simply with real examples \u2014 how it builds wealth and why starting early is the most important financial decision you can make.",
+    "date": "2026-09-03",
+    "sections": [
+      {
+        "h": "Simple vs Compound Interest",
+        "body": "Compound interest means your money earns money on its money \u2014 and that money earns money on that money.\n\nThe formula: **A = P(1 + r)^t**\n\nAt 7%: your money grows 3.9\u00d7 in 20 years, 7.6\u00d7 in 30 years, 14.9\u00d7 in 40 years. Time is the main variable."
+      },
+      {
+        "h": "The Rule of 72",
+        "body": "Quick mental math: divide 72 by your interest rate to find years to double your money.\n\n\u2022 At 6% \u2192 doubles every 12 years\n\u2022 At 7% \u2192 doubles every ~10 years\n\u2022 At 10% \u2192 doubles every 7.2 years\n\nS&P 500 historical return (~10%): your money doubles roughly every 7 years."
+      },
+      {
+        "h": "Why Starting Early Beats Earning More",
+        "body": "Time is worth more than money in investing. Starting at 25 vs 35 isn't a 10-year head start \u2014 it's potentially hundreds of thousands of dollars at retirement.\n\nEvery year you delay is compounding you can never recover. The best time to start is right now."
+      }
+    ],
+    "affiliates": [
+      "robinhood"
+    ]
+  },
+  {
+    "slug": "dollar-cost-averaging-guide-2026-09-03-082401",
+    "slug_base": "dollar-cost-averaging-guide",
+    "title": "Dollar Cost Averaging: The Strategy That Works While You Sleep",
+    "tag": "Investing",
+    "emoji": "\ud83d\udcc5",
+    "bg": "#eff6ff",
+    "desc": "Dollar cost averaging explained \u2014 what it is, why it works, and how to automate it for stocks, ETFs, and crypto.",
+    "date": "2026-09-03",
+    "sections": [
+      {
+        "h": "What Is Dollar Cost Averaging?",
+        "body": "DCA is the strategy used by almost every 401(k) in the country \u2014 employees contribute a fixed percentage of each paycheck automatically, regardless of market conditions.\n\nThe principle: don't try to predict the market. Just buy consistently and let time do the work."
+      },
+      {
+        "h": "Why It Works",
+        "body": "DCA works for two reasons:\n\n**1. Removes emotion.** The biggest investing mistake is panic-selling during crashes. DCA forces you to keep buying even when everything looks scary \u2014 exactly when the best deals are available.\n\n**2. Removes the need to time the market.** Even professional fund managers can't reliably time the market. DCA sidesteps the problem entirely."
+      },
+      {
+        "h": "DCA for Crypto",
+        "body": "Crypto DCA example: $100/week into Bitcoin starting January 2022 (near the peak). By 2025, that investor had a significant profit despite starting at what felt like the worst possible time.\n\nConsistency beats timing. Use Coinbase to set up automatic weekly crypto buys and stop agonizing over price."
+      }
+    ],
+    "affiliates": [
+      "robinhood",
+      "coinbase"
+    ]
+  },
+  {
+    "slug": "finance-news-roundup-2026-09-03-082401",
+    "slug_base": "finance-news-roundup",
+    "title": "Markets & Money: Top Stories for September 03, 2026",
+    "tag": "News",
+    "emoji": "\ud83d\udcf0",
+    "bg": "#f0f9ff",
+    "desc": "The latest finance and crypto news for September 03, 2026 \u2014 markets, investing updates, and what it means for your money.",
+    "date": "2026-09-03",
+    "sections": [
+      {
+        "h": "Top Finance & Market Stories",
+        "body": "**Costco shuts down key service without notice**\n <a href=\"https://finance.yahoo.com/markets/stocks/articles/costco-shuts-down-key-no-011218190.html\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>\n\n**Robinhood Stock Upgraded On Growth Outlook; Shares Trade Near Entry**\n <a href=\"https://www.investors.com/news/robinhood-stock-upgrade-overweight-price-target-growth-outlook-hood-stock-base/?src=A00220&yptr=yahoo\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>\n\n**This Geothermal Stock Is Soaring Today After a Major Google Deal**\n <a href=\"https://finance.yahoo.com/energy/articles/geothermal-stock-soaring-today-major-202225458.html\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>\n\n**Wells Fargo Active Cash Card review: Unlimited 2% cash rewards and generous intro APR**\n <a href=\"https://finance.yahoo.com/personal-finance/credit-cards/review/wells-fargo-active-cash-card-180512515.html\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>"
+      },
+      {
+        "h": "Crypto & Digital Assets",
+        "body": "**Australia warns unlicensed crypto firms of fines up to 10% of annual turnover**\nASIC has recorded more than 45 digital asset-related license applications as its temporary enforcement relief approaches Sept. 30 expiration. <a href=\"https://cointelegraph.com/news/australia-warns-unlicensed-crypto-firms-of-fines-up-to-10-of-annual-turnover?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>\n\n**Ether, XRP ETF inflow streaks end as Bitcoin funds rebound**\nEther ETFs posted $48 million in outflows after attracting $1.62 billion over 12 trading days, while XRP funds ended an 11-session inflow run. <a href=\"https://cointelegraph.com/markets/eth-xrp-etf-inflow-streaks-end-bitcoin-funds-rebound?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>\n\n**Here\u2019s what happened in crypto today**\nNeed to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation. <a href=\"https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>"
+      }
+    ],
+    "affiliates": [
+      "robinhood",
+      "gemini"
+    ]
   }
 ]
