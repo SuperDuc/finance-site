@@ -24806,5 +24806,64 @@
       "gemini_card",
       "coinbase"
     ]
+  },
+  {
+    "slug": "passive-income-ideas-2026-2026-09-08-141832",
+    "slug_base": "passive-income-ideas-2026",
+    "title": "How to Build Passive Income From Scratch in 2026",
+    "tag": "Investing",
+    "emoji": "\ud83d\udcb8",
+    "bg": "#fefce8",
+    "desc": "Realistic passive income ideas for 2026 \u2014 dividend investing, crypto staking, affiliate income, and more. How much each earns and how to start.",
+    "date": "2026-09-08",
+    "sections": [
+      {
+        "h": "Dividend Investing",
+        "body": "Buy shares of dividend-paying stocks or ETFs and receive quarterly payments. A 4% dividend yield on $10,000 = $400/year \u2014 $33/month \u2014 for doing nothing after the initial purchase.\n\nBest dividend ETFs: **SCHD** (Schwab US Dividend Equity), **VYM** (Vanguard High Dividend Yield), **JEPI** (JPMorgan Equity Premium Income, ~7% yield).\n\nUse Robinhood or Fidelity to set up automatic reinvestment (DRIP) and watch compounding accelerate."
+      },
+      {
+        "h": "Crypto Staking",
+        "body": "Staking means locking up cryptocurrency to help validate blockchain transactions. In return, you earn rewards \u2014 essentially interest on your crypto.\n\nCurrent approximate staking yields:\n\u2022 Ethereum (ETH): ~3\u20134% annually\n\u2022 Solana (SOL): ~6\u20137% annually\n\nGemini offers staking on multiple assets directly from the platform \u2014 no technical setup required."
+      },
+      {
+        "h": "Affiliate Marketing",
+        "body": "Affiliate income is passive once set up. Write a review once. Share a link once. Earn commissions for months as people find the content organically.\n\nBest niches by commission: finance (highest per conversion), software/SaaS (recurring monthly commissions), health (massive audience)."
+      }
+    ],
+    "affiliates": [
+      "robinhood",
+      "gemini"
+    ]
+  },
+  {
+    "slug": "robinhood-review-2026-2026-09-08-141832",
+    "slug_base": "robinhood-review-2026",
+    "title": "Robinhood in 2026: Honest Review After Years of Use",
+    "tag": "Investing",
+    "emoji": "\ud83d\udfe2",
+    "bg": "#f0fdf4",
+    "desc": "An honest 2026 Robinhood review \u2014 commissions, the 3% IRA match, crypto trading, pros, cons, and who it's best for.",
+    "date": "2026-09-08",
+    "sections": [
+      {
+        "h": "What's Changed in 2026",
+        "body": "In 2026, Robinhood offers stocks, ETFs, options, crypto, and a surprisingly competitive 3% IRA match. The UI remains the simplest of any investing app \u2014 that's still its biggest advantage."
+      },
+      {
+        "h": "What You Can Trade",
+        "body": "The asset selection covers most of what everyday investors need. Missing: fixed income, mutual funds, international markets. For a one-stop shop, Fidelity is more complete \u2014 but Robinhood's simplicity is genuinely valuable for beginners."
+      },
+      {
+        "h": "The 3% IRA Match",
+        "body": "No other retail broker matches IRA contributions this generously. 3% on $7,000 = $210 free money annually. Robinhood Gold ($60/yr) pays for itself many times over through this feature alone."
+      },
+      {
+        "h": "Pros and Cons",
+        "body": "**Best for:** Beginners who want simplicity. Anyone who wants a 3% IRA match. People who want stocks and crypto in one app.\n\n**Look elsewhere if:** You need advanced charting, screeners, mutual funds, or phone support. Fidelity or Schwab fit those needs better."
+      }
+    ],
+    "affiliates": [
+      "robinhood"
+    ]
   }
 ]
