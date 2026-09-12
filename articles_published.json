@@ -25634,5 +25634,63 @@
     "affiliates": [
       "robinhood"
     ]
+  },
+  {
+    "slug": "index-funds-explained-2026-09-12-201557",
+    "slug_base": "index-funds-explained",
+    "title": "What Are Index Funds and Why Do They Beat Stock Pickers?",
+    "tag": "Investing",
+    "emoji": "\ud83d\udcca",
+    "bg": "#eff6ff",
+    "desc": "Index funds explained from scratch \u2014 what they are, why they outperform most active investors, and how to buy your first one today.",
+    "date": "2026-09-12",
+    "sections": [
+      {
+        "h": "What Is an Index Fund?",
+        "body": "An index fund holds stocks that mirror a market index \u2014 most commonly the S&P 500 (500 largest US companies).\n\nInstead of picking individual stocks, you buy tiny pieces of all 500 companies at once. When the market goes up, your fund goes up.\n\nThe S&P 500 has returned an average of ~10.5% annually since 1957."
+      },
+      {
+        "h": "Why They Beat Most Active Investors",
+        "body": "Over any 15-year period, more than **90% of actively managed mutual funds underperform the S&P 500 index**.\n\nProfessional fund managers \u2014 with MBAs, Bloomberg terminals, and decades of experience \u2014 can't beat a simple index fund 9 out of 10 times. Yet they charge 1\u20132% in annual fees."
+      },
+      {
+        "h": "The Best Index Funds to Start With",
+        "body": "Start simple:\n\u2022 **US exposure:** VOO or VTI\n\u2022 **Global exposure:** VT, or 60% VTI + 40% VXUS\n\u2022 **One fund forever:** VT\n\nDon't overthink it. Pick one, automate monthly purchases, and check prices less often. That's the entire strategy."
+      }
+    ],
+    "affiliates": [
+      "robinhood"
+    ]
+  },
+  {
+    "slug": "robinhood-review-2026-2026-09-12-201557",
+    "slug_base": "robinhood-review-2026",
+    "title": "Robinhood in 2026: Honest Review After Years of Use",
+    "tag": "Investing",
+    "emoji": "\ud83d\udfe2",
+    "bg": "#f0fdf4",
+    "desc": "An honest 2026 Robinhood review \u2014 commissions, the 3% IRA match, crypto trading, pros, cons, and who it's best for.",
+    "date": "2026-09-12",
+    "sections": [
+      {
+        "h": "What's Changed in 2026",
+        "body": "Robinhood pioneered commission-free trading and forced the entire industry to follow. Today it's grown beyond stocks into crypto, options, and retirement accounts with a **3% IRA match**.\n\nThe platform has also cleaned up its reputation significantly since the 2021 GameStop controversy."
+      },
+      {
+        "h": "What You Can Trade",
+        "body": "Robinhood supports:\n\u2022 Stocks (US-listed)\n\u2022 ETFs\n\u2022 Options\n\u2022 Crypto (30+ coins including BTC, ETH, DOGE, SOL)\n\u2022 Fractional shares from $1\n\nNotably missing: mutual funds, international stocks, bonds. For those, consider Fidelity."
+      },
+      {
+        "h": "The 3% IRA Match",
+        "body": "No other retail broker matches IRA contributions this generously. 3% on $7,000 = $210 free money annually. Robinhood Gold ($60/yr) pays for itself many times over through this feature alone."
+      },
+      {
+        "h": "Pros and Cons",
+        "body": "**Best for:** Beginners who want simplicity. Anyone who wants a 3% IRA match. People who want stocks and crypto in one app.\n\n**Look elsewhere if:** You need advanced charting, screeners, mutual funds, or phone support. Fidelity or Schwab fit those needs better."
+      }
+    ],
+    "affiliates": [
+      "robinhood"
+    ]
   }
 ]
