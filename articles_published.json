@@ -25774,5 +25774,60 @@
       "robinhood",
       "gemini"
     ]
+  },
+  {
+    "slug": "high-yield-savings-account-guide-2026-09-13-141401",
+    "slug_base": "high-yield-savings-account-guide",
+    "title": "High-Yield Savings Accounts in 2026: Everything You Need to Know",
+    "tag": "Saving",
+    "emoji": "\ud83c\udfe6",
+    "bg": "#f0fdf4",
+    "desc": "How high-yield savings accounts work, how much more you'll earn vs a traditional bank, and how to open one in 10 minutes.",
+    "date": "2026-09-13",
+    "sections": [
+      {
+        "h": "The Problem: Your Bank Is Ripping You Off",
+        "body": "Here's a number that should make you angry: 0.01% APY. On $10,000, that's $1/year.\n\nHigh-yield savings accounts pay 4\u20135% APY on the same money \u2014 $400\u2013$500/year. Same FDIC insurance. Same access. You just need to log into a different app."
+      },
+      {
+        "h": "What Makes It \"High-Yield\"?",
+        "body": "High-yield savings accounts are offered by online banks \u2014 no physical branches, lower overhead. They pass those savings to customers as higher interest.\n\nHYSAs are:\n\u2022 FDIC insured up to $250,000\n\u2022 Liquid \u2014 access your money in 1\u20132 business days\n\u2022 Simple \u2014 it's just a savings account with a better rate"
+      },
+      {
+        "h": "The Math",
+        "body": "Example with $25,000:\n\u2022 Chase savings at 0.01% APY: $2.50/year\n\u2022 HYSA at 4.5% APY: $1,125/year\n\nEvery day you wait costs you about $3. The account opening takes 10 minutes. There's no good reason to keep your savings at a big bank."
+      }
+    ],
+    "affiliates": [
+      "gemini"
+    ]
+  },
+  {
+    "slug": "gemini-credit-card-review-2026-2026-09-13-141401",
+    "slug_base": "gemini-credit-card-review-2026",
+    "title": "Earn Crypto on Every Purchase: Gemini Credit Card Full Review",
+    "tag": "Crypto",
+    "emoji": "\ud83d\udc8e",
+    "bg": "#fdf4ff",
+    "desc": "Full review of the Gemini Credit Card \u2014 4% dining rewards, how real-time crypto cashback works, who it's best for, and whether it's worth applying.",
+    "date": "2026-09-13",
+    "sections": [
+      {
+        "h": "What Is the Gemini Credit Card?",
+        "body": "The Gemini Credit Card earns cryptocurrency on every purchase instead of points or cash back. No annual fee, no foreign transaction fees, and rewards deposit instantly into your Gemini wallet.\n\nRewards rates:\n\u2022 **Dining:** 4% back in crypto\n\u2022 **Groceries:** 3% back in crypto\n\u2022 **Everything else:** 1% back in crypto"
+      },
+      {
+        "h": "How the Rewards Actually Work",
+        "body": "Every time you swipe, your cashback converts to crypto at the current market rate and deposits into your Gemini account within seconds. No waiting, no minimums, no manual redemption.\n\nThis means your dining cashback starts earning price appreciation immediately. If you earn 4% back in Bitcoin and Bitcoin goes up, your rewards are worth more."
+      },
+      {
+        "h": "Is 4% Crypto Cashback Good?",
+        "body": "For dining specifically: yes, 4% is excellent. Most premium cash-back cards top out at 3% on dining \u2014 and charge annual fees of $95\u2013$550.\n\nGemini's 4% dining reward with a $0 annual fee is genuinely competitive against any rewards card on the market."
+      }
+    ],
+    "affiliates": [
+      "gemini_card",
+      "gemini"
+    ]
   }
 ]
