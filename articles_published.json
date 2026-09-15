@@ -26167,5 +26167,59 @@
       "gemini",
       "coinbase"
     ]
+  },
+  {
+    "slug": "compound-interest-explained-2026-09-15-141757",
+    "slug_base": "compound-interest-explained",
+    "title": "The Power of Compound Interest: Why Starting Early Changes Everything",
+    "tag": "Investing",
+    "emoji": "\ud83d\udd22",
+    "bg": "#eff6ff",
+    "desc": "Compound interest explained simply with real examples \u2014 how it builds wealth and why starting early is the most important financial decision you can make.",
+    "date": "2026-09-15",
+    "sections": [
+      {
+        "h": "Simple vs Compound Interest",
+        "body": "Compound interest means your money earns money on its money \u2014 and that money earns money on that money.\n\nThe formula: **A = P(1 + r)^t**\n\nAt 7%: your money grows 3.9\u00d7 in 20 years, 7.6\u00d7 in 30 years, 14.9\u00d7 in 40 years. Time is the main variable."
+      },
+      {
+        "h": "The Rule of 72",
+        "body": "Quick mental math: divide 72 by your interest rate to find years to double your money.\n\n\u2022 At 6% \u2192 doubles every 12 years\n\u2022 At 7% \u2192 doubles every ~10 years\n\u2022 At 10% \u2192 doubles every 7.2 years\n\nS&P 500 historical return (~10%): your money doubles roughly every 7 years."
+      },
+      {
+        "h": "Why Starting Early Beats Earning More",
+        "body": "Time is worth more than money in investing. Starting at 25 vs 35 isn't a 10-year head start \u2014 it's potentially hundreds of thousands of dollars at retirement.\n\nEvery year you delay is compounding you can never recover. The best time to start is right now."
+      }
+    ],
+    "affiliates": [
+      "robinhood"
+    ]
+  },
+  {
+    "slug": "debt-avalanche-vs-snowball-2026-09-15-141757",
+    "slug_base": "debt-avalanche-vs-snowball",
+    "title": "How to Pay Off Debt Fast: Avalanche vs Snowball Explained",
+    "tag": "Debt",
+    "emoji": "\ud83d\udcb3",
+    "bg": "#fefce8",
+    "desc": "A clear comparison of the debt avalanche and snowball methods \u2014 which saves more money, which keeps you motivated, and exactly how to choose.",
+    "date": "2026-09-15",
+    "sections": [
+      {
+        "h": "The Two Methods",
+        "body": "Both methods are identical except for which debt gets your extra payment each month.\n\n\u2022 **Avalanche** = highest interest rate first\n\u2022 **Snowball** = smallest balance first\n\nBoth dramatically accelerate payoff compared to minimum payments only."
+      },
+      {
+        "h": "Which Saves More Money?",
+        "body": "The avalanche always saves more interest \u2014 sometimes significantly.\n\nExample: $20,000 across three debts (15% credit card, 8% personal loan, 4% car loan), $300 extra/month:\n\n\u2022 **Avalanche:** Debt-free in 48 months, $4,200 in interest\n\u2022 **Snowball:** Debt-free in 51 months, $5,100 in interest\n\n$900 more in your pocket with avalanche."
+      },
+      {
+        "h": "Which Method Works for YOU?",
+        "body": "Dave Ramsey advocates the snowball because he's seen thousands fail with mathematically optimal plans they couldn't sustain.\n\nBut if you can stay motivated with the avalanche, the extra savings are real money. Use our free debt payoff calculator to see the exact numbers for your situation."
+      }
+    ],
+    "affiliates": [
+      "robinhood"
+    ]
   }
 ]
