@@ -27651,5 +27651,85 @@
       "strike",
       "coinbase"
     ]
+  },
+  {
+    "slug": "gemini-credit-card-review-2026-2026-09-23-082342",
+    "slug_base": "gemini-credit-card-review-2026",
+    "title": "Gemini Credit Card Review 2026: Is 4% Crypto Cashback Worth It?",
+    "tag": "Crypto",
+    "emoji": "\ud83d\udc8e",
+    "bg": "#fdf4ff",
+    "desc": "Full review of the Gemini Credit Card \u2014 4% dining rewards, how real-time crypto cashback works, who it's best for, and whether it's worth applying.",
+    "date": "2026-09-23",
+    "sections": [
+      {
+        "h": "What Is the Gemini Credit Card?",
+        "body": "The Gemini Credit Card earns cryptocurrency on every purchase instead of points or cash back. No annual fee, no foreign transaction fees, and rewards deposit instantly into your Gemini wallet.\n\nRewards rates:\n\u2022 **Dining:** 4% back in crypto\n\u2022 **Groceries:** 3% back in crypto\n\u2022 **Everything else:** 1% back in crypto"
+      },
+      {
+        "h": "How the Rewards Actually Work",
+        "body": "Every time you swipe, your cashback converts to crypto at the current market rate and deposits into your Gemini account within seconds. No waiting, no minimums, no manual redemption.\n\nThis means your dining cashback starts earning price appreciation immediately. If you earn 4% back in Bitcoin and Bitcoin goes up, your rewards are worth more."
+      },
+      {
+        "h": "Is 4% Crypto Cashback Good?",
+        "body": "For dining specifically: yes, 4% is excellent. Most premium cash-back cards top out at 3% on dining \u2014 and charge annual fees of $95\u2013$550.\n\nGemini's 4% dining reward with a $0 annual fee is genuinely competitive against any rewards card on the market."
+      }
+    ],
+    "affiliates": [
+      "gemini_card",
+      "gemini"
+    ]
+  },
+  {
+    "slug": "bitcoin-lightning-network-explained-2026-09-23-082342",
+    "slug_base": "bitcoin-lightning-network-explained",
+    "title": "Lightning Network Explained: Why Bitcoin Payments Are Now Instant",
+    "tag": "Crypto",
+    "emoji": "\u26a1",
+    "bg": "#fefce8",
+    "desc": "The Bitcoin Lightning Network explained simply \u2014 what it is, how it makes Bitcoin instant and free, and why Strike is built on it.",
+    "date": "2026-09-23",
+    "sections": [
+      {
+        "h": "Bitcoin's Speed Problem",
+        "body": "Bitcoin is great as a store of value but has a limitation: the main blockchain processes only ~7 transactions per second. Visa handles 24,000 per second.\n\nBitcoin transactions can take 10+ minutes and cost $5\u2013$50 in fees during busy periods \u2014 terrible for everyday payments. The Lightning Network solves this."
+      },
+      {
+        "h": "How Lightning Works",
+        "body": "Lightning creates 'payment channels' between users \u2014 like running a tab at a bar, settling multiple transactions at once.\n\nInside a Lightning channel: transactions are **instant and nearly free**. Only opening and closing a channel touches the main blockchain.\n\nResult: thousands of transactions per second, fees under $0.01, settlement in milliseconds."
+      },
+      {
+        "h": "Strike: Lightning Made Simple",
+        "body": "Strike abstracts away all Lightning Network complexity into a clean, simple app. You don't need to understand payment channels \u2014 it just works.\n\nFor buying Bitcoin, Strike is one of the lowest-fee options available. The first $500 is completely free, and fees after that remain very competitive."
+      }
+    ],
+    "affiliates": [
+      "strike",
+      "coinbase"
+    ]
+  },
+  {
+    "slug": "finance-news-roundup-2026-09-23-082342",
+    "slug_base": "finance-news-roundup",
+    "title": "Finance News Roundup: What Happened This Week (2026-09-23)",
+    "tag": "News",
+    "emoji": "\ud83d\udcf0",
+    "bg": "#f0f9ff",
+    "desc": "The latest finance and crypto news for September 23, 2026 \u2014 markets, investing updates, and what it means for your money.",
+    "date": "2026-09-23",
+    "sections": [
+      {
+        "h": "Top Finance & Market Stories",
+        "body": "**Kalshi asks CFTC to allow margin trading on prediction markets**\n <a href=\"https://finance.yahoo.com/markets/options/articles/kalshi-asks-cftc-allow-margin-123918880.html\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>\n\n**Chip Stocks Rise As Four New Names Join SOX Index. AMD Breaks Out.**\n <a href=\"https://www.investors.com/news/technology/chip-stocks-amd-stock-four-new-names-join-sox-index/?src=A00220&yptr=yahoo\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>\n\n**Stocks Settle Sharply Higher as Crude Prices Plunge and Chipmakers Soar**\n <a href=\"https://finance.yahoo.com/markets/stocks/articles/stocks-settle-sharply-higher-crude-203423357.html\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>\n\n**Stock Market Today: Dow Up, Nasdaq Roars To Record As Micron Does This; AMD Hits New High**\n <a href=\"https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-oil-prices-treasury-yields-nvidia-stock-nvda-buy-point/?src=A00220&yptr=yahoo\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>"
+      },
+      {
+        "h": "Crypto & Digital Assets",
+        "body": "**Zcash\u2019s November upgrade could freeze funds in legacy Sprout pool**\nThe proposed NU7 change would disable version 4 transactions, leaving ZEC in Zcash\u2019s legacy Sprout shielded pool unspendable. <a href=\"https://cointelegraph.com/news/zcash-nu7-upgrade-sprout-funds-unspendable?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>\n\n**Bitcoin ETFs take in $1.7B in 2 days as BTC tops holder cost basis**\nUS spot Bitcoin ETFs recorded more than $1.7 billion in net inflows over two days as Bitcoin rose above investors\u2019 estimated average cost basis. <a href=\"https://cointelegraph.com/markets/bitcoin-etf-inflow-2-days-holder-profitable?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>\n\n**Here\u2019s what happened in crypto today**\nNeed to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation. <a href=\"https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>"
+      }
+    ],
+    "affiliates": [
+      "gemini_card",
+      "coinbase"
+    ]
   }
 ]
