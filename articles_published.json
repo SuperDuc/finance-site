@@ -28035,5 +28035,85 @@
       "robinhood",
       "gemini"
     ]
+  },
+  {
+    "slug": "passive-income-ideas-2026-2026-09-25-082418",
+    "slug_base": "passive-income-ideas-2026",
+    "title": "How to Build Passive Income From Scratch in 2026",
+    "tag": "Investing",
+    "emoji": "\ud83d\udcb8",
+    "bg": "#fefce8",
+    "desc": "Realistic passive income ideas for 2026 \u2014 dividend investing, crypto staking, affiliate income, and more. How much each earns and how to start.",
+    "date": "2026-09-25",
+    "sections": [
+      {
+        "h": "Dividend Investing",
+        "body": "Buy shares of dividend-paying stocks or ETFs and receive quarterly payments. A 4% dividend yield on $10,000 = $400/year \u2014 $33/month \u2014 for doing nothing after the initial purchase.\n\nBest dividend ETFs: **SCHD** (Schwab US Dividend Equity), **VYM** (Vanguard High Dividend Yield), **JEPI** (JPMorgan Equity Premium Income, ~7% yield).\n\nUse Robinhood or Fidelity to set up automatic reinvestment (DRIP) and watch compounding accelerate."
+      },
+      {
+        "h": "Crypto Staking",
+        "body": "Staking means locking up cryptocurrency to help validate blockchain transactions. In return, you earn rewards \u2014 essentially interest on your crypto.\n\nCurrent approximate staking yields:\n\u2022 Ethereum (ETH): ~3\u20134% annually\n\u2022 Solana (SOL): ~6\u20137% annually\n\nGemini offers staking on multiple assets directly from the platform \u2014 no technical setup required."
+      },
+      {
+        "h": "Affiliate Marketing",
+        "body": "Refer people to products and earn a commission when they sign up \u2014 this is literally how this site earns money.\n\nFinancial affiliate programs pay well:\n\u2022 Crypto exchanges: $10\u2013$50 per new user\n\u2022 Robinhood: you both get a free stock\n\u2022 Credit cards: $50\u2013$200 per approval\n\nA single well-placed affiliate link in a blog post can earn for years with zero ongoing effort."
+      }
+    ],
+    "affiliates": [
+      "robinhood",
+      "gemini"
+    ]
+  },
+  {
+    "slug": "bitcoin-lightning-network-explained-2026-09-25-082418",
+    "slug_base": "bitcoin-lightning-network-explained",
+    "title": "Lightning Network Explained: Why Bitcoin Payments Are Now Instant",
+    "tag": "Crypto",
+    "emoji": "\u26a1",
+    "bg": "#fefce8",
+    "desc": "The Bitcoin Lightning Network explained simply \u2014 what it is, how it makes Bitcoin instant and free, and why Strike is built on it.",
+    "date": "2026-09-25",
+    "sections": [
+      {
+        "h": "Bitcoin's Speed Problem",
+        "body": "Bitcoin is great as a store of value but has a limitation: the main blockchain processes only ~7 transactions per second. Visa handles 24,000 per second.\n\nBitcoin transactions can take 10+ minutes and cost $5\u2013$50 in fees during busy periods \u2014 terrible for everyday payments. The Lightning Network solves this."
+      },
+      {
+        "h": "How Lightning Works",
+        "body": "Lightning Network is a 'second layer' on top of Bitcoin:\n\n1. Two parties open a payment channel (one blockchain transaction)\n2. Exchange unlimited instant payments through that channel\n3. Close the channel when done (one more blockchain transaction)\n\nNet result: instant Bitcoin payments at essentially zero cost."
+      },
+      {
+        "h": "Strike: Lightning Made Simple",
+        "body": "Strike is one of the most popular Lightning Network apps in the US. It lets you buy Bitcoin instantly with near-zero fees, and send Bitcoin to anyone for fractions of a cent.\n\nStrike's standout offer for new users: your **first $500 of Bitcoin is completely fee-free**. No catch."
+      }
+    ],
+    "affiliates": [
+      "strike",
+      "coinbase"
+    ]
+  },
+  {
+    "slug": "finance-news-roundup-2026-09-25-082418",
+    "slug_base": "finance-news-roundup",
+    "title": "Finance News Roundup: What Happened This Week (2026-09-25)",
+    "tag": "News",
+    "emoji": "\ud83d\udcf0",
+    "bg": "#f0f9ff",
+    "desc": "The latest finance and crypto news for September 25, 2026 \u2014 markets, investing updates, and what it means for your money.",
+    "date": "2026-09-25",
+    "sections": [
+      {
+        "h": "Top Finance & Market Stories",
+        "body": "**Ennis (EBF) Grows Sales but Earns Less. Are Legal Items Hiding a Better Business?**\n <a href=\"https://finance.yahoo.com/markets/stocks/articles/ennis-ebf-grows-sales-earns-015226342.html\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>\n\n**Strive CEO: Bitcoin Could \u2018Go to Infinity' as Dollar Debt Crisis Breaks**\n <a href=\"https://finance.yahoo.com/markets/crypto/articles/strive-ceo-bitcoin-could-infinity-015100441.html\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>\n\n**Westinghouse Air Brake (WAB) Signs $700 Million-Plus Rail Services Deal. Can Profits Grow?**\n <a href=\"https://finance.yahoo.com/markets/stocks/articles/westinghouse-air-brake-wab-signs-014350177.html\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>\n\n**Vista Gold (VGZ) Agrees to Sale. Can its Buyer Fund the Mt Todd Gold Mine?**\n <a href=\"https://finance.yahoo.com/markets/commodities/articles/vista-gold-vgz-agrees-sale-014206537.html\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>"
+      },
+      {
+        "h": "Crypto & Digital Assets",
+        "body": "**Bitcoin ETF inflows slow to $191M as six-day streak reaches $2.8B**\nUS spot Bitcoin ETFs drew $191 million Thursday as daily inflows slowed for a third day, lifting year-to-date net flows to $787 million. <a href=\"https://cointelegraph.com/markets/bitcoin-etf-six-day-streak-2-8-billion?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>\n\n**Samourai Wallet co-founder faces new transfer after 30-day ordeal**\nKeonne Rodriguez says he and 70 others face another move after their treatment program was deactivated. His previous transfer took 30 days. <a href=\"https://cointelegraph.com/news/samourai-wallet-co-founder-30-day-prison-transfer?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>\n\n**Here\u2019s what happened in crypto today**\nNeed to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation. <a href=\"https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>"
+      }
+    ],
+    "affiliates": [
+      "strike",
+      "robinhood"
+    ]
   }
 ]
