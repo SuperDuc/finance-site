@@ -28703,5 +28703,60 @@
       "robinhood",
       "gemini"
     ]
+  },
+  {
+    "slug": "roth-ira-beginners-guide-2026-09-28-141948",
+    "slug_base": "roth-ira-beginners-guide",
+    "title": "Roth IRA Explained: The Best Retirement Account Most People Aren't Using",
+    "tag": "Investing",
+    "emoji": "\ud83c\udfdb\ufe0f",
+    "bg": "#eff6ff",
+    "desc": "A complete beginner's guide to Roth IRAs \u2014 what they are, why they're powerful, 2026 contribution limits, and how to open one in minutes.",
+    "date": "2026-09-28",
+    "sections": [
+      {
+        "h": "What Is a Roth IRA?",
+        "body": "A Roth IRA is a retirement account where you contribute after-tax dollars \u2014 and then all growth and withdrawals are **completely tax-free**.\n\nExample: Invest $6,000 at 25. By 65, it grows to $90,000 at 7% return. You pay taxes on the $6,000. The $84,000 in gains? Zero taxes. Forever."
+      },
+      {
+        "h": "2026 Contribution Limits",
+        "body": "In 2026, you can contribute up to **$7,000/year** to a Roth IRA ($8,000 if you're 50+).\n\nIncome limits: full contribution allowed under $146,000 (single) or $230,000 (married filing jointly).\n\n$7,000/year = ~$583/month = ~$134/week."
+      },
+      {
+        "h": "How to Open One",
+        "body": "Opening a Roth IRA takes 10 minutes:\n\n1. Choose a brokerage (Fidelity, Vanguard, or Robinhood)\n2. Click 'Open a Roth IRA'\n3. Fill in your personal info\n4. Fund via bank transfer\n5. Invest in a target-date fund or index ETF\n\nRobinhood offers a 3% IRA contribution match for Gold members \u2014 a compelling offer."
+      }
+    ],
+    "affiliates": [
+      "robinhood"
+    ]
+  },
+  {
+    "slug": "how-to-invest-50-dollars-month-2026-09-28-141948",
+    "slug_base": "how-to-invest-50-dollars-month",
+    "title": "You Don't Need a Lot of Money to Start Investing \u2014 Here's the Proof",
+    "tag": "Investing",
+    "emoji": "\ud83d\udcc8",
+    "bg": "#eff6ff",
+    "desc": "How $50/month grows through compound interest, which accounts to use, and the exact steps to start investing today.",
+    "date": "2026-09-28",
+    "sections": [
+      {
+        "h": "The Math on $50 a Month",
+        "body": "The biggest investing myth: you need a lot of money to get started.\n\n$50/month invested consistently for 30 years at 7% = **$60,905**. You only put in $18,000. That's compound interest at work \u2014 almost 75% of your final balance is money you never worked for."
+      },
+      {
+        "h": "Where to Put Your $50",
+        "body": "The simplest path:\n\n1. **Open a Roth IRA** (tax-free growth forever)\n2. **Buy VOO or VTI** (S&P 500 / total market index ETF)\n3. **Set up automatic monthly purchases**\n4. **Don't touch it**\n\nRobinhood offers Roth IRAs with $0 minimums and fractional shares \u2014 start with $50."
+      },
+      {
+        "h": "The One Thing That Matters",
+        "body": "The single most important investing decision you'll make is to start.\n\nNot which stocks to pick. Not when to buy. Just whether you start at all.\n\nOpen Robinhood today, set up a recurring $50 into VOO, and you've already beaten the 90% of people who say they'll invest 'when things calm down' \u2014 and never do."
+      }
+    ],
+    "affiliates": [
+      "robinhood",
+      "coinbase"
+    ]
   }
 ]
