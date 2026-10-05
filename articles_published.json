@@ -30134,5 +30134,59 @@
       "robinhood",
       "gemini"
     ]
+  },
+  {
+    "slug": "emergency-fund-guide-2026-10-05-202047",
+    "slug_base": "emergency-fund-guide",
+    "title": "Emergency Fund 101: Build One Even on a Tight Budget",
+    "tag": "Saving",
+    "emoji": "\ud83d\udee1\ufe0f",
+    "bg": "#f0fdf4",
+    "desc": "How much to save in your emergency fund, where to keep it, and the fastest way to build one \u2014 even on a tight budget.",
+    "date": "2026-10-05",
+    "sections": [
+      {
+        "h": "How Much Do You Actually Need?",
+        "body": "The classic advice is 3\u20136 months of expenses. But the right amount depends on your situation:\n\n\u2022 **Stable job, dual income:** 3 months is enough\n\u2022 **Single income or variable income:** 6 months minimum\n\u2022 **Self-employed or freelance:** 9\u201312 months recommended\n\nThe goal: be able to pay your bills for that many months if all income stopped tomorrow."
+      },
+      {
+        "h": "Where to Keep It",
+        "body": "Your emergency fund should be:\n1. **Liquid** \u2014 accessible in 24 hours\n2. **Safe** \u2014 FDIC insured\n3. **Earning interest** \u2014 not sitting in a 0.01% APY checking account\n\nThe best home is a **high-yield savings account (HYSA)**. Top HYSAs pay 4\u20135% APY \u2014 on a $10,000 fund, that's $400\u2013$500/year in free interest."
+      },
+      {
+        "h": "How to Build It Fast",
+        "body": "Practical ways to build it faster:\n\u2022 **Automate it:** Set up a weekly transfer to your HYSA \u2014 whatever you can afford\n\u2022 **Windfall rule:** Put 50% of any unexpected money (tax refund, bonus) directly into the fund\n\u2022 **Cut one expense:** Cancel one subscription and redirect that exact amount to savings"
+      }
+    ],
+    "affiliates": [
+      "robinhood"
+    ]
+  },
+  {
+    "slug": "high-yield-savings-account-guide-2026-10-05-202047",
+    "slug_base": "high-yield-savings-account-guide",
+    "title": "Earn 10x More Interest: High-Yield Savings Accounts Explained",
+    "tag": "Saving",
+    "emoji": "\ud83c\udfe6",
+    "bg": "#f0fdf4",
+    "desc": "How high-yield savings accounts work, how much more you'll earn vs a traditional bank, and how to open one in 10 minutes.",
+    "date": "2026-10-05",
+    "sections": [
+      {
+        "h": "The Problem: Your Bank Is Ripping You Off",
+        "body": "The national average savings APY at big banks (Chase, Bank of America, Wells Fargo) is 0.01%. That means on $10,000, you earn $1 per year.\n\nMeanwhile, inflation runs at 2\u20134% annually. You're effectively losing purchasing power every month your money sits there."
+      },
+      {
+        "h": "What Makes It \"High-Yield\"?",
+        "body": "High-yield savings accounts are offered by online banks \u2014 no physical branches, lower overhead. They pass those savings to customers as higher interest.\n\nHYSAs are:\n\u2022 FDIC insured up to $250,000\n\u2022 Liquid \u2014 access your money in 1\u20132 business days\n\u2022 Simple \u2014 it's just a savings account with a better rate"
+      },
+      {
+        "h": "The Math",
+        "body": "Example with $25,000:\n\u2022 Chase savings at 0.01% APY: $2.50/year\n\u2022 HYSA at 4.5% APY: $1,125/year\n\nEvery day you wait costs you about $3. The account opening takes 10 minutes. There's no good reason to keep your savings at a big bank."
+      }
+    ],
+    "affiliates": [
+      "gemini"
+    ]
   }
 ]
