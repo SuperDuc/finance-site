@@ -31057,5 +31057,59 @@
       "strike",
       "robinhood"
     ]
+  },
+  {
+    "slug": "compound-interest-explained-2026-10-10-141613",
+    "slug_base": "compound-interest-explained",
+    "title": "Compound Interest Explained: The Math That Makes or Breaks Your Wealth",
+    "tag": "Investing",
+    "emoji": "\ud83d\udd22",
+    "bg": "#eff6ff",
+    "desc": "Compound interest explained simply with real examples \u2014 how it builds wealth and why starting early is the most important financial decision you can make.",
+    "date": "2026-10-10",
+    "sections": [
+      {
+        "h": "Simple vs Compound Interest",
+        "body": "Compound interest means your money earns money on its money \u2014 and that money earns money on that money.\n\nThe formula: **A = P(1 + r)^t**\n\nAt 7%: your money grows 3.9\u00d7 in 20 years, 7.6\u00d7 in 30 years, 14.9\u00d7 in 40 years. Time is the main variable."
+      },
+      {
+        "h": "The Rule of 72",
+        "body": "Doubling times by rate:\n\n| Rate | Years to Double |\n|------|----------------|\n| 4% | 18 years |\n| 6% | 12 years |\n| 8% | 9 years |\n| 10% | 7.2 years |\n\nThis is why starting early matters more than starting with a large amount."
+      },
+      {
+        "h": "Why Starting Early Beats Earning More",
+        "body": "**Alex** invests $5,000/year from age 25\u201335 (10 years), then stops. Total invested: $50,000.\n**Jordan** invests $5,000/year from age 35\u201365 (30 years). Total invested: $150,000.\n\nAt 65 (7% return):\n\u2022 Alex: **$602,000**\n\u2022 Jordan: **$472,000**\n\nAlex invested a third as much money and still won by $130,000. Starting a decade earlier overwhelms 30 extra years of contributions."
+      }
+    ],
+    "affiliates": [
+      "robinhood"
+    ]
+  },
+  {
+    "slug": "index-funds-explained-2026-10-10-141613",
+    "slug_base": "index-funds-explained",
+    "title": "Index Funds for Beginners: A Complete 2026 Guide",
+    "tag": "Investing",
+    "emoji": "\ud83d\udcca",
+    "bg": "#eff6ff",
+    "desc": "Index funds explained from scratch \u2014 what they are, why they outperform most active investors, and how to buy your first one today.",
+    "date": "2026-10-10",
+    "sections": [
+      {
+        "h": "What Is an Index Fund?",
+        "body": "An index fund holds stocks that mirror a market index \u2014 most commonly the S&P 500 (500 largest US companies).\n\nInstead of picking individual stocks, you buy tiny pieces of all 500 companies at once. When the market goes up, your fund goes up.\n\nThe S&P 500 has returned an average of ~10.5% annually since 1957."
+      },
+      {
+        "h": "Why They Beat Most Active Investors",
+        "body": "Over any 15-year period, more than **90% of actively managed mutual funds underperform the S&P 500 index**.\n\nProfessional fund managers \u2014 with MBAs, Bloomberg terminals, and decades of experience \u2014 can't beat a simple index fund 9 out of 10 times. Yet they charge 1\u20132% in annual fees."
+      },
+      {
+        "h": "The Best Index Funds to Start With",
+        "body": "Start simple:\n\u2022 **US exposure:** VOO or VTI\n\u2022 **Global exposure:** VT, or 60% VTI + 40% VXUS\n\u2022 **One fund forever:** VT\n\nDon't overthink it. Pick one, automate monthly purchases, and check prices less often. That's the entire strategy."
+      }
+    ],
+    "affiliates": [
+      "robinhood"
+    ]
   }
 ]
