@@ -31883,5 +31883,60 @@
       "robinhood",
       "coinbase"
     ]
+  },
+  {
+    "slug": "bitcoin-lightning-network-explained-2026-10-14-201718",
+    "slug_base": "bitcoin-lightning-network-explained",
+    "title": "What Is the Bitcoin Lightning Network? A Simple Explanation",
+    "tag": "Crypto",
+    "emoji": "\u26a1",
+    "bg": "#fefce8",
+    "desc": "The Bitcoin Lightning Network explained simply \u2014 what it is, how it makes Bitcoin instant and free, and why Strike is built on it.",
+    "date": "2026-10-14",
+    "sections": [
+      {
+        "h": "Bitcoin's Speed Problem",
+        "body": "Bitcoin's blockchain is intentionally slow and secure. Every transaction is permanently recorded on a distributed ledger verified by thousands of nodes worldwide. This security comes with a cost: speed and fees.\n\nFor buying coffee or sending $5, waiting 10 minutes and paying $20 doesn't work. Lightning is Bitcoin's answer."
+      },
+      {
+        "h": "How Lightning Works",
+        "body": "Lightning creates 'payment channels' between users \u2014 like running a tab at a bar, settling multiple transactions at once.\n\nInside a Lightning channel: transactions are **instant and nearly free**. Only opening and closing a channel touches the main blockchain.\n\nResult: thousands of transactions per second, fees under $0.01, settlement in milliseconds."
+      },
+      {
+        "h": "Strike: Lightning Made Simple",
+        "body": "Strike abstracts away all Lightning Network complexity into a clean, simple app. You don't need to understand payment channels \u2014 it just works.\n\nFor buying Bitcoin, Strike is one of the lowest-fee options available. The first $500 is completely free, and fees after that remain very competitive."
+      }
+    ],
+    "affiliates": [
+      "strike",
+      "coinbase"
+    ]
+  },
+  {
+    "slug": "how-to-save-money-tight-budget-2026-10-14-201718",
+    "slug_base": "how-to-save-money-tight-budget",
+    "title": "Saving Money When You're Broke: Realistic Tips",
+    "tag": "Budgeting",
+    "emoji": "\u2702\ufe0f",
+    "bg": "#f0fdf4",
+    "desc": "Practical, realistic tips for saving money on a tight budget in 2026 \u2014 no extreme couponing or sacrifice required.",
+    "date": "2026-10-14",
+    "sections": [
+      {
+        "h": "The Mindset Shift",
+        "body": "Pay yourself first: set up a recurring transfer to a high-yield savings account on every payday.\n\nStart with whatever doesn't feel uncomfortable \u2014 $50, $100, $200. You'll naturally adjust your spending to match what's left. That's the entire system."
+      },
+      {
+        "h": "The Biggest Wins",
+        "body": "Finance advice obsesses over small cuts while ignoring the big levers:\n\n\u2022 Negotiate rent at renewal: save $100\u2013$300/month\n\u2022 Refinance loans at better rates: save $200\u2013$500/month\n\u2022 Switch to a cheaper cell plan: save $30\u2013$80/month\n\u2022 Cut 2 streaming services: save $20\u2013$40/month\n\nThese five moves can free up $500+/month without feeling deprived."
+      },
+      {
+        "h": "Where to Put What You Save",
+        "body": "Where your money sits matters almost as much as how much you save:\n\n\u2022 Move savings to a high-yield account (4\u20135% APY vs 0.01% at big banks)\n\u2022 Use Roth IRA first for retirement (tax-free growth)\n\u2022 Minimize taxes through tax-advantaged accounts before taxable investing\n\nTaxes are the biggest drag on long-term wealth. Using Roth IRAs and 401(k)s is the highest-leverage financial move most people can make."
+      }
+    ],
+    "affiliates": [
+      "robinhood"
+    ]
   }
 ]
