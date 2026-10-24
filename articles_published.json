@@ -33821,5 +33821,63 @@
       "robinhood",
       "coinbase"
     ]
+  },
+  {
+    "slug": "compound-interest-explained-2026-10-24-201520",
+    "slug_base": "compound-interest-explained",
+    "title": "How Compound Interest Works: Why Einstein Called It the 8th Wonder",
+    "tag": "Investing",
+    "emoji": "\ud83d\udd22",
+    "bg": "#eff6ff",
+    "desc": "Compound interest explained simply with real examples \u2014 how it builds wealth and why starting early is the most important financial decision you can make.",
+    "date": "2026-10-24",
+    "sections": [
+      {
+        "h": "Simple vs Compound Interest",
+        "body": "Compound interest means your money earns money on its money \u2014 and that money earns money on that money.\n\nThe formula: **A = P(1 + r)^t**\n\nAt 7%: your money grows 3.9\u00d7 in 20 years, 7.6\u00d7 in 30 years, 14.9\u00d7 in 40 years. Time is the main variable."
+      },
+      {
+        "h": "The Rule of 72",
+        "body": "Quick mental math: divide 72 by your interest rate to find years to double your money.\n\n\u2022 At 6% \u2192 doubles every 12 years\n\u2022 At 7% \u2192 doubles every ~10 years\n\u2022 At 10% \u2192 doubles every 7.2 years\n\nS&P 500 historical return (~10%): your money doubles roughly every 7 years."
+      },
+      {
+        "h": "Why Starting Early Beats Earning More",
+        "body": "Time is worth more than money in investing. Starting at 25 vs 35 isn't a 10-year head start \u2014 it's potentially hundreds of thousands of dollars at retirement.\n\nEvery year you delay is compounding you can never recover. The best time to start is right now."
+      }
+    ],
+    "affiliates": [
+      "robinhood"
+    ]
+  },
+  {
+    "slug": "robinhood-review-2026-2026-10-24-201520",
+    "slug_base": "robinhood-review-2026",
+    "title": "Robinhood Review 2026: Is It Still Worth Using?",
+    "tag": "Investing",
+    "emoji": "\ud83d\udfe2",
+    "bg": "#f0fdf4",
+    "desc": "An honest 2026 Robinhood review \u2014 commissions, the 3% IRA match, crypto trading, pros, cons, and who it's best for.",
+    "date": "2026-10-24",
+    "sections": [
+      {
+        "h": "What's Changed in 2026",
+        "body": "In 2026, Robinhood offers stocks, ETFs, options, crypto, and a surprisingly competitive 3% IRA match. The UI remains the simplest of any investing app \u2014 that's still its biggest advantage."
+      },
+      {
+        "h": "What You Can Trade",
+        "body": "Robinhood supports:\n\u2022 Stocks (US-listed)\n\u2022 ETFs\n\u2022 Options\n\u2022 Crypto (30+ coins including BTC, ETH, DOGE, SOL)\n\u2022 Fractional shares from $1\n\nNotably missing: mutual funds, international stocks, bonds. For those, consider Fidelity."
+      },
+      {
+        "h": "The 3% IRA Match",
+        "body": "No other retail broker matches IRA contributions this generously. 3% on $7,000 = $210 free money annually. Robinhood Gold ($60/yr) pays for itself many times over through this feature alone."
+      },
+      {
+        "h": "Pros and Cons",
+        "body": "**Pros:**\n\u2022 $0 commissions on stocks, ETFs, and options\n\u2022 Cleanest, most beginner-friendly UI in the industry\n\u2022 Free gift stock for new sign-ups via referral\n\u2022 3% IRA match with Robinhood Gold\n\u2022 Crypto trading built in\n\n**Cons:**\n\u2022 No mutual funds\n\u2022 Limited research tools\n\u2022 Customer support is email-only"
+      }
+    ],
+    "affiliates": [
+      "robinhood"
+    ]
   }
 ]
