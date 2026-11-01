@@ -35370,5 +35370,59 @@
     "affiliates": [
       "robinhood"
     ]
+  },
+  {
+    "slug": "emergency-fund-guide-2026-11-01-201000",
+    "slug_base": "emergency-fund-guide",
+    "title": "Emergency Fund 101: Build One Even on a Tight Budget",
+    "tag": "Saving",
+    "emoji": "\ud83d\udee1\ufe0f",
+    "bg": "#f0fdf4",
+    "desc": "How much to save in your emergency fund, where to keep it, and the fastest way to build one \u2014 even on a tight budget.",
+    "date": "2026-11-01",
+    "sections": [
+      {
+        "h": "How Much Do You Actually Need?",
+        "body": "Define 'expenses' correctly: rent/mortgage, food, utilities, insurance, and minimum debt payments. Not your lifestyle spending.\n\nMost people overestimate their required emergency fund. Start with 1 month \u2014 it covers most real emergencies \u2014 then build toward 3."
+      },
+      {
+        "h": "Where to Keep It",
+        "body": "Never keep your emergency fund in stocks or crypto. The whole point is that it's there when you need it \u2014 markets can be down 40% exactly when you lose your job.\n\nKeep it in a HYSA: FDIC insured, earns 4\u20135% APY (vs 0.01% at big banks), and you can access it in 24 hours."
+      },
+      {
+        "h": "How to Build It Fast",
+        "body": "Break it into milestones:\n\n**Month 1\u20132:** Save $500 \u2014 covers most minor emergencies\n**Month 3\u20134:** Reach $1,000 \u2014 covers car repairs, medical bills\n**Month 5+:** Continue until you hit 3 months of expenses\n\nTreat your emergency fund contribution like a bill. Set up an automatic transfer on payday before you can spend the money."
+      }
+    ],
+    "affiliates": [
+      "robinhood"
+    ]
+  },
+  {
+    "slug": "debt-avalanche-vs-snowball-2026-11-01-201000",
+    "slug_base": "debt-avalanche-vs-snowball",
+    "title": "The Best Way to Pay Off Multiple Debts in 2026",
+    "tag": "Debt",
+    "emoji": "\ud83d\udcb3",
+    "bg": "#fefce8",
+    "desc": "A clear comparison of the debt avalanche and snowball methods \u2014 which saves more money, which keeps you motivated, and exactly how to choose.",
+    "date": "2026-11-01",
+    "sections": [
+      {
+        "h": "The Two Methods",
+        "body": "**Debt Avalanche:** Pay minimums on all debts, throw extra money at the highest-interest debt first. Mathematically optimal \u2014 saves the most in interest.\n\n**Debt Snowball:** Pay minimums on all debts, throw extra money at the smallest balance first. Psychologically optimal \u2014 quick wins keep you motivated."
+      },
+      {
+        "h": "Which Saves More Money?",
+        "body": "Mathematically, the avalanche wins every time. The gap is largest when you have high-interest debt (credit cards), a long timeline, and large rate differences between debts.\n\nFor most people with credit card debt, the avalanche saves $1,000\u2013$3,000+ in interest."
+      },
+      {
+        "h": "Which Method Works for YOU?",
+        "body": "The best debt payoff method is the one you actually stick with.\n\nResearch shows most people fail at debt payoff not because of a bad strategy but because they lose motivation. The snowball's quick wins combat this.\n\nIf you're disciplined: use the avalanche. If you need emotional momentum: use the snowball. Either beats minimum payments."
+      }
+    ],
+    "affiliates": [
+      "robinhood"
+    ]
   }
 ]
