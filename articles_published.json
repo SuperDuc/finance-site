@@ -37164,5 +37164,89 @@
     "affiliates": [
       "robinhood"
     ]
+  },
+  {
+    "slug": "how-to-invest-50-dollars-month-2026-11-11-081405",
+    "slug_base": "how-to-invest-50-dollars-month",
+    "title": "$50 a Month: What It Grows to Over 10, 20, and 30 Years",
+    "tag": "Investing",
+    "emoji": "\ud83d\udcc8",
+    "bg": "#eff6ff",
+    "desc": "How $50/month grows through compound interest, which accounts to use, and the exact steps to start investing today.",
+    "date": "2026-11-11",
+    "sections": [
+      {
+        "h": "The Math on $50 a Month",
+        "body": "The biggest investing myth: you need a lot of money to get started.\n\n$50/month invested consistently for 30 years at 7% = **$60,905**. You only put in $18,000. That's compound interest at work \u2014 almost 75% of your final balance is money you never worked for."
+      },
+      {
+        "h": "Where to Put Your $50",
+        "body": "For most beginners: Roth IRA \u2192 index ETFs \u2192 automate.\n\n\u2022 **Roth IRA:** Tax-free growth. Every dollar of gains comes out tax-free in retirement.\n\u2022 **VOO or VTI:** Instant diversification across 500\u20133,500 companies. Expense ratio under 0.05%.\n\u2022 **Automate:** Set recurring purchases on payday.\n\nThis beats most professional money managers over 30 years."
+      },
+      {
+        "h": "The One Thing That Matters",
+        "body": "Time in the market beats timing the market \u2014 always.\n\nEvery month you wait to start is compounding you can never recover. The best time was 10 years ago. The second best time is today.\n\nOpen an account, set up a $50 recurring investment, and stop thinking about it."
+      }
+    ],
+    "affiliates": [
+      "robinhood",
+      "coinbase"
+    ]
+  },
+  {
+    "slug": "gemini-vs-coinbase-2026-2026-11-11-081405",
+    "slug_base": "gemini-vs-coinbase-2026",
+    "title": "Coinbase vs Gemini: The Honest Comparison",
+    "tag": "Crypto",
+    "emoji": "\u2696\ufe0f",
+    "bg": "#f0fdf4",
+    "desc": "Head-to-head comparison of Gemini and Coinbase \u2014 fees, security, coin selection, and sign-up bonuses \u2014 to help you choose the right exchange.",
+    "date": "2026-11-11",
+    "sections": [
+      {
+        "h": "The Quick Answer",
+        "body": "Both exchanges are legitimate and safe. Coinbase is better for wider coin selection; Gemini is better for security and the most generous welcome bonus in crypto."
+      },
+      {
+        "h": "Fees",
+        "body": "Neither exchange is the cheapest on fees (that's Kraken or Binance US). But both prioritize regulatory compliance and security over minimum fees \u2014 a worthwhile trade-off for US users."
+      },
+      {
+        "h": "Security",
+        "body": "Gemini holds the edge. It's the only SOC 2 Type 2 certified crypto exchange and holds a NYDFS BitLicense \u2014 one of the strictest financial licenses in the US.\n\nCoinbase is publicly traded on NASDAQ (ticker: COIN) and holds licenses in all 50 states. Both are among the safest options available."
+      },
+      {
+        "h": "Verdict",
+        "body": "If you're only opening one: pick Gemini for the $50 referral bonus and top-tier security. Pick Coinbase if you want to explore smaller altcoins beyond the top 70."
+      }
+    ],
+    "affiliates": [
+      "gemini",
+      "coinbase"
+    ]
+  },
+  {
+    "slug": "finance-news-roundup-2026-11-11-081405",
+    "slug_base": "finance-news-roundup",
+    "title": "This Week in Finance: Markets, Crypto & Money News",
+    "tag": "News",
+    "emoji": "\ud83d\udcf0",
+    "bg": "#f0f9ff",
+    "desc": "The latest finance and crypto news for November 11, 2026 \u2014 markets, investing updates, and what it means for your money.",
+    "date": "2026-11-11",
+    "sections": [
+      {
+        "h": "Top Finance & Market Stories",
+        "body": "**Nvidia's Huang tries to project 'business as usual' in return to office after affair revelation**\nNvidia employees described the mood as \"sad\" as CEO Jensen Huang returned to the office after disclosing an affair. <a href=\"https://www.cnbc.com/2026/11/10/nvidia-jensen-huang-affair-office.html\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>\n\n**Bessent reportedly moved to military base over Iranian threats on his life**\nThe move comes as the Department of Justice said late Tuesday that three Iranian nationals have been indicted on terrorism-related charges. <a href=\"https://www.cnbc.com/2026/11/11/us-iran-war-trump-hormuz-bessent-threats.html\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>\n\n**Anthropic sets IPO price range of $70 to $78, looks to start trading  Nov. 19, sources say**\nAnthropic's IPO is expected to come roughly five months after Elon Musk took SpaceX public in a record offering. <a href=\"https://www.cnbc.com/2026/11/10/anthropic-sets-price-range-of-70-to-78-in-upcoming-ipo.html\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>\n\n**CoreWeave beats on revenue and lifts guidance, easing AI slowdown concerns**\nCoreWeave's stock has been hammered heading into the neocloud's Q3 earnings report. <a href=\"https://www.cnbc.com/2026/11/10/coreweave-crwv-q3-earnings-report-2026.html\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>"
+      },
+      {
+        "h": "Crypto & Digital Assets",
+        "body": "**Here\u2019s what happened in crypto today**\nNeed to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation. <a href=\"https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>\n\n**Initia confirms second exploit in 3 weeks, $3.27M stolen in latest attack**\nInitia said an attacker exploited compromised cloud credentials to move $3.27 million in crypto assets, with about $2.16 million remaining frozen on its halted network. <a href=\"https://cointelegraph.com/news/initia-second-crypto-exploit-three-weeks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>\n\n**Across Protocol restores website after hackers hijack domain**\nThe cross-chain bridge said a social engineering attack targeting domain registrar Namecheap allowed hackers to redirect users to a phishing site. <a href=\"https://cointelegraph.com/news/across-protocol-restores-website-after-hackers-hijack-domain?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>"
+      }
+    ],
+    "affiliates": [
+      "gemini",
+      "coinbase"
+    ]
   }
 ]
