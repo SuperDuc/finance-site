@@ -37826,5 +37826,60 @@
       "gemini",
       "coinbase"
     ]
+  },
+  {
+    "slug": "dollar-cost-averaging-guide-2026-11-14-140843",
+    "slug_base": "dollar-cost-averaging-guide",
+    "title": "How Dollar Cost Averaging Removes Emotion From Investing",
+    "tag": "Investing",
+    "emoji": "\ud83d\udcc5",
+    "bg": "#eff6ff",
+    "desc": "Dollar cost averaging explained \u2014 what it is, why it works, and how to automate it for stocks, ETFs, and crypto.",
+    "date": "2026-11-14",
+    "sections": [
+      {
+        "h": "What Is Dollar Cost Averaging?",
+        "body": "DCA is the strategy used by almost every 401(k) in the country \u2014 employees contribute a fixed percentage of each paycheck automatically, regardless of market conditions.\n\nThe principle: don't try to predict the market. Just buy consistently and let time do the work."
+      },
+      {
+        "h": "Why It Works",
+        "body": "The biggest enemy of investment returns is the investor's own behavior \u2014 buying in excitement, selling in fear. DCA prevents this by automating the buying process.\n\nHistorically, someone who invested $200/month in the S&P 500 for 30 years would have significantly more money than someone who tried to time perfect entry points."
+      },
+      {
+        "h": "DCA for Crypto",
+        "body": "Crypto DCA example: $100/week into Bitcoin starting January 2022 (near the peak). By 2025, that investor had a significant profit despite starting at what felt like the worst possible time.\n\nConsistency beats timing. Use Coinbase to set up automatic weekly crypto buys and stop agonizing over price."
+      }
+    ],
+    "affiliates": [
+      "robinhood",
+      "coinbase"
+    ]
+  },
+  {
+    "slug": "debt-avalanche-vs-snowball-2026-11-14-140843",
+    "slug_base": "debt-avalanche-vs-snowball",
+    "title": "Debt Avalanche vs Snowball: Which Method Saves More Money?",
+    "tag": "Debt",
+    "emoji": "\ud83d\udcb3",
+    "bg": "#fefce8",
+    "desc": "A clear comparison of the debt avalanche and snowball methods \u2014 which saves more money, which keeps you motivated, and exactly how to choose.",
+    "date": "2026-11-14",
+    "sections": [
+      {
+        "h": "The Two Methods",
+        "body": "**Debt Avalanche:** Pay minimums on all debts, throw extra money at the highest-interest debt first. Mathematically optimal \u2014 saves the most in interest.\n\n**Debt Snowball:** Pay minimums on all debts, throw extra money at the smallest balance first. Psychologically optimal \u2014 quick wins keep you motivated."
+      },
+      {
+        "h": "Which Saves More Money?",
+        "body": "Mathematically, the avalanche wins every time. The gap is largest when you have high-interest debt (credit cards), a long timeline, and large rate differences between debts.\n\nFor most people with credit card debt, the avalanche saves $1,000\u2013$3,000+ in interest."
+      },
+      {
+        "h": "Which Method Works for YOU?",
+        "body": "The best debt payoff method is the one you actually stick with.\n\nResearch shows most people fail at debt payoff not because of a bad strategy but because they lose motivation. The snowball's quick wins combat this.\n\nIf you're disciplined: use the avalanche. If you need emotional momentum: use the snowball. Either beats minimum payments."
+      }
+    ],
+    "affiliates": [
+      "robinhood"
+    ]
   }
 ]
