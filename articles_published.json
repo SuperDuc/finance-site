@@ -38721,5 +38721,85 @@
     "affiliates": [
       "robinhood"
     ]
+  },
+  {
+    "slug": "roth-ira-beginners-guide-2026-11-19-081420",
+    "slug_base": "roth-ira-beginners-guide",
+    "title": "How to Open a Roth IRA in 2026 (Step-by-Step)",
+    "tag": "Investing",
+    "emoji": "\ud83c\udfdb\ufe0f",
+    "bg": "#eff6ff",
+    "desc": "A complete beginner's guide to Roth IRAs \u2014 what they are, why they're powerful, 2026 contribution limits, and how to open one in minutes.",
+    "date": "2026-11-19",
+    "sections": [
+      {
+        "h": "What Is a Roth IRA?",
+        "body": "A Roth IRA is a retirement account where you contribute after-tax dollars \u2014 and then all growth and withdrawals are **completely tax-free**.\n\nExample: Invest $6,000 at 25. By 65, it grows to $90,000 at 7% return. You pay taxes on the $6,000. The $84,000 in gains? Zero taxes. Forever."
+      },
+      {
+        "h": "2026 Contribution Limits",
+        "body": "2026 Roth IRA limits:\n\u2022 Under 50: **$7,000/year**\n\u2022 50 and older: **$8,000/year** (catch-up contribution)\n\nPhase-out starts at $146,000 MAGI for single filers. You must have earned income at least equal to your contribution."
+      },
+      {
+        "h": "How to Open One",
+        "body": "Opening a Roth IRA takes 10 minutes:\n\n1. Choose a brokerage (Fidelity, Vanguard, or Robinhood)\n2. Click 'Open a Roth IRA'\n3. Fill in your personal info\n4. Fund via bank transfer\n5. Invest in a target-date fund or index ETF\n\nRobinhood offers a 3% IRA contribution match for Gold members \u2014 a compelling offer."
+      }
+    ],
+    "affiliates": [
+      "robinhood"
+    ]
+  },
+  {
+    "slug": "best-crypto-exchanges-2026-2026-11-19-081420",
+    "slug_base": "best-crypto-exchanges-2026",
+    "title": "Which Crypto Exchange Should You Use in 2026?",
+    "tag": "Crypto",
+    "emoji": "\ud83c\udfc6",
+    "bg": "#fdf4ff",
+    "desc": "The top crypto exchanges for US users in 2026 \u2014 ranked by fees, security, coin selection, and sign-up bonuses.",
+    "date": "2026-11-19",
+    "sections": [
+      {
+        "h": "What to Look For",
+        "body": "Not all exchanges are equal. Prioritize:\n\n1. **Regulation** \u2014 licensed in your state?\n2. **Security** \u2014 SOC 2 certification, insurance, track record?\n3. **Fees** \u2014 total all-in cost per purchase\n4. **Coin selection** \u2014 does it list the assets you want?\n5. **Sign-up bonus** \u2014 some exchanges pay you just to join"
+      },
+      {
+        "h": "Gemini \u2014 Best Security + Best Bonus",
+        "body": "Gemini is the most regulated US crypto exchange: NYDFS BitLicense, SOC 2 Type 2 certified, regular third-party audits.\n\n**The bonus:** Trade $100 \u2192 receive $50 in free crypto. A 50% instant return on your first trade \u2014 no other major exchange matches this.\n\nBest for: security-conscious users and anyone who wants the best sign-up bonus."
+      },
+      {
+        "h": "Strike \u2014 Best for Bitcoin",
+        "body": "For Bitcoin specifically, Strike offers the best fees via the Lightning Network. Your first $500 of Bitcoin is completely fee-free \u2014 no other major platform matches this.\n\nStrike doesn't try to be everything. It's Bitcoin-focused with the simplest interface available.\n\nBest for: Bitcoin-first investors who care most about fees."
+      }
+    ],
+    "affiliates": [
+      "gemini",
+      "coinbase",
+      "strike"
+    ]
+  },
+  {
+    "slug": "finance-news-roundup-2026-11-19-081420",
+    "slug_base": "finance-news-roundup",
+    "title": "Finance News Roundup: What Happened This Week (2026-11-19)",
+    "tag": "News",
+    "emoji": "\ud83d\udcf0",
+    "bg": "#f0f9ff",
+    "desc": "The latest finance and crypto news for November 19, 2026 \u2014 markets, investing updates, and what it means for your money.",
+    "date": "2026-11-19",
+    "sections": [
+      {
+        "h": "Top Finance & Market Stories",
+        "body": "**Anthropic IPO raises over $81 billion in largest offering on record, topping SpaceX**\nAnthropic stock is set to begin trading on the Nasdaq under the ticker symbol ANT on Thursday. <a href=\"https://www.cnbc.com/2026/11/18/anthropic-ipo-ai-offering-price.html\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>\n\n**Musk accuses Zelenskyy of lying about Starshield restrictions in Ukraine**\nElon Musk was asked about Zelenskyy claims over the Starshield network, and he said, \"I don't want to blow your mind, but Zelenskyy is not always truthful.\" <a href=\"https://www.cnbc.com/2026/11/19/elon-musk-zelenskyy-starshield-ukraine.html\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>\n\n**Russia says Putin in \u2018excellent mood\u2019 after Trump meeting, ahead of trilateral with Xi in China**\nU.S. President Donald Trump met individually on Thursday with Russian President Vladimir Putin, as well as Chinese President Xi Jinping. <a href=\"https://www.cnbc.com/2026/11/19/trump-xi-putin-china-apec-.html\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>\n\n**Takaichi gets chilly reception in China on first Japan leader visit since 2019**\nTakaichi received a subdued welcome on her trip to attend the APEC summit, as Beijing shows limited appetite for repairing ties strained by Taiwan dispute. <a href=\"https://www.cnbc.com/2026/11/19/japan-china-trump-takaichi-taiwan-.html\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>"
+      },
+      {
+        "h": "Crypto & Digital Assets",
+        "body": "**Bitcoin retests $62K as Nasdaq futures rise ahead of Anthropic debut**\nBitcoin climbed back above $63,500 after its second dip to $62,000 this week, while Anthropic priced its record $81.3 billion IPO at $83 a share. <a href=\"https://cointelegraph.com/markets/bitcoin-retests-62k-nasdaq-futures-anthropic-debut?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>\n\n**Bitcoin carry trades could beat Treasury bills in 2027, Sygnum predicts**\nSygnum predicts that Bitcoin carry trades may offer higher returns than Treasury bills in 2027, following a sharp drop in funding rates that made the strategy less compelling in 2026. <a href=\"https://cointelegraph.com/markets/sygnum-bitcoin-carry-trades-2027?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>\n\n**Here\u2019s what happened in crypto today**\nNeed to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation. <a href=\"https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>"
+      }
+    ],
+    "affiliates": [
+      "gemini_card",
+      "coinbase"
+    ]
   }
 ]
