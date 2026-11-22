@@ -39435,5 +39435,61 @@
     "affiliates": [
       "gemini"
     ]
+  },
+  {
+    "slug": "passive-income-ideas-2026-2026-11-22-201047",
+    "slug_base": "passive-income-ideas-2026",
+    "title": "How to Build Passive Income From Scratch in 2026",
+    "tag": "Investing",
+    "emoji": "\ud83d\udcb8",
+    "bg": "#fefce8",
+    "desc": "Realistic passive income ideas for 2026 \u2014 dividend investing, crypto staking, affiliate income, and more. How much each earns and how to start.",
+    "date": "2026-11-22",
+    "sections": [
+      {
+        "h": "Dividend Investing",
+        "body": "Buy shares of dividend-paying stocks or ETFs and receive quarterly payments. A 4% dividend yield on $10,000 = $400/year \u2014 $33/month \u2014 for doing nothing after the initial purchase.\n\nBest dividend ETFs: **SCHD** (Schwab US Dividend Equity), **VYM** (Vanguard High Dividend Yield), **JEPI** (JPMorgan Equity Premium Income, ~7% yield).\n\nUse Robinhood or Fidelity to set up automatic reinvestment (DRIP) and watch compounding accelerate."
+      },
+      {
+        "h": "Crypto Staking",
+        "body": "If you're holding crypto long-term, staking is free money. You're not selling \u2014 you're putting existing holdings to work.\n\nGemini's staking feature lets you earn directly from your account. Rates vary by asset and market conditions, but passive crypto yield beats leaving coins idle."
+      },
+      {
+        "h": "Affiliate Marketing",
+        "body": "Refer people to products and earn a commission when they sign up \u2014 this is literally how this site earns money.\n\nFinancial affiliate programs pay well:\n\u2022 Crypto exchanges: $10\u2013$50 per new user\n\u2022 Robinhood: you both get a free stock\n\u2022 Credit cards: $50\u2013$200 per approval\n\nA single well-placed affiliate link in a blog post can earn for years with zero ongoing effort."
+      }
+    ],
+    "affiliates": [
+      "robinhood",
+      "gemini"
+    ]
+  },
+  {
+    "slug": "bitcoin-lightning-network-explained-2026-11-22-201047",
+    "slug_base": "bitcoin-lightning-network-explained",
+    "title": "Strike and Lightning Network: How Bitcoin Became Usable Every Day",
+    "tag": "Crypto",
+    "emoji": "\u26a1",
+    "bg": "#fefce8",
+    "desc": "The Bitcoin Lightning Network explained simply \u2014 what it is, how it makes Bitcoin instant and free, and why Strike is built on it.",
+    "date": "2026-11-22",
+    "sections": [
+      {
+        "h": "Bitcoin's Speed Problem",
+        "body": "Bitcoin's blockchain is intentionally slow and secure. Every transaction is permanently recorded on a distributed ledger verified by thousands of nodes worldwide. This security comes with a cost: speed and fees.\n\nFor buying coffee or sending $5, waiting 10 minutes and paying $20 doesn't work. Lightning is Bitcoin's answer."
+      },
+      {
+        "h": "How Lightning Works",
+        "body": "Lightning creates 'payment channels' between users \u2014 like running a tab at a bar, settling multiple transactions at once.\n\nInside a Lightning channel: transactions are **instant and nearly free**. Only opening and closing a channel touches the main blockchain.\n\nResult: thousands of transactions per second, fees under $0.01, settlement in milliseconds."
+      },
+      {
+        "h": "Strike: Lightning Made Simple",
+        "body": "Strike is one of the most popular Lightning Network apps in the US. It lets you buy Bitcoin instantly with near-zero fees, and send Bitcoin to anyone for fractions of a cent.\n\nStrike's standout offer for new users: your **first $500 of Bitcoin is completely fee-free**. No catch."
+      }
+    ],
+    "affiliates": [
+      "strike",
+      "coinbase"
+    ]
   }
 ]
