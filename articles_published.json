@@ -39678,5 +39678,83 @@
     "affiliates": [
       "robinhood"
     ]
+  },
+  {
+    "slug": "compound-interest-explained-2026-11-24-081420",
+    "slug_base": "compound-interest-explained",
+    "title": "How Compound Interest Works: Why Einstein Called It the 8th Wonder",
+    "tag": "Investing",
+    "emoji": "\ud83d\udd22",
+    "bg": "#eff6ff",
+    "desc": "Compound interest explained simply with real examples \u2014 how it builds wealth and why starting early is the most important financial decision you can make.",
+    "date": "2026-11-24",
+    "sections": [
+      {
+        "h": "Simple vs Compound Interest",
+        "body": "Compound interest means your money earns money on its money \u2014 and that money earns money on that money.\n\nThe formula: **A = P(1 + r)^t**\n\nAt 7%: your money grows 3.9\u00d7 in 20 years, 7.6\u00d7 in 30 years, 14.9\u00d7 in 40 years. Time is the main variable."
+      },
+      {
+        "h": "The Rule of 72",
+        "body": "Quick mental math: divide 72 by your interest rate to find years to double your money.\n\n\u2022 At 6% \u2192 doubles every 12 years\n\u2022 At 7% \u2192 doubles every ~10 years\n\u2022 At 10% \u2192 doubles every 7.2 years\n\nS&P 500 historical return (~10%): your money doubles roughly every 7 years."
+      },
+      {
+        "h": "Why Starting Early Beats Earning More",
+        "body": "**Alex** invests $5,000/year from age 25\u201335 (10 years), then stops. Total invested: $50,000.\n**Jordan** invests $5,000/year from age 35\u201365 (30 years). Total invested: $150,000.\n\nAt 65 (7% return):\n\u2022 Alex: **$602,000**\n\u2022 Jordan: **$472,000**\n\nAlex invested a third as much money and still won by $130,000. Starting a decade earlier overwhelms 30 extra years of contributions."
+      }
+    ],
+    "affiliates": [
+      "robinhood"
+    ]
+  },
+  {
+    "slug": "debt-avalanche-vs-snowball-2026-11-24-081420",
+    "slug_base": "debt-avalanche-vs-snowball",
+    "title": "The Best Way to Pay Off Multiple Debts in 2026",
+    "tag": "Debt",
+    "emoji": "\ud83d\udcb3",
+    "bg": "#fefce8",
+    "desc": "A clear comparison of the debt avalanche and snowball methods \u2014 which saves more money, which keeps you motivated, and exactly how to choose.",
+    "date": "2026-11-24",
+    "sections": [
+      {
+        "h": "The Two Methods",
+        "body": "Both methods are identical except for which debt gets your extra payment each month.\n\n\u2022 **Avalanche** = highest interest rate first\n\u2022 **Snowball** = smallest balance first\n\nBoth dramatically accelerate payoff compared to minimum payments only."
+      },
+      {
+        "h": "Which Saves More Money?",
+        "body": "Mathematically, the avalanche wins every time. The gap is largest when you have high-interest debt (credit cards), a long timeline, and large rate differences between debts.\n\nFor most people with credit card debt, the avalanche saves $1,000\u2013$3,000+ in interest."
+      },
+      {
+        "h": "Which Method Works for YOU?",
+        "body": "The best debt payoff method is the one you actually stick with.\n\nResearch shows most people fail at debt payoff not because of a bad strategy but because they lose motivation. The snowball's quick wins combat this.\n\nIf you're disciplined: use the avalanche. If you need emotional momentum: use the snowball. Either beats minimum payments."
+      }
+    ],
+    "affiliates": [
+      "robinhood"
+    ]
+  },
+  {
+    "slug": "finance-news-roundup-2026-11-24-081420",
+    "slug_base": "finance-news-roundup",
+    "title": "This Week in Finance: Markets, Crypto & Money News",
+    "tag": "News",
+    "emoji": "\ud83d\udcf0",
+    "bg": "#f0f9ff",
+    "desc": "The latest finance and crypto news for November 24, 2026 \u2014 markets, investing updates, and what it means for your money.",
+    "date": "2026-11-24",
+    "sections": [
+      {
+        "h": "Top Finance & Market Stories",
+        "body": "**Nvidia surge: What investors should do with the stock and the AI trade now**\nThe market is loving the return of Jensen Huang, but investors and lawmakers have their guards up. <a href=\"https://www.cnbc.com/2026/11/23/nvidia-stock-jensen-huang-ai-trade.html\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>\n\n**Jensen Huang is \u2018too big to fire,\u2019 putting Nvidia\u2019s governance in focus: analysts**\nJensen Huang\u2019s return has underscored Nvidia\u2019s deep reliance on its founder, putting the company's board oversight and corporate governance under scrutiny. <a href=\"https://www.cnbc.com/2026/11/24/nvidia-jensen-huang-governance.html\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>\n\n**Signal joins United Airlines, banks in limiting AI agents over customer risks**\nPrivacy-focused messaging application Signal has joined United Airlines and JPMorgan Chase in implementing restrictions around artificial intelligence agents. <a href=\"https://www.cnbc.com/2026/11/24/signal-airlines-banks-ai-limit.html\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>\n\n**Iran says three tankers hit mines in Hormuz despite U.S. escort, as Treasury widens sanctions**\nIran said three oil tankers caught fire after hitting naval mines in the Strait of Hormuz, as the U.S. escalates sanctions aimed at cutting off Tehran's financial lifelines. <a href=\"https://www.cnbc.com/2026/11/24/iran-trump-hormuz-crude-.html\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>"
+      },
+      {
+        "h": "Crypto & Digital Assets",
+        "body": "**Bitcoin ETFs keep bleeding as BlackRock\u2019s IBIT shares gain nearly 5%**\nBlackRock\u2019s IBIT shares gained 4.85% on Monday despite continued Bitcoin ETF withdrawals that pushed November\u2019s net outflows to $4.71 billion. <a href=\"https://cointelegraph.com/markets/bitcoin-etfs-bleed-ibit-shares-gain?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>\n\n**Here\u2019s what happened in crypto today**\nNeed to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation. <a href=\"https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>\n\n**Why 42 Macro says it\u2019s waiting to buy the Bitcoin dip**\nThe independent macro research company warns the Bitcoin sell-off may not have yet run its course. <a href=\"https://cointelegraph.com/markets/why-42-macro-says-its-waiting-to-buy-the-bitcoin-dip?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound\" target=\"_blank\" rel=\"noopener noreferrer\">Read more \u2192</a>"
+      }
+    ],
+    "affiliates": [
+      "robinhood",
+      "gemini"
+    ]
   }
 ]
